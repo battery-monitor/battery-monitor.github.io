@@ -1,0 +1,122 @@
+{
+  "nav": [
+    "Funktionen",
+    "Hilfe",
+    "Datenschutz"
+  ],
+  "skip": "Zum Inhalt",
+  "language": "Sprache",
+  "navigation": "Hauptnavigation",
+  "home": {
+    "title": "Battery Monitor · Batterie und Leistung in der Mac-Menüleiste",
+    "kicker": "Batterieanzeige für die Mac-Menüleiste",
+    "headline": [
+      "Der Stromverbrauch deines Mac.",
+      "Auf einen Blick."
+    ],
+    "intro": "Zeige Batteriestand oder Leistung in der Menüleiste an. Ein Klick auf das Batteriesymbol zeigt Eingangsleistung, Verbrauch des Mac und den Lade- oder Entladezustand.",
+    "cta": "Leistungswerte verstehen",
+    "compat": "Für MacBook · macOS 13 oder neuer",
+    "overviewAlt": "Englische Übersicht mit App-Name und Symbol, Batteriestand, Eingangsleistung, Verbrauch und Nettoleistung.",
+    "overviewCaption": "Mac App Store-Version · Echte Übersicht (Englisch)",
+    "powerLabel": "Leistungswerte",
+    "powerTitle": "Am Strom und trotzdem entladen?",
+    "powerIntro": "Die Eingangsleistung ist die Gleichstromleistung, die den Mac erreicht. Verbraucht er mehr als das Netzteil liefert, gleicht die Batterie die Differenz aus.",
+    "powerTerms": [
+      "Eingangsleistung",
+      "Verbrauch",
+      "Nettoleistung"
+    ],
+    "powerCaption": "Im Bildschirmfoto: {input} − {use} = {net} W. Die Batterie liefert die Differenz.",
+    "detailLabel": "Batteriedetails",
+    "detailTitle": "Mehr als nur der Ladestand.",
+    "detailAlt": "Englische Batteriedetails mit Kapazität, Zustand, Ladezyklen, Temperatur und Stromversorgung.",
+    "features": [
+      [
+        "Kapazität und Zustand",
+        "Vergleiche Vollladekapazität, Designkapazität und die von macOS gemeldete maximale Kapazität."
+      ],
+      [
+        "Zyklen und Temperatur",
+        "Sieh dir die Anzahl der Ladezyklen und die aktuelle Batterietemperatur an."
+      ],
+      [
+        "Stromversorgung und Laden",
+        "Zeige die aktive Stromquelle, die ausgehandelte Leistungsgrenze sowie verfügbare Spannungs- und Stromwerte an."
+      ]
+    ],
+    "missing": "Die verfügbaren Werte hängen von Mac und macOS ab. Ein Strich bedeutet, dass ein Wert nicht verfügbar ist. Im Batteriebetrieb wird der Bereich Stromversorgung ausgeblendet.",
+    "privacyTitle": "Batteriedaten bleiben auf deinem Mac.",
+    "privacyIntro": "Kein Konto erforderlich. Die App liest und zeigt Batterie- und Leistungsdaten lokal an.",
+    "privacyLink": "Datenschutzerklärung lesen"
+  },
+  "support": {
+    "title": "Hilfe",
+    "lead": "Finde Battery Monitor in der Menüleiste, wähle eine Anzeige und verstehe die Messwerte.",
+    "contactTitle": "Entwickler kontaktieren",
+    "contactIntro": "Bitte nenne Mac-Modell, macOS- und App-Version sowie eine Beschreibung des Problems.",
+    "faqs": [
+      [
+        "Wo finde ich die App nach dem Start?",
+        "Beim ersten Start öffnet sich das Panel. Später öffnest du es mit dem Batteriesymbol in der Menüleiste. Ein erneuter Klick oder Esc schließt es."
+      ],
+      [
+        "Wie ändere ich die Sprache?",
+        "Wähle im Zahnradmenü unten rechts „Sprache“. Acht Sprachen oder die Systemeinstellung stehen zur Wahl. Die Änderung gilt sofort und wird auf deinem Mac gespeichert. Das Sprachmenü der Website führt zur entsprechenden Seite."
+      ],
+      [
+        "Wie ändere ich die Anzeige in der Menüleiste?",
+        "Öffne das Zahnradmenü unten rechts im Panel. Wähle bei der Menüleistenanzeige Batteriestand, Eingangsleistung, Verbrauch oder Nettoleistung."
+      ],
+      [
+        "Warum ist die Nettoleistung trotz Netzanschluss negativ?",
+        "Nettoleistung ist Eingangsleistung minus Verbrauch. Verbraucht der Mac mehr als das Netzteil liefert, gleicht die Batterie die Differenz aus. Die Nennleistung des Netzteils und die aktuelle Gleichstromleistung sind unterschiedliche Werte."
+      ],
+      [
+        "Was bedeutet der Strich?",
+        "Ein Strich bedeutet, dass der Wert beim aktuellen Mac, der macOS-Version oder dem Versorgungszustand nicht verfügbar ist."
+      ],
+      [
+        "Wie aktualisiere ich die Werte, aktiviere den Anmeldestart oder beende die App?",
+        "Die Werte werden alle fünf Sekunden automatisch aktualisiert. Im Zahnradmenü kannst du den Start bei Anmeldung aktivieren oder die App beenden. Der automatische Start ist freiwillig."
+      ],
+      [
+        "Welche Macs werden unterstützt?",
+        "Die Mac App Store-Version erfordert macOS 13 oder neuer und ist für MacBooks mit eingebauter Batterie gedacht. Auf Desktop-Macs sind batteriespezifische Werte nicht verfügbar."
+      ]
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lead": "Battery Monitor erfasst oder überträgt keine Batterie- oder Leistungswerte.",
+    "effective": "Mac App Store-Version · Gültig ab 11. November 2026",
+    "contactTitle": "Datenschutzkontakt",
+    "contactIntro": "Kontaktiere Zhiping Jiang bei Datenschutzfragen oder zur Löschung von Support-Nachrichten.",
+    "sections": [
+      [
+        "Messwerte auf dem Gerät",
+        "Battery Monitor liest von macOS bereitgestellte Informationen und zeigt sie lokal an, ohne Batterie- oder Leistungswerte zu erfassen oder zu übertragen. Echtzeitwerte werden im Arbeitsspeicher verarbeitet; eine Batteriehistorie wird nicht als Datenbank gespeichert. Hardware-Seriennummern werden weder im Anzeigemodell aufbewahrt noch an den Entwickler gesendet."
+      ],
+      [
+        "Einstellungen und Berechtigungen",
+        "Anzeige- und Spracheinstellungen sowie der Zustand des ersten Starts werden lokal auf deinem Mac gespeichert. Die App benötigt kein Konto und enthält weder Werbung noch Tracking, Drittanbieteranalysen oder Telemetrie. Sie liest für ihre Funktionen keine persönlichen Dokumente, Kontakte, Fotos, Standort-, Kamera- oder Mikrofondaten. Support- und Datenschutzlinks öffnen sich im Systembrowser."
+      ],
+      [
+        "Speicherung und Löschung",
+        "Echtzeitwerte werden beim Beenden der App freigegeben. Lokale Einstellungen bleiben erhalten, bis die App-Daten mit macOS-Funktionen entfernt werden. Der Entwickler besitzt keine entfernte Kopie deiner lokalen App-Daten und kann nicht aus der Ferne darauf zugreifen."
+      ],
+      [
+        "Support-Anfragen",
+        "Wenn du freiwillig eine Support-E-Mail sendest, werden Adresse und Inhalt nur zur Antwort und Untersuchung deiner Anfrage verwendet. Du kannst die Löschung der Korrespondenz verlangen, ausgenommen gesetzlich aufzubewahrende Informationen. Bitte sende keine unnötigen personenbezogenen Daten."
+      ],
+      [
+        "Website und Apple-Dienste",
+        "Diese Website bindet weder Werbung noch Analyseskripte von Drittanbietern ein. Der Hosting-Anbieter kann übliche Zugriffsprotokolle zur Bereitstellung und Absicherung der Website verarbeiten. Für App Store-Downloads, Updates und Apples eigene Datenverarbeitung gelten Apples Richtlinien."
+      ],
+      [
+        "Kontakt und Änderungen",
+        "Datenschutzfragen und Löschanfragen zur Support-Korrespondenz kannst du an jiangzp.cs@icloud.com senden. Änderungen dieser Erklärung werden hier mit einem aktualisierten Gültigkeitsdatum veröffentlicht."
+      ]
+    ]
+  }
+}

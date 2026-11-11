@@ -1,0 +1,122 @@
+{
+  "nav": [
+    "Fonctions",
+    "Aide",
+    "Confidentialité"
+  ],
+  "skip": "Aller au contenu",
+  "language": "Langue",
+  "navigation": "Navigation principale",
+  "home": {
+    "title": "Battery Monitor · Batterie et puissance dans la barre des menus du Mac",
+    "kicker": "La batterie dans la barre des menus du Mac",
+    "headline": [
+      "L’énergie de votre Mac,",
+      "en un coup d’œil."
+    ],
+    "intro": "Affichez le niveau de batterie ou la puissance dans la barre des menus. Cliquez sur la batterie pour voir la puissance reçue, la consommation du Mac et l’état de charge ou de décharge.",
+    "cta": "Comprendre les valeurs",
+    "compat": "Pour MacBook · macOS 13 ou version ultérieure",
+    "overviewAlt": "Aperçu en anglais avec le nom et l’icône de l’app, le niveau de batterie et les puissances reçue, consommée et nette.",
+    "overviewCaption": "Version Mac App Store · Capture réelle de l’aperçu (anglais)",
+    "powerLabel": "Valeurs de puissance",
+    "powerTitle": "Branché, mais la batterie se décharge ?",
+    "powerIntro": "La puissance reçue est la puissance en courant continu qui arrive au Mac. Si sa consommation dépasse celle fournie par l’adaptateur, la batterie compense la différence.",
+    "powerTerms": [
+      "Puissance reçue",
+      "Consommation",
+      "Puissance nette"
+    ],
+    "powerCaption": "Sur la capture : {input} − {use} = {net} W. La batterie fournit la différence.",
+    "detailLabel": "Détails de la batterie",
+    "detailTitle": "Au-delà du pourcentage.",
+    "detailAlt": "Détails de la batterie en anglais : capacité, état, cycles, température et alimentation.",
+    "features": [
+      [
+        "Capacité et état",
+        "Comparez la capacité à pleine charge, la capacité nominale et la capacité maximale indiquée par macOS."
+      ],
+      [
+        "Cycles et température",
+        "Consultez le nombre de cycles de charge et la température actuelle de la batterie."
+      ],
+      [
+        "Alimentation et charge",
+        "Affichez la source active, la puissance maximale négociée et les valeurs de tension et d’intensité disponibles."
+      ]
+    ],
+    "missing": "Les valeurs disponibles dépendent du Mac et de macOS. Un tiret indique une valeur indisponible. La section Alimentation est masquée sur batterie.",
+    "privacyTitle": "Vos données de batterie restent sur votre Mac.",
+    "privacyIntro": "Aucun compte nécessaire. L’app lit et affiche les données de batterie et de puissance sur votre appareil.",
+    "privacyLink": "Lire la politique de confidentialité"
+  },
+  "support": {
+    "title": "Aide",
+    "lead": "Retrouvez Battery Monitor dans la barre des menus, choisissez une valeur et comprenez les mesures.",
+    "contactTitle": "Contacter le développeur",
+    "contactIntro": "Indiquez le modèle du Mac, les versions de macOS et de l’app, ainsi qu’une description du problème.",
+    "faqs": [
+      [
+        "Où trouver l’app après son lancement ?",
+        "Le panneau s’ouvre au premier lancement. Ensuite, cliquez sur la batterie dans la barre des menus pour l’ouvrir. Un second clic ou la touche Échap le ferme."
+      ],
+      [
+        "Comment changer de langue ?",
+        "Dans le menu de la roue dentée en bas à droite, choisissez Langue. Huit langues et la langue du système sont proposées. Le changement est immédiat et le choix est enregistré sur votre Mac. Sur le site, le menu des langues conserve le type de page affiché."
+      ],
+      [
+        "Comment changer la valeur dans la barre des menus ?",
+        "Ouvrez le menu de la roue dentée en bas à droite du panneau. Les options permettent de choisir le niveau de batterie, la puissance reçue, la consommation ou la puissance nette."
+      ],
+      [
+        "Pourquoi la puissance nette est-elle négative alors que le Mac est branché ?",
+        "La puissance nette est la puissance reçue moins la consommation. Si le Mac consomme plus que l’adaptateur ne fournit, la batterie complète l’apport. La puissance nominale de l’adaptateur et la puissance continue actuelle sont deux valeurs distinctes."
+      ],
+      [
+        "Que signifie un tiret ?",
+        "Il indique que la valeur n’est pas disponible pour le Mac, la version de macOS ou l’état d’alimentation actuel."
+      ],
+      [
+        "Comment actualiser, lancer à l’ouverture de session ou quitter ?",
+        "Les valeurs sont actualisées automatiquement toutes les cinq secondes. Le menu de la roue dentée permet de lancer l’app à l’ouverture de session ou de la quitter. Le lancement automatique est facultatif."
+      ],
+      [
+        "Quels Mac sont pris en charge ?",
+        "La version Mac App Store nécessite macOS 13 ou version ultérieure et est destinée aux MacBook avec batterie intégrée. Les valeurs propres à la batterie ne sont pas disponibles sur les Mac de bureau."
+      ]
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lead": "Battery Monitor ne collecte et ne transmet aucune mesure de batterie ou de puissance.",
+    "effective": "Version Mac App Store · En vigueur depuis le 11 novembre 2026",
+    "contactTitle": "Contact pour la confidentialité",
+    "contactIntro": "Contactez Zhiping Jiang pour toute question de confidentialité ou demande de suppression des échanges d’assistance.",
+    "sections": [
+      [
+        "Mesures sur l’appareil",
+        "Battery Monitor lit les informations fournies par macOS et les affiche localement, sans collecter ni transmettre les mesures de batterie ou de puissance. Les valeurs en temps réel sont traitées en mémoire, sans base de données d’historique. Les numéros de série du matériel ne sont ni conservés dans le modèle d’affichage ni envoyés au développeur."
+      ],
+      [
+        "Préférences et autorisations",
+        "Les préférences d’affichage et de langue ainsi que l’état du premier lancement sont enregistrés sur votre Mac. L’app ne nécessite aucun compte et n’inclut ni publicité, ni suivi, ni analyse tierce, ni télémétrie. Elle ne lit pas vos documents personnels, contacts, photos, position, caméra ou microphone pour ses fonctions. Les liens d’aide et de confidentialité s’ouvrent dans le navigateur système."
+      ],
+      [
+        "Conservation et suppression",
+        "Les valeurs en temps réel sont libérées à la fermeture de l’app. Les préférences locales restent jusqu’à la suppression des données de l’app avec les outils de macOS. Le développeur ne possède aucune copie distante de ces données et ne peut pas y accéder à distance."
+      ],
+      [
+        "Demandes d’assistance",
+        "Si vous envoyez volontairement un e-mail d’assistance, votre adresse et votre message servent uniquement à vous répondre et à examiner votre demande. Vous pouvez demander la suppression des échanges, sauf informations dont la conservation est imposée par la loi. Évitez de transmettre des données personnelles inutiles."
+      ],
+      [
+        "Site et services Apple",
+        "Ce site n’intègre aucune publicité ni script d’analyse tiers. L’hébergeur peut traiter des journaux d’accès ordinaires pour fournir et sécuriser le site. Les téléchargements et mises à jour de l’App Store ainsi que les traitements propres à Apple sont régis par les politiques d’Apple."
+      ],
+      [
+        "Contact et mises à jour",
+        "Écrivez à jiangzp.cs@icloud.com pour les questions de confidentialité ou la suppression des échanges d’assistance. Les modifications de cette politique seront publiées ici avec une nouvelle date d’entrée en vigueur."
+      ]
+    ]
+  }
+}

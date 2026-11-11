@@ -1,0 +1,122 @@
+{
+  "nav": [
+    "Funciones",
+    "Ayuda",
+    "Privacidad"
+  ],
+  "skip": "Ir al contenido",
+  "language": "Idioma",
+  "navigation": "Navegación principal",
+  "home": {
+    "title": "Battery Monitor · Batería y potencia en la barra de menús del Mac",
+    "kicker": "La batería en la barra de menús del Mac",
+    "headline": [
+      "La energía de tu Mac,",
+      "de un vistazo."
+    ],
+    "intro": "Muestra el nivel de batería o la potencia en la barra de menús. Pulsa el icono de batería para ver la potencia de entrada, el consumo del Mac y si la batería se está cargando o descargando.",
+    "cta": "Entender las lecturas",
+    "compat": "Para MacBook · macOS 13 o posterior",
+    "overviewAlt": "Vista general en inglés con el nombre y el icono de la app, el nivel de batería y la potencia de entrada, consumo y potencia neta.",
+    "overviewCaption": "Versión Mac App Store · Captura real de la vista general (inglés)",
+    "powerLabel": "Lecturas de potencia",
+    "powerTitle": "¿Conectado, pero descargándose?",
+    "powerIntro": "La entrada es la potencia de corriente continua que llega al Mac. Cuando el equipo consume más de lo que entrega el adaptador, la batería aporta la diferencia.",
+    "powerTerms": [
+      "Potencia de entrada",
+      "Consumo",
+      "Potencia neta"
+    ],
+    "powerCaption": "En la captura, {input} − {use} = {net} W. La batería aporta la diferencia.",
+    "detailLabel": "Detalles de la batería",
+    "detailTitle": "Más allá del porcentaje.",
+    "detailAlt": "Detalles de batería en inglés con capacidad, salud, ciclos, temperatura y alimentación.",
+    "features": [
+      [
+        "Capacidad y salud",
+        "Compara la capacidad de carga completa, la capacidad de diseño y la capacidad máxima indicada por macOS."
+      ],
+      [
+        "Ciclos y temperatura",
+        "Consulta el número acumulado de ciclos y la temperatura actual de la batería."
+      ],
+      [
+        "Alimentación y carga",
+        "Comprueba la fuente activa, la potencia máxima negociada y los valores disponibles de voltaje y corriente."
+      ]
+    ],
+    "missing": "Las lecturas dependen del Mac y de macOS. Un guion indica que el dato no está disponible. La sección de alimentación se oculta al usar la batería.",
+    "privacyTitle": "Los datos de batería se quedan en tu Mac.",
+    "privacyIntro": "No necesitas una cuenta. La app lee y muestra los datos de batería y potencia en el propio equipo.",
+    "privacyLink": "Leer la política de privacidad"
+  },
+  "support": {
+    "title": "Ayuda",
+    "lead": "Encuentra Battery Monitor en la barra de menús, elige qué mostrar y entiende las lecturas.",
+    "contactTitle": "Contactar con el desarrollador",
+    "contactIntro": "Incluye el modelo de Mac, las versiones de macOS y de la app, y una descripción del problema.",
+    "faqs": [
+      [
+        "¿Dónde encuentro la app después de abrirla?",
+        "El panel se abre la primera vez. Después, pulsa el icono de batería en la barra de menús para abrirlo. Vuelve a pulsarlo o usa Esc para cerrarlo."
+      ],
+      [
+        "¿Cómo cambio el idioma?",
+        "Abre el menú del engranaje abajo a la derecha y elige Idioma. Puedes seleccionar ocho idiomas o el idioma del sistema. El cambio es inmediato y se guarda en tu Mac. El menú de idiomas de la web lleva a la página equivalente."
+      ],
+      [
+        "¿Cómo cambio la lectura de la barra de menús?",
+        "Abre el menú del engranaje abajo a la derecha del panel. En las opciones de visualización, elige nivel de batería, entrada, consumo o potencia neta."
+      ],
+      [
+        "¿Por qué la potencia neta es negativa estando conectado?",
+        "La potencia neta es la entrada menos el consumo. Si el Mac consume más de lo que suministra el adaptador, la batería compensa la diferencia. La potencia nominal del adaptador y la entrada real de corriente continua son lecturas distintas."
+      ],
+      [
+        "¿Qué significa un guion?",
+        "Indica que la lectura no está disponible para el Mac, la versión de macOS o el estado de alimentación actual."
+      ],
+      [
+        "¿Cómo actualizo, inicio al entrar o salgo de la app?",
+        "Las lecturas se actualizan automáticamente cada cinco segundos. Usa el menú del engranaje para activar el inicio de sesión o salir de la app. El inicio automático es opcional."
+      ],
+      [
+        "¿Qué Mac son compatibles?",
+        "La versión Mac App Store requiere macOS 13 o posterior y está diseñada para MacBook con batería integrada. Los Mac de escritorio no ofrecen las lecturas específicas de batería."
+      ]
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lead": "Battery Monitor no recopila ni transmite lecturas de batería o potencia.",
+    "effective": "Versión Mac App Store · Vigente desde el 11 de noviembre de 2026",
+    "contactTitle": "Contacto de privacidad",
+    "contactIntro": "Contacta con Zhiping Jiang para preguntas de privacidad o para solicitar la eliminación de mensajes de soporte.",
+    "sections": [
+      [
+        "Lecturas en el dispositivo",
+        "Battery Monitor lee información proporcionada por macOS y la muestra localmente, sin recopilar ni transmitir lecturas de batería o potencia. Los datos en tiempo real se procesan en memoria, sin base de datos de historial. Los números de serie del hardware no se conservan en el modelo de visualización ni se envían al desarrollador."
+      ],
+      [
+        "Preferencias y permisos",
+        "Las preferencias de visualización e idioma y el estado del primer inicio se guardan en tu Mac. La app no requiere cuenta y no incluye publicidad, rastreo, análisis de terceros ni telemetría. Sus funciones no leen documentos personales, contactos, fotos, ubicación, cámara ni micrófono. Los enlaces de soporte y privacidad se abren en el navegador del sistema."
+      ],
+      [
+        "Almacenamiento y eliminación",
+        "Las lecturas en tiempo real se liberan al salir de la app. Las preferencias locales permanecen hasta eliminar los datos de la app con las herramientas de macOS. El desarrollador no tiene una copia remota de esos datos ni puede acceder a ellos a distancia."
+      ],
+      [
+        "Solicitudes de soporte",
+        "Si envías voluntariamente un correo de soporte, tu dirección y mensaje solo se usan para responder e investigar tu solicitud. Puedes pedir que se eliminen los mensajes, salvo la información cuya conservación sea obligatoria por ley. Evita enviar datos personales innecesarios."
+      ],
+      [
+        "Sitio web y servicios de Apple",
+        "Este sitio no incorpora publicidad ni scripts de análisis de terceros. El proveedor de alojamiento puede procesar registros de acceso habituales para prestar y proteger el servicio. Las descargas y actualizaciones del App Store y el tratamiento de datos de Apple se rigen por las políticas de Apple."
+      ],
+      [
+        "Contacto y cambios",
+        "Escribe a jiangzp.cs@icloud.com para preguntas de privacidad o eliminación de mensajes de soporte. Los cambios de esta política se publicarán aquí con una fecha de entrada en vigor actualizada."
+      ]
+    ]
+  }
+}

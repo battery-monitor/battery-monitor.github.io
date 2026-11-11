@@ -1,0 +1,122 @@
+{
+  "nav": [
+    "Overview",
+    "Support",
+    "Privacy"
+  ],
+  "skip": "Skip to content",
+  "language": "Language",
+  "navigation": "Main navigation",
+  "home": {
+    "title": "Battery Monitor · Battery and power in the Mac menu bar",
+    "kicker": "A battery monitor for the Mac menu bar",
+    "headline": [
+      "Your Mac’s power,",
+      "at a glance."
+    ],
+    "intro": "Keep battery level or watts in your menu bar. Click the battery icon to see how much power comes in, how much your Mac uses, and whether the battery is charging.",
+    "cta": "Explore the power readings",
+    "compat": "For MacBook · macOS 13 or later",
+    "overviewAlt": "Overview screenshot showing the Battery Monitor title and app icon, battery level, input power, power use, and net power.",
+    "overviewCaption": "Mac App Store edition · Overview screenshot (English)",
+    "powerLabel": "Power readings",
+    "powerTitle": "Plugged in, yet discharging?",
+    "powerIntro": "Input is the DC power that reaches your Mac. When the computer uses more than the adapter delivers, the battery supplies the difference.",
+    "powerTerms": [
+      "Power input",
+      "System usage",
+      "Net power"
+    ],
+    "powerCaption": "In the screenshot, {input} − {use} = {net} W. The battery supplies the difference.",
+    "detailLabel": "Battery details",
+    "detailTitle": "Look beyond the percentage.",
+    "detailAlt": "Battery Details screenshot in English showing capacity, health, cycle count, temperature, and power source.",
+    "features": [
+      [
+        "Capacity and health",
+        "Compare full charge capacity, design capacity, and the maximum capacity reported by macOS."
+      ],
+      [
+        "Cycles and temperature",
+        "Check the battery’s cycle count alongside its current temperature."
+      ],
+      [
+        "Power source and charging",
+        "See the active power source, negotiated adapter limit, and available voltage and current readings."
+      ]
+    ],
+    "missing": "Readings vary by Mac and macOS version. A dash means the reading is unavailable. The Power section is hidden while running on battery.",
+    "privacyTitle": "Battery readings stay on your Mac.",
+    "privacyIntro": "No account is required. The app reads and displays battery and power data locally.",
+    "privacyLink": "Read the privacy policy"
+  },
+  "support": {
+    "title": "Support",
+    "lead": "Find Battery Monitor in your menu bar, choose a reading, and understand what the numbers mean.",
+    "contactTitle": "Contact the developer",
+    "contactIntro": "Please include your Mac model, macOS version, app version, and a description of what you see.",
+    "faqs": [
+      [
+        "Where do I find the app after launch?",
+        "The panel opens on first launch. Click the battery icon in the menu bar to reopen it. Click again or press Esc to close it."
+      ],
+      [
+        "How do I change the language?",
+        "Open the gear menu at the bottom right and choose Language. Select one of eight languages or System default. Changes apply immediately and are saved on your Mac. The website language menu keeps you on the corresponding page."
+      ],
+      [
+        "How do I change the menu bar reading?",
+        "Open the panel and use the gear menu at the bottom right. Under the menu bar display options, choose battery level, input, system usage, or net power."
+      ],
+      [
+        "Why is net power negative when plugged in?",
+        "Net power is input minus system usage. When your Mac uses more than its adapter supplies, the battery makes up the difference. The adapter’s rated wattage and the current DC input are separate readings."
+      ],
+      [
+        "What does a dash mean?",
+        "A dash means that the reading is unavailable for the current Mac, macOS version, or power state."
+      ],
+      [
+        "How do I refresh, launch at login, or quit?",
+        "Readings refresh automatically every five seconds. Use the gear menu to turn on launch at login or quit the app. Launch at login is optional."
+      ],
+      [
+        "Which Macs are supported?",
+        "The Mac App Store edition requires macOS 13 or later and is designed for MacBooks with a built-in battery. Battery-specific readings are unavailable on desktop Macs."
+      ]
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "lead": "Battery Monitor does not collect or transmit battery or power readings.",
+    "effective": "Mac App Store edition · Effective November 11, 2026",
+    "contactTitle": "Privacy contact",
+    "contactIntro": "Contact Zhiping Jiang with privacy questions or to request deletion of support correspondence.",
+    "sections": [
+      [
+        "On-device readings",
+        "Battery Monitor reads information provided by macOS and displays it locally without collecting or transmitting battery or power readings. Live readings are processed in memory, with no battery history database. Hardware serial numbers are not retained in the display model or sent to the developer."
+      ],
+      [
+        "Preferences and permissions",
+        "Display and language preferences and first-run state are stored locally on your Mac. The app requires no account and includes no advertising, tracking, third-party analytics, or telemetry. It does not read personal documents, contacts, photos, location, camera, or microphone data for its features. Support and privacy links open in your system browser."
+      ],
+      [
+        "Storage and deletion",
+        "Live readings are released when the app exits. Local preferences remain until the app’s data is removed using macOS facilities. The developer has no remote copy of, or access to, your local app data."
+      ],
+      [
+        "Support requests",
+        "If you voluntarily email support, your email address and message are used only to respond and investigate your request. You may request deletion of support correspondence, except information that must be retained by law. Please avoid sending unnecessary personal information."
+      ],
+      [
+        "Website and Apple services",
+        "This website embeds no advertising or third-party analytics scripts. Its hosting provider may process ordinary access logs to serve and secure the site. App Store downloads, updates, and Apple’s own data handling are governed by Apple’s policies."
+      ],
+      [
+        "Contact and updates",
+        "Contact jiangzp.cs@icloud.com for privacy questions or deletion of support correspondence. Changes to this policy will be posted here with an updated effective date."
+      ]
+    ]
+  }
+}
