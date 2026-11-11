@@ -1,6 +1,6 @@
 # Battery Monitor for Mac
 
-[产品官网](https://battery-monitor.github.io/) · [使用帮助](https://battery-monitor.github.io/support.html) · [隐私政策](https://battery-monitor.github.io/privacy.html)
+[产品官网](https://battery-monitor.zpj.io/) · [使用帮助](https://battery-monitor.zpj.io/support.html) · [隐私政策](https://battery-monitor.zpj.io/privacy.html)
 
 这个仓库保存 Battery Monitor 的中英文静态官网。中文页面位于根目录，英文页面位于 `en/`。两个语言版本共用 `site.css` 和 `assets/`。本地预览可运行 `python3 -m http.server`。
 
