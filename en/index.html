@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f9f5" />
+    <title>Battery Monitor · Battery and power in the Mac menu bar</title>
+    <meta
+      name="description"
+      content="Read battery level, power input, system usage, battery health, cycles, and temperature in the Mac menu bar."
+    />
+    <link rel="canonical" href="https://battery-monitor.github.io/en/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://battery-monitor.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://battery-monitor.github.io/en/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Battery Monitor · Battery and power in the Mac menu bar" />
+    <meta
+      property="og:description"
+      content="Read battery level, power input, system usage, battery health, cycles, and temperature in the Mac menu bar."
+    />
+    <meta property="og:url" content="https://battery-monitor.github.io/en/" />
+    <meta property="og:image" content="https://battery-monitor.github.io/assets/overview.jpg" />
+    <link rel="icon" href="../assets/app-icon.png" />
+    <link rel="stylesheet" href="../site.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-head">
+      <div class="wrap head-row">
+        <a class="brand" href="./"
+          ><img src="../assets/app-icon.png" alt="" width="35" height="35" />Battery Monitor</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="./" aria-current="page">Overview</a> <a href="./support.html">Support</a>
+          <a href="./privacy.html">Privacy</a>
+          <a class="language" href="../" lang="zh-CN" hreflang="zh-CN">中文</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="wrap hero">
+        <div class="hero-copy">
+          <p class="kicker">A battery monitor for the Mac menu bar</p>
+          <h1>Your Mac’s power,<span>at a glance.</span></h1>
+          <p>
+            Keep battery level or watts in your menu bar. Click the battery icon to see how much power comes
+            in, how much your Mac uses, and whether the battery is charging.
+          </p>
+          <a class="cta" href="#power">Explore the power readings <span aria-hidden="true">↓</span></a>
+          <p class="compat">For MacBook · macOS 13 or later</p>
+        </div>
+        <figure class="desktop">
+          <img class="wallpaper" src="../assets/coast.webp" alt="" width="1000" height="667" />
+          <div class="menu-strip" aria-hidden="true">
+            <div class="menu-left"><b>Finder</b><span>File</span><span>Edit</span><span>View</span></div>
+            <div class="menu-right"><span class="battery">99</span><span>09:41</span></div>
+          </div>
+          <div class="preview-panel">
+            <img
+              src="../assets/overview.jpg"
+              width="732"
+              height="532"
+              alt="Overview screenshot in Simplified Chinese. Charge is 99.3%, input is 52.7 W and the Mac uses 52.9 W, so the battery is discharging."
+            />
+          </div>
+          <figcaption>Mac App Store edition · Overview screenshot</figcaption>
+        </figure>
+      </section>
+      <section class="power" id="power">
+        <div class="wrap">
+          <div>
+            <p class="section-label">Power readings</p>
+            <h2>Plugged in, yet discharging?</h2>
+            <p class="section-intro">
+              Input is the DC power that reaches your Mac. When the computer uses more than the adapter
+              delivers, the battery supplies the difference.
+            </p>
+          </div>
+          <figure class="equation">
+            <dl>
+              <div>
+                <dt>Power input</dt>
+                <dd>52.7<small>W</small></dd>
+              </div>
+              <div>
+                <dt>System usage</dt>
+                <dd>52.9<small>W</small></dd>
+              </div>
+              <div class="net">
+                <dt>Net power</dt>
+                <dd>−0.2<small>W</small></dd>
+              </div>
+            </dl>
+            <figcaption>
+              In the screenshot, 52.7 − 52.9 = −0.2 W. The battery is slowly discharging.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="wrap details">
+        <figure class="detail-screen">
+          <img
+            loading="lazy"
+            src="../assets/battery-details.jpg"
+            width="732"
+            height="1122"
+            alt="Battery Details screenshot in Simplified Chinese showing capacity, health, cycle count, temperature, and power source."
+          />
+        </figure>
+        <div>
+          <p class="section-label">Battery details</p>
+          <h2>Look beyond the percentage.</h2>
+          <dl class="feature-list">
+            <div>
+              <dt>Capacity and health</dt>
+              <dd>
+                Compare full charge capacity, design capacity, and the maximum capacity reported by macOS.
+              </dd>
+            </div>
+            <div>
+              <dt>Cycles and temperature</dt>
+              <dd>Check the battery’s cycle count alongside its current temperature.</dd>
+            </div>
+            <div>
+              <dt>Power source and charging</dt>
+              <dd>
+                See the active power source, negotiated adapter limit, and available voltage and current
+                readings.
+              </dd>
+            </div>
+          </dl>
+          <p class="section-intro">
+            Readings vary by Mac and macOS version. An ≈ marks an estimate. A dash means the reading is
+            unavailable.
+          </p>
+        </div>
+      </section>
+      <section class="privacy-band">
+        <div class="wrap">
+          <div>
+            <h2>Battery readings stay on your Mac.</h2>
+            <p>No account is required. The app reads and displays battery and power data locally.</p>
+          </div>
+          <a class="text-link" href="./privacy.html"
+            >Read the privacy policy <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-foot">
+      <div class="wrap">
+        <span>© 2026 Zhiping Jiang</span>
+        <div class="foot-links">
+          <a href="./support.html">Support</a> <a href="./privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
