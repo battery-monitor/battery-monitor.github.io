@@ -1,0 +1,34 @@
+{
+  "tool": "Built-in image_gen__imagegen",
+  "generated": "2026-11-12",
+  "notes": "AI-generated illustrative scenes, not screenshots or measurements. Original PNGs are preserved in assets/scenes/originals; WebP variants only resize and compress them without changing the content.",
+  "assets": [
+    {
+      "name": "Hero",
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium 16:9 product website hero, high-resolution landscape photograph for BatterVibe, a Mac utility for web developers.\nPrimary request: an extraordinarily beautiful, believable outdoor web-coding workspace in natural daylight. On a pale oak table beside a tranquil alpine lake, a thin space-gray laptop is open, with a crisp bright display showing a subtle generic split view of a code editor and a beautiful green website preview. The screen should feel readable in sunlight but contain NO legible text, brand names, numbers or product UI. This is an illustrative lifestyle photo, not a screenshot.\nScene/backdrop: evergreen trees, blue-green lake and layered mountains; a sunlit terrace with dappled shadows. A single ceramic coffee cup. No people. Nature is the main context, the laptop is the clear focal subject in the foreground.\nStyle/medium: high-end editorial lifestyle photography, realistic materials and optics, beautiful natural detail, 35mm lens, sophisticated fresh emerald, deep teal and sun-warmed oak palette.\nComposition/framing: wide cinematic 16:9, laptop at center-right taking about 45% of the image width, camera at seated eye level from a front three-quarter angle, full laptop and table edge remain visible with breathing room, unobstructed scenery around. Suitable for responsive crop. Warm sunlight from upper left, luminous but not blown out. \nConstraints: no logos, no text, no watermark, no floating graphics, no futuristic holograms, no impossible laptop geometry, no added gadgets. Generate at the highest available resolution with carefully resolved keyboard, hinge and screen.",
+      "original": "assets/scenes/originals/outdoor-coding.png",
+      "webVariants": [
+        "assets/scenes/outdoor-coding.webp",
+        "assets/scenes/outdoor-coding-800.webp"
+      ]
+    },
+    {
+      "name": "Daylight",
+      "prompt": "Use case: photorealistic-natural\nAsset type: high-resolution 3:2 landscape feature photo for BatterVibe's outdoor HDR screen-brightness feature.\nPrimary request: a beautiful close, believable photographic view of an open slim graphite laptop on a limestone garden café table in strong midday sunshine. Its bright screen remains visually clear against sunlit foliage, showing a light-colored generic web design canvas beside a dark code editor, without any legible words, logos, numbers, or simulated product controls. This photo is a lifestyle illustration, not proof of measured screen brightness.\nScene/backdrop: natural leafy garden, saturated but tasteful emerald greenery, sunlight through olive leaves, cream stone patio, fine subtle shadows. Just a small glass of water beside the laptop; no people.\nStyle/medium: premium editorial lifestyle photography, sophisticated real optical depth, sharp tactile laptop edges and keyboard, soft distant bokeh, natural daylight, understated warm cream and jade palette.\nComposition/framing: 3:2 landscape, laptop screen and keyboard dominant at center, three-quarter camera view, display facing camera with a slight perspective angle, full screen and base kept within the frame. Bright leaves and table clearly communicate outdoor sunlight; no artificial glow spilling from the display. Very high resolution and detailed materials.\nConstraints: no branding, no readable text, no watermark, no arrows, no badges, no comparison split, no floating UI, no impossible hinges, no excessive lens flare.",
+      "original": "assets/scenes/originals/daylight-screen.png",
+      "webVariants": [
+        "assets/scenes/daylight-screen.webp",
+        "assets/scenes/daylight-screen-800.webp"
+      ]
+    },
+    {
+      "name": "Closed",
+      "prompt": "Use case: photorealistic-natural\nAsset type: high-resolution 3:2 landscape marketing photograph for BatterVibe, a Mac utility that can keep authorized background tasks running with the lid closed.\nPrimary request: a quiet, beautiful work break on a lakeside wooden terrace. A thin graphite laptop lies completely CLOSED and flat on a pale oak table, its unbranded upper lid unmistakably closed, one charging cable visibly connected at the rear-left side and running off the table. Beside it are a ceramic cup and a closed small notebook with a pencil. The laptop is stationary on the open table with plenty of air around it. Beyond the table: turquoise lake, lush forest and a softly focused mountain, in late-afternoon sunlight.\nStyle/medium: premium editorial lifestyle photograph, ultra-realistic laptop construction and wood texture, natural lighting, refined emerald and warm amber colors. Calm, breathable and welcoming rather than a sterile product render.\nComposition/framing: 3:2 landscape, low three-quarter angle at table height so the closed laptop lid is the central obvious subject occupying about 55% of frame; include its full edges, hinge and charging cable connection. Rich scenic context in top half. Carefully focused laptop, softly blurred distant foliage.\nConstraints: no people, no bags, no external display, no phone, no text, no logos, no watermark, no arrows, no floating UI, no progress indicators, no decorative glowing light on laptop. No partially open screen. No excessive lens flare. It is an illustrative photo, not a screenshot or evidence of actual running software.",
+      "original": "assets/scenes/originals/closed-lid.png",
+      "webVariants": [
+        "assets/scenes/closed-lid.webp",
+        "assets/scenes/closed-lid-800.webp"
+      ]
+    }
+  ]
+}

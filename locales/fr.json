@@ -8,94 +8,144 @@
   "language": "Langue",
   "navigation": "Navigation principale",
   "home": {
-    "title": "Battery Monitor · Batterie et puissance dans la barre des menus du Mac",
-    "kicker": "La batterie dans la barre des menus du Mac",
+    "title": "BatterVibe · Gardez le rythme du Web Coding",
+    "kicker": "Pour le Web Coding et le Vibe Coding",
     "headline": [
-      "L’énergie de votre Mac,",
-      "en un coup d’œil."
+      "Emmenez vos idées",
+      "un peu plus loin."
     ],
-    "intro": "Affichez le niveau de batterie ou la puissance dans la barre des menus. Cliquez sur la batterie pour voir la puissance reçue, la consommation du Mac et l’état de charge ou de décharge.",
-    "cta": "Comprendre les valeurs",
-    "compat": "Pour MacBook · macOS 13 ou version ultérieure",
-    "overviewAlt": "Aperçu en anglais avec le nom et l’icône de l’app, le niveau de batterie et les puissances reçue, consommée et nette.",
-    "overviewCaption": "Version Mac App Store · Capture réelle de l’aperçu (anglais)",
-    "powerLabel": "Valeurs de puissance",
-    "powerTitle": "Branché, mais la batterie se décharge ?",
-    "powerIntro": "La puissance reçue est la puissance en courant continu qui arrive au Mac. Si sa consommation dépasse celle fournie par l’adaptateur, la batterie compense la différence.",
+    "intro": "Du bureau à la lumière du jour, BatterVibe affiche la puissance de votre Mac, éclaire votre écran et accompagne les tâches de développement qui prennent du temps.",
+    "cta": "Découvrir les usages",
+    "releaseLink": "En développement · Disponibilité",
+    "compat": "MacBook · macOS 13 ou ultérieur · Fonctions selon l’appareil et le mode d’installation",
+    "heroAlt": "Scène de développement générée par IA : un ordinateur affichant du code et une maquette web sur une table au bord d’un lac de montagne.",
+    "sceneCaption": "Scène générée par IA, pas une capture de l’app",
+    "heroTags": [
+      "La puissance en un regard",
+      "Plus clair au grand jour",
+      "Capot fermé. Travail en cours."
+    ],
+    "powerLabel": "Restez dans votre éditeur",
+    "powerTitle": "Combien consomme cette compilation ?",
+    "powerIntro": "Code avec l’IA, aperçu dans le navigateur, compilation et tests consomment de l’énergie. Gardez l’alimentation, la consommation totale ou la puissance nette de la batterie dans la barre des menus.",
     "powerTerms": [
-      "Puissance reçue",
+      "Puissance d’entrée",
       "Consommation",
       "Puissance nette"
     ],
-    "powerCaption": "Sur la capture : {input} − {use} = {net} W. La batterie fournit la différence.",
-    "detailLabel": "Détails de la batterie",
-    "detailTitle": "Au-delà du pourcentage.",
-    "detailAlt": "Détails de la batterie en anglais : capacité, état, cycles, température et alimentation.",
-    "features": [
+    "powerCaption": "Exemple : {input} − {use} = {net} W. Si la consommation dépasse l’entrée, la batterie fournit la différence.",
+    "exampleLabel": "Exemple de mesures de puissance",
+    "powerFootnote": "Les valeurs varient selon l’appareil, macOS et l’alimentation. Elles concernent l’ensemble du Mac, pas chaque application.",
+    "outdoorLabel": "Faites une place à la nature",
+    "outdoorTitle": "Plus de soleil. Plus de clarté.",
+    "outdoorIntro": "Changez de paysage et continuez à créer. Augmentez la luminosité d’un écran compatible pour mieux profiter de votre espace de travail à l’extérieur.",
+    "outdoorAlt": "Scène de jardin générée par IA : un ordinateur montre une maquette web et du code dans la lumière naturelle.",
+    "outdoorFeatures": [
       [
-        "Capacité et état",
-        "Comparez la capacité à pleine charge, la capacité nominale et la capacité maximale indiquée par macOS."
+        "Luminosité HDR",
+        "Utilisez la réserve de luminosité d’un écran XDR compatible dans un environnement lumineux."
       ],
       [
-        "Cycles et température",
-        "Consultez le nombre de cycles de charge et la température actuelle de la batterie."
-      ],
-      [
-        "Alimentation et charge",
-        "Affichez la source active, la puissance maximale négociée et les valeurs de tension et d’intensité disponibles."
+        "À activer selon vos besoins",
+        "Activez le gain de luminosité lorsque vous en avez besoin, puis désactivez-le en revenant à l’intérieur."
       ]
     ],
-    "missing": "Les valeurs disponibles dépendent du Mac et de macOS. Un tiret indique une valeur indisponible. La section Alimentation est masquée sur batterie.",
-    "privacyTitle": "Vos données de batterie restent sur votre Mac.",
-    "privacyIntro": "Aucun compte nécessaire. L’app lit et affiche les données de batterie et de puissance sur votre appareil.",
+    "outdoorNote": "Le HDR a été vérifié sur l’écran XDR intégré du MacBook Pro (Mac14,6). Les autres modèles restent à vérifier. Augmenter la luminosité peut accroître la consommation.",
+    "closedLabel": "Laissez votre Mac patienter",
+    "closedTitle": "Fermez le capot. Gardez le rythme.",
+    "closedIntro": "La compilation tourne encore. Le téléchargement n’est pas terminé. Laissez votre Mac travailler sur le bureau et reprenez à votre retour.",
+    "closedAlt": "Scène générée par IA : un ordinateur en charge, entièrement fermé, repose sur une table en bois aérée au bord d’un lac.",
+    "closedTags": [
+      "Compilations",
+      "Téléchargements",
+      "Longues tâches d’agent"
+    ],
+    "closedNote": "Le fonctionnement capot fermé nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La prévention ordinaire de la veille du canal Mac App Store n’équivaut pas à cette fonction. Gardez le Mac sur une surface fixe et ventilée.",
+    "controlLabel": "Un produit. Un panneau de contrôle.",
+    "controlTitle": "Les commandes utiles, réunies.",
+    "controlIntro": "La barre des menus pour un coup d’œil. Un panneau dédié pour une vue complète. BatterVibe rassemble les deux dans une même expérience.",
+    "controlFeatures": [
+      [
+        "Voir, puis agir",
+        "Identifiez la puissance, la luminosité et l’état de fonctionnement, puis choisissez les commandes utiles à votre tâche."
+      ],
+      [
+        "14 jours d’essai gratuit",
+        "Un premier essai gratuit de 14 jours est prévu pour votre propre environnement. L’intégration de l’essai et de l’achat est en développement."
+      ],
+      [
+        "Un achat unique avec Apple",
+        "Le tarif prévu en Chine continentale est de 6 CNY. Aucun renouvellement automatique ; restauration des achats prévue dans le panneau."
+      ]
+    ],
+    "releaseLabel": "Disponibilité",
+    "releaseTitle": "Le nouveau BatterVibe prend forme.",
+    "releaseIntro": "La version actuellement soumise à examen est l’ancienne version de suivi de la batterie. Les nouvelles fonctions, le panneau dédié et les achats intégrés Apple présentés ici sont en développement. Le téléchargement et l’essai de la nouvelle version ne sont pas encore ouverts.",
+    "releasePlanTitle": "Essayez. Puis décidez.",
+    "releasePlan": "Un premier essai gratuit de 14 jours, puis un achat unique. Le tarif prévu pour la Chine continentale est de 6 CNY, sans renouvellement automatique. Les prix locaux seront indiqués dans la fenêtre d’achat Apple à la sortie.",
+    "supportCTA": "Lire l’aide et les conditions de compatibilité",
+    "privacyTitle": "Vos mesures restent sur votre Mac.",
+    "privacyIntro": "Aucun compte d’app distinct. Les valeurs de batterie et de puissance ne sont ni collectées ni envoyées.",
     "privacyLink": "Lire la politique de confidentialité"
   },
   "support": {
-    "title": "Aide",
-    "lead": "Retrouvez Battery Monitor dans la barre des menus, choisissez une valeur et comprenez les mesures.",
+    "title": "Assistance",
+    "lead": "Disponibilité de BatterVibe, mesures de puissance, luminosité HDR, fonctionnement capot fermé et achat.",
     "contactTitle": "Contacter le développeur",
-    "contactIntro": "Indiquez le modèle du Mac, les versions de macOS et de l’app, ainsi qu’une description du problème.",
+    "contactIntro": "Indiquez votre modèle de Mac, les versions de macOS et de l’app, le mode d’installation et le problème observé.",
     "faqs": [
       [
-        "Où trouver l’app après son lancement ?",
-        "Le panneau s’ouvre au premier lancement. Ensuite, cliquez sur la batterie dans la barre des menus pour l’ouvrir. Un second clic ou la touche Échap le ferme."
+        "Puis-je télécharger ou essayer la nouvelle version ?",
+        "Pas encore. La version soumise à examen est l’ancienne version de suivi de la batterie. Le HDR, le panneau dédié, l’essai Apple et l’achat unique sont en développement. Le site proposera le téléchargement dès sa disponibilité."
       ],
       [
-        "Comment changer de langue ?",
-        "Dans le menu de la roue dentée en bas à droite, choisissez Langue. Huit langues et la langue du système sont proposées. Le changement est immédiat et le choix est enregistré sur votre Mac. Sur le site, le menu des langues conserve le type de page affiché."
+        "Quelle différence entre la barre des menus et le panneau ?",
+        "La barre des menus permet de consulter rapidement la batterie ou la puissance. Le panneau dédié prévu regroupe les états détaillés, les commandes de luminosité et de fonctionnement, ainsi que l’essai, l’achat et la restauration. Tout appartient au même produit."
       ],
       [
-        "Comment changer la valeur dans la barre des menus ?",
-        "Ouvrez le menu de la roue dentée en bas à droite du panneau. Les options permettent de choisir le niveau de batterie, la puissance reçue, la consommation ou la puissance nette."
+        "Pourquoi la puissance nette est-elle négative avec l’adaptateur ?",
+        "La puissance nette correspond à l’entrée moins la consommation. Si le Mac consomme davantage que l’adaptateur ne fournit, la batterie compense. La puissance nominale de l’adaptateur et l’entrée continue réelle sont deux mesures distinctes. Un tiret indique une valeur indisponible."
       ],
       [
-        "Pourquoi la puissance nette est-elle négative alors que le Mac est branché ?",
-        "La puissance nette est la puissance reçue moins la consommation. Si le Mac consomme plus que l’adaptateur ne fournit, la batterie complète l’apport. La puissance nominale de l’adaptateur et la puissance continue actuelle sont deux valeurs distinctes."
+        "Le HDR fonctionne-t-il sur tous les Mac ?",
+        "Non. Il dépend des capacités de l’écran. L’écran XDR intégré du MacBook Pro (Mac14,6) a été vérifié ; les autres modèles restent à vérifier. Aucun gain n’est promis sur un appareil non compatible. Une luminosité accrue peut consommer plus d’énergie."
       ],
       [
-        "Que signifie un tiret ?",
-        "Il indique que la valeur n’est pas disponible pour le Mac, la version de macOS ou l’état d’alimentation actuel."
+        "Quels modes d’installation permettent le fonctionnement capot fermé ?",
+        "Cette fonction nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La prévention ordinaire de la veille du Mac App Store ne suffit pas à garantir le fonctionnement capot fermé. Utilisez une surface fixe et bien ventilée ; consultez les conditions de la version installée."
       ],
       [
-        "Comment actualiser, lancer à l’ouverture de session ou quitter ?",
-        "Les valeurs sont actualisées automatiquement toutes les cinq secondes. Le menu de la roue dentée permet de lancer l’app à l’ouverture de session ou de la quitter. Le lancement automatique est facultatif."
+        "L’essai déclenche-t-il un paiement automatique ?",
+        "Après 14 jours gratuits lors du premier essai, vous choisissez un achat intégré Apple unique. Le prix prévu en Chine continentale est de 6 CNY, sans renouvellement automatique. Le processus est en développement ; le prix local sera indiqué par Apple à la sortie."
       ],
       [
-        "Quels Mac sont pris en charge ?",
-        "La version Mac App Store nécessite macOS 13 ou version ultérieure et est destinée aux MacBook avec batterie intégrée. Les valeurs propres à la batterie ne sont pas disponibles sur les Mac de bureau."
+        "Comment restaurer un achat après réinstallation ?",
+        "Le panneau doit proposer « Restaurer les achats ». Après la sortie, utilisez le compte Apple de l’achat d’origine pour retrouver les droits applicables. Aucun compte BatterVibe distinct n’est prévu. L’achat de la nouvelle version n’est pas encore ouvert."
+      ],
+      [
+        "Quelles langues sont prises en charge ?",
+        "Chinois simplifié et traditionnel, anglais, japonais, coréen, allemand, français et espagnol. Le sélecteur de langue du site conserve le type de page. La langue de l’app est enregistrée sur votre Mac."
+      ],
+      [
+        "Puis-je définir une limite de charge ?",
+        "La prochaine version inclut une limite de charge pour les Mac avec puce Apple sous macOS 26.4 ou ultérieur. Avec le Mac App Store, ajoutez d’abord le raccourci système officiel indiqué, puis choisissez une limite compatible dans le panneau. Le lancement du raccourci ne confirme pas le changement : la limite doit être relue depuis le système."
+      ],
+      [
+        "Quels appareils permettent le suivi de base ?",
+        "macOS 13 ou ultérieur est nécessaire, principalement sur les MacBook avec batterie intégrée. Les mesures varient selon le modèle et le système. Les Mac de bureau n’ont pas de mesures propres à la batterie. Le HDR et le fonctionnement capot fermé ont des exigences supplémentaires."
       ]
     ]
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "lead": "Battery Monitor ne collecte et ne transmet aucune mesure de batterie ou de puissance.",
-    "effective": "Version Mac App Store · En vigueur depuis le 11 novembre 2026",
+    "lead": "BatterVibe traite les mesures de batterie et de puissance sur votre Mac, sans les collecter ni les envoyer. Cette politique décrit aussi les services Apple prévus pour les fonctions d’achat en développement.",
+    "effective": "Mise à jour le 12 novembre 2026",
     "contactTitle": "Contact pour la confidentialité",
     "contactIntro": "Contactez Zhiping Jiang pour toute question de confidentialité ou demande de suppression des échanges d’assistance.",
     "sections": [
       [
         "Mesures sur l’appareil",
-        "Battery Monitor lit les informations fournies par macOS et les affiche localement, sans collecter ni transmettre les mesures de batterie ou de puissance. Les valeurs en temps réel sont traitées en mémoire, sans base de données d’historique. Les numéros de série du matériel ne sont ni conservés dans le modèle d’affichage ni envoyés au développeur."
+        "BatterVibe lit les informations fournies par macOS et les affiche localement, sans collecter ni transmettre les mesures de batterie ou de puissance. Les valeurs en temps réel sont traitées en mémoire, sans base de données d’historique. Les numéros de série du matériel ne sont ni conservés dans le modèle d’affichage ni envoyés au développeur."
       ],
       [
         "Préférences et autorisations",
@@ -108,6 +158,10 @@
       [
         "Demandes d’assistance",
         "Si vous envoyez volontairement un e-mail d’assistance, votre adresse et votre message servent uniquement à vous répondre et à examiner votre demande. Vous pouvez demander la suppression des échanges, sauf informations dont la conservation est imposée par la loi. Évitez de transmettre des données personnelles inutiles."
+      ],
+      [
+        "Essai et achats (en développement)",
+        "L’essai, l’achat unique et la restauration prévus utilisent Apple StoreKit. Apple traite les paiements et les justificatifs d’achat ; l’app lit l’état des droits nécessaires. Le développeur ne reçoit pas les informations de carte bancaire. Aucun historique de batterie ni compte BatterVibe distinct n’est créé pour l’essai ou l’achat."
       ],
       [
         "Site et services Apple",

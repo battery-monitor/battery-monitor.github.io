@@ -8,94 +8,144 @@
   "language": "Language",
   "navigation": "Main navigation",
   "home": {
-    "title": "Battery Monitor · Battery and power in the Mac menu bar",
-    "kicker": "A battery monitor for the Mac menu bar",
+    "title": "BatterVibe · Keep your Web Coding flow",
+    "kicker": "Made for Web Coding & Vibe Coding",
     "headline": [
-      "Your Mac’s power,",
-      "at a glance."
+      "Take your ideas",
+      "a little further."
     ],
-    "intro": "Keep battery level or watts in your menu bar. Click the battery icon to see how much power comes in, how much your Mac uses, and whether the battery is charging.",
-    "cta": "Explore the power readings",
-    "compat": "For MacBook · macOS 13 or later",
-    "overviewAlt": "Overview screenshot showing the Battery Monitor title and app icon, battery level, input power, power use, and net power.",
-    "overviewCaption": "Mac App Store edition · Overview screenshot (English)",
-    "powerLabel": "Power readings",
-    "powerTitle": "Plugged in, yet discharging?",
-    "powerIntro": "Input is the DC power that reaches your Mac. When the computer uses more than the adapter delivers, the battery supplies the difference.",
+    "intro": "From your desk to the daylight, BatterVibe brings live Mac power readings, a brighter screen and ongoing development tasks into one thoughtful workspace.",
+    "cta": "Explore the workflow",
+    "releaseLink": "In development · Release status",
+    "compat": "MacBook · macOS 13 or later · Support varies by device and installation channel",
+    "heroAlt": "AI-generated outdoor coding scene: a laptop with code and a web design on a wooden table beside an alpine lake.",
+    "sceneCaption": "AI-generated scene, not an app screenshot",
+    "heroTags": [
+      "Power at a glance",
+      "Clear in the daylight",
+      "Lid closed. Work continues."
+    ],
+    "powerLabel": "Stay in your editor",
+    "powerTitle": "What is this build using?",
+    "powerIntro": "AI coding, browser previews and build tests all draw power. Keep input, system usage or net battery power in the menu bar, and see how your Mac is doing without leaving your work.",
     "powerTerms": [
       "Power input",
       "System usage",
-      "Net power"
+      "Net battery power"
     ],
-    "powerCaption": "In the screenshot, {input} − {use} = {net} W. The battery supplies the difference.",
-    "detailLabel": "Battery details",
-    "detailTitle": "Look beyond the percentage.",
-    "detailAlt": "Battery Details screenshot in English showing capacity, health, cycle count, temperature, and power source.",
-    "features": [
+    "powerCaption": "Example: {input} − {use} = {net} W. When usage exceeds input, the battery supplies the difference.",
+    "exampleLabel": "Illustrative power readings",
+    "powerFootnote": "Readings vary by device, macOS and power state. These are Mac-wide measurements, not power attributed to individual apps.",
+    "outdoorLabel": "Make room for nature",
+    "outdoorTitle": "More daylight. More clarity.",
+    "outdoorIntro": "Find a fresh view and keep making things. Use a compatible display’s extra brightness to read code and preview your website in natural light.",
+    "outdoorAlt": "AI-generated garden workspace: a laptop showing a bright web design and code in natural sunlight.",
+    "outdoorFeatures": [
       [
-        "Capacity and health",
-        "Compare full charge capacity, design capacity, and the maximum capacity reported by macOS."
+        "HDR brightness boost",
+        "Use the extra brightness headroom of a compatible XDR display for viewing in bright surroundings."
       ],
       [
-        "Cycles and temperature",
-        "Check the battery’s cycle count alongside its current temperature."
-      ],
-      [
-        "Power source and charging",
-        "See the active power source, negotiated adapter limit, and available voltage and current readings."
+        "On when you need it",
+        "Turn on HDR boost when you need extra brightness, then turn it off when you head indoors."
       ]
     ],
-    "missing": "Readings vary by Mac and macOS version. A dash means the reading is unavailable. The Power section is hidden while running on battery.",
-    "privacyTitle": "Battery readings stay on your Mac.",
-    "privacyIntro": "No account is required. The app reads and displays battery and power data locally.",
+    "outdoorNote": "HDR has been verified on the built-in XDR display of MacBook Pro (Mac14,6); other models await verification. Boosting brightness may use more power.",
+    "closedLabel": "Leave the waiting to your Mac",
+    "closedTitle": "Close the lid. Keep the flow.",
+    "closedIntro": "The build is still running. The download is not done. Let your Mac keep working on the desk, ready for you to pick up where you left off.",
+    "closedAlt": "AI-generated closed-lid scene: a charging laptop lies fully closed on an open wooden terrace table beside a lake.",
+    "closedTags": [
+      "Project builds",
+      "Downloads",
+      "Long-running agent tasks"
+    ],
+    "closedNote": "Closed-lid operation needs the background component and system authorization available through website installation. Ordinary sleep prevention in the Mac App Store channel is not closed-lid support. Leave the Mac on a ventilated, stationary surface.",
+    "controlLabel": "One product. One control panel.",
+    "controlTitle": "Your everyday controls, together.",
+    "controlIntro": "The menu bar is for a quick glance. A dedicated control panel is for the full picture. BatterVibe is bringing them together in one experience.",
+    "controlFeatures": [
+      [
+        "Glance, then take control",
+        "See power, display and running states clearly, and choose the controls your current task needs."
+      ],
+      [
+        "14 days, free to try",
+        "Try it in your own workspace for 14 days on first use. Trial and purchase integration is in development."
+      ],
+      [
+        "One-time Apple purchase",
+        "Planned at CNY 6 in mainland China, with no automatic renewal. Restore Purchases will be available in the control panel."
+      ]
+    ],
+    "releaseLabel": "Release status",
+    "releaseTitle": "The new BatterVibe is taking shape.",
+    "releaseIntro": "The version currently submitted for review is the earlier battery monitor. The new experience, dedicated control panel and Apple in-app purchases shown here are in development. Downloads and trials for the new release are not yet available.",
+    "releasePlanTitle": "Try it. Then decide.",
+    "releasePlan": "A free 14-day initial trial, followed by an optional one-time purchase. The planned mainland China price is CNY 6, with no automatic renewal. Local prices will appear in Apple’s purchase screen after release.",
+    "supportCTA": "Read support and compatibility notes",
+    "privacyTitle": "Your readings stay on your Mac.",
+    "privacyIntro": "No separate app account. Battery and power readings are not collected or uploaded.",
     "privacyLink": "Read the privacy policy"
   },
   "support": {
     "title": "Support",
-    "lead": "Find Battery Monitor in your menu bar, choose a reading, and understand what the numbers mean.",
+    "lead": "Understand BatterVibe’s release status, power readings, display controls, closed-lid support and purchase plans.",
     "contactTitle": "Contact the developer",
-    "contactIntro": "Please include your Mac model, macOS version, app version, and a description of what you see.",
+    "contactIntro": "Please include your Mac model, macOS version, app version, installation channel and a description of what you see.",
     "faqs": [
       [
-        "Where do I find the app after launch?",
-        "The panel opens on first launch. Click the battery icon in the menu bar to reopen it. Click again or press Esc to close it."
+        "Can I download or try the new release now?",
+        "Not yet. The version currently submitted for review is the earlier battery monitor. BatterVibe’s display controls, dedicated control panel, Apple trial and one-time purchase are in development. The website will link to the new release when it is available."
       ],
       [
-        "How do I change the language?",
-        "Open the gear menu at the bottom right and choose Language. Select one of eight languages or System default. Changes apply immediately and are saved on your Mac. The website language menu keeps you on the corresponding page."
+        "How do the menu bar and control panel differ?",
+        "The menu bar provides a quick battery or power reading. The planned dedicated control panel shows fuller status, display and running controls, plus trial, purchase and restore options. They are parts of the same product."
       ],
       [
-        "How do I change the menu bar reading?",
-        "Open the panel and use the gear menu at the bottom right. Under the menu bar display options, choose battery level, input, system usage, or net power."
+        "Why is net battery power negative when plugged in?",
+        "Net battery power is input minus system usage. When your Mac uses more than the adapter supplies, the battery makes up the difference. Adapter wattage and live DC input are separate readings. A dash means that a reading is unavailable."
       ],
       [
-        "Why is net power negative when plugged in?",
-        "Net power is input minus system usage. When your Mac uses more than its adapter supplies, the battery makes up the difference. The adapter’s rated wattage and the current DC input are separate readings."
+        "Can every Mac use the HDR brightness boost?",
+        "No. HDR boost depends on display capability. It has been verified on the built-in XDR display of MacBook Pro (Mac14,6); other models await verification. Unsupported devices are not promised a boost. Increased brightness may also use more power."
       ],
       [
-        "What does a dash mean?",
-        "A dash means that the reading is unavailable for the current Mac, macOS version, or power state."
+        "Which installation channels support closed-lid operation?",
+        "Closed-lid operation needs the website installation’s background component and system authorization. Ordinary sleep prevention in the Mac App Store channel does not by itself keep a closed Mac awake. Check the capabilities of the installed release and leave the Mac on a ventilated, stationary surface."
       ],
       [
-        "How do I refresh, launch at login, or quit?",
-        "Readings refresh automatically every five seconds. Use the gear menu to turn on launch at login or quit the app. Launch at login is optional."
+        "Will the trial charge me automatically?",
+        "No. The initial trial is free for 14 days, after which you choose whether to make a one-time Apple in-app purchase. The planned mainland China price is CNY 6, with no automatic renewal. This flow is in development; local prices will appear in Apple’s purchase screen after release."
       ],
       [
-        "Which Macs are supported?",
-        "The Mac App Store edition requires macOS 13 or later and is designed for MacBooks with a built-in battery. Battery-specific readings are unavailable on desktop Macs."
+        "How will I restore a purchase after reinstalling?",
+        "Restore Purchases is planned for the control panel. Once released, use the Apple account used for the original purchase to restore eligible entitlements. No separate BatterVibe account is planned. Purchases for the new release are not yet open."
+      ],
+      [
+        "Which languages are supported?",
+        "Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French and Spanish. The website’s language menu keeps you on the corresponding page. App language preferences are stored on your Mac."
+      ],
+      [
+        "Can I set a charge limit?",
+        "The upcoming release includes charge-limit control for Apple silicon Macs running macOS 26.4 or later. With Mac App Store installation, first add the official system shortcut as guided, then select a system-supported limit in the control panel. Starting the shortcut does not confirm a change; the limit must be read back from the system."
+      ],
+      [
+        "Which devices support basic monitoring?",
+        "Basic monitoring requires macOS 13 or later and is designed for MacBooks with a built-in battery. Readings vary by model and macOS. Desktop Macs have no battery-specific readings. HDR and closed-lid controls have additional device and installation requirements."
       ]
     ]
   },
   "privacy": {
     "title": "Privacy policy",
-    "lead": "Battery Monitor does not collect or transmit battery or power readings.",
-    "effective": "Mac App Store edition · Effective November 11, 2026",
+    "lead": "BatterVibe processes battery and power readings locally without collecting or uploading them. This policy also describes the Apple services planned for the purchase features in development.",
+    "effective": "Updated November 12, 2026",
     "contactTitle": "Privacy contact",
     "contactIntro": "Contact Zhiping Jiang with privacy questions or to request deletion of support correspondence.",
     "sections": [
       [
         "On-device readings",
-        "Battery Monitor reads information provided by macOS and displays it locally without collecting or transmitting battery or power readings. Live readings are processed in memory, with no battery history database. Hardware serial numbers are not retained in the display model or sent to the developer."
+        "BatterVibe reads information provided by macOS and displays it locally without collecting or transmitting battery or power readings. Live readings are processed in memory, with no battery history database. Hardware serial numbers are not retained in the display model or sent to the developer."
       ],
       [
         "Preferences and permissions",
@@ -108,6 +158,10 @@
       [
         "Support requests",
         "If you voluntarily email support, your email address and message are used only to respond and investigate your request. You may request deletion of support correspondence, except information that must be retained by law. Please avoid sending unnecessary personal information."
+      ],
+      [
+        "Trial and purchases (in development)",
+        "The planned trial, one-time purchase and purchase restoration use Apple StoreKit. Apple processes payments and purchase records; the app reads the required entitlement status. The developer does not receive payment card details. A purchase or trial does not create a battery history database or require a separate BatterVibe account."
       ],
       [
         "Website and Apple services",
