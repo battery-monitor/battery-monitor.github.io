@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://battery-monitor.zpj.io"
+BASE = "https://battervibe.zpj.io"
 LANGUAGES = {"zh-Hans": ("", "简体中文"), "zh-Hant": ("zh-Hant", "繁體中文"),
              "en": ("en", "English"), "ja": ("ja", "日本語"), "ko": ("ko", "한국어"),
              "de": ("de", "Deutsch"), "fr": ("fr", "Français"), "es": ("es", "Español")}

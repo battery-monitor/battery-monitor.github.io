@@ -60,22 +60,22 @@
       "Downloads",
       "Lange Agent-Aufgaben"
     ],
-    "closedNote": "Betrieb bei geschlossenem Deckel braucht die Hintergrundkomponente der Website-Installation und eine Systemfreigabe. Normale Ruhezustandsverhinderung über den Mac App Store ist keine Unterstützung für den geschlossenen Deckel. Stelle den Mac auf eine feste, gut belüftete Fläche.",
-    "controlLabel": "Ein Produkt. Ein Bedienfeld.",
-    "controlTitle": "Die täglichen Einstellungen, vereint.",
-    "controlIntro": "Die Menüleiste für den kurzen Blick. Ein eigenes Bedienfeld für den ganzen Überblick. BatterVibe verbindet beides zu einem Erlebnis.",
+    "closedNote": "Der Betrieb bei geschlossenem Deckel benötigt die Hintergrundkomponente der Website-Installation und eine Systemfreigabe. Die Unterstützung über den Mac App Store wird noch geprüft. Nutze eine feste, gut belüftete Fläche.",
+    "controlLabel": "Das BatterVibe-Bedienfeld",
+    "controlTitle": "Funktionen verstehen. Kauf wiederherstellen.",
+    "controlIntro": "Die Menüleiste zeigt Batterie und Leistung. Das eigene Bedienfeld bündelt Erklärungen, Kompatibilität, Kaufwiederherstellung und ein Dankeschön für deine Unterstützung.",
     "controlFeatures": [
       [
-        "Erst sehen, dann steuern",
-        "Erkenne Leistungs-, Bildschirm- und Betriebszustände und wähle die passenden Einstellungen für deine Aufgabe."
+        "Funktionen erklärt",
+        "Erfahre mehr über Leistungswerte, HDR-Boost, geschlossenen Betrieb und die jeweiligen Geräte- und Installationsanforderungen."
       ],
       [
-        "14 Tage kostenlos testen",
-        "Eine kostenlose Ersttestphase von 14 Tagen ist vorgesehen. Die Anbindung von Testphase und Kauf wird entwickelt."
+        "Käufe wiederherstellen",
+        "Stelle nach Veröffentlichung berechtigte Käufe mit deinem ursprünglichen Apple Account wieder her. Kein separates BatterVibe-Konto nötig."
       ],
       [
-        "Einmal über Apple kaufen",
-        "Geplant sind CNY 6 im chinesischen Festland-Store. Keine automatische Verlängerung; Käufe lassen sich im Bedienfeld wiederherstellen."
+        "Vielen Dank",
+        "Deine Unterstützung hilft uns, den kleinen Begleiter für deinen Coding-Alltag weiter zu verbessern."
       ]
     ],
     "releaseLabel": "Veröffentlichungsstatus",
@@ -100,7 +100,7 @@
       ],
       [
         "Was unterscheidet Menüleiste und Bedienfeld?",
-        "Die Menüleiste zeigt Batterie oder Leistung auf einen Blick. Das geplante eigene Bedienfeld bündelt ausführliche Zustände, Bildschirm- und Betriebssteuerung sowie Testphase, Kauf und Wiederherstellung. Beides gehört zu einem Produkt."
+        "Die Menüleiste zeigt Batterie oder Leistung auf einen Blick. Das eigene Bedienfeld bündelt Funktionserklärungen, Kaufstatus und Wiederherstellung sowie ein Dankeschön. Einzelne Funktionen bedienst du über ihre jeweiligen Zugänge in der App."
       ],
       [
         "Warum ist die Netto-Batterieleistung trotz Netzteil negativ?",
@@ -112,7 +112,7 @@
       ],
       [
         "Welche Installationswege unterstützen den geschlossenen Deckel?",
-        "Dafür sind die Hintergrundkomponente der Website-Installation und eine Systemfreigabe nötig. Normale Ruhezustandsverhinderung im Mac App Store gewährleistet den geschlossenen Betrieb nicht. Beachte die Bedingungen deiner installierten Version und nutze eine feste, gut belüftete Fläche."
+        "Dafür sind die Hintergrundkomponente der Website-Installation und eine Systemfreigabe nötig. Die Unterstützung über den Mac App Store wird noch geprüft. Beachte die Bedingungen deiner installierten Version und nutze eine feste, gut belüftete Fläche."
       ],
       [
         "Wird nach dem Test automatisch abgebucht?",
@@ -128,7 +128,7 @@
       ],
       [
         "Kann ich ein Ladelimit einstellen?",
-        "Die kommende Version enthält eine Ladelimit-Steuerung für Macs mit Apple Chip ab macOS 26.4. Bei Installation über den Mac App Store fügst du zunächst den beschriebenen offiziellen System-Kurzbefehl hinzu und wählst danach ein unterstütztes Limit im Bedienfeld. Der Start des Kurzbefehls bestätigt die Änderung noch nicht; dafür muss das Limit vom System zurückgelesen werden."
+        "Die kommende Version enthält einen Zugang zum Ladelimit für Macs mit Apple Chip ab macOS 26.4. Bei Installation über den Mac App Store fügst du zuerst den beschriebenen System-Kurzbefehl hinzu und wählst dann ein unterstütztes Ziel im Ladelimit-Bereich der App. Der Start bestätigt keine Änderung; prüfe das Ergebnis in den Batterieeinstellungen des Systems."
       ],
       [
         "Welche Geräte unterstützen die grundlegende Überwachung?",

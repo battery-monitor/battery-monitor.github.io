@@ -60,22 +60,22 @@
       "Descargas",
       "Tareas largas de agentes"
     ],
-    "closedNote": "Trabajar con la tapa cerrada requiere el componente en segundo plano de la instalación desde la web y autorización del sistema. La prevención normal del reposo del canal Mac App Store no equivale a esta función. Deja el Mac en una superficie fija y ventilada.",
-    "controlLabel": "Un producto. Un panel de control.",
-    "controlTitle": "Tus controles habituales, juntos.",
-    "controlIntro": "La barra de menús para una mirada rápida. Un panel independiente para una visión completa. BatterVibe une ambos en una sola experiencia.",
+    "closedNote": "El uso con la tapa cerrada requiere el componente en segundo plano de la instalación desde la web y autorización del sistema. La compatibilidad mediante el Mac App Store aún se está verificando. Usa una superficie fija y ventilada.",
+    "controlLabel": "El panel de BatterVibe",
+    "controlTitle": "Conoce las funciones. Restaura tu compra.",
+    "controlIntro": "La barra de menús muestra batería y potencia. El panel independiente reúne las explicaciones, la compatibilidad, la restauración de compras y un agradecimiento por apoyar BatterVibe.",
     "controlFeatures": [
       [
-        "Consulta y controla",
-        "Distingue la potencia, el brillo y el estado de ejecución, y elige los controles que necesita tu tarea."
+        "Guía de funciones",
+        "Conoce las lecturas de potencia, el HDR y el uso con tapa cerrada, junto con sus requisitos de equipo e instalación."
       ],
       [
-        "14 días de prueba gratis",
-        "Se prepara una primera prueba gratuita de 14 días en tu propio entorno. La integración de prueba y compra está en desarrollo."
+        "Restaurar compras",
+        "Tras el lanzamiento, recupera los derechos aplicables con la cuenta de Apple de tu compra original. No necesitas otra cuenta de BatterVibe."
       ],
       [
-        "Una compra única con Apple",
-        "El precio previsto en China continental es de 6 CNY. Sin renovación automática y con restauración de compras en el panel."
+        "Gracias por tu apoyo",
+        "Tu apoyo nos permite seguir mejorando la pequeña herramienta que te acompaña cada día al programar."
       ]
     ],
     "releaseLabel": "Estado del lanzamiento",
@@ -100,7 +100,7 @@
       ],
       [
         "¿En qué se diferencian la barra de menús y el panel?",
-        "La barra de menús permite ver rápidamente batería o potencia. El panel independiente previsto reúne estados detallados, controles de brillo y ejecución, y opciones de prueba, compra y restauración. Son partes del mismo producto."
+        "La barra de menús permite consultar batería o potencia rápidamente. El panel independiente reúne las explicaciones, el estado y la restauración de compras y nuestro agradecimiento. Cada función se utiliza desde su propio acceso en la app."
       ],
       [
         "¿Por qué la potencia neta es negativa con el cargador conectado?",
@@ -112,7 +112,7 @@
       ],
       [
         "¿Qué instalaciones permiten trabajar con la tapa cerrada?",
-        "Hace falta el componente en segundo plano de la instalación desde la web y autorización del sistema. La prevención normal del reposo del Mac App Store no garantiza por sí sola el funcionamiento con tapa cerrada. Usa una superficie fija y ventilada y consulta las condiciones de la versión instalada."
+        "Se necesita el componente en segundo plano de la instalación desde la web y autorización del sistema. La compatibilidad del Mac App Store aún se está verificando. Consulta las condiciones de tu versión y usa una superficie fija y ventilada."
       ],
       [
         "¿Se cobra automáticamente después de la prueba?",
@@ -128,7 +128,7 @@
       ],
       [
         "¿Puedo establecer un límite de carga?",
-        "La próxima versión incluye el límite de carga para Mac con chip de Apple y macOS 26.4 o posterior. En la instalación del Mac App Store, añade una vez el atajo oficial del sistema indicado y selecciona después un límite compatible en el panel. Iniciar el atajo no confirma el cambio: debe leerse de nuevo el límite del sistema."
+        "La próxima versión incluye un acceso al límite de carga para Mac con chip de Apple y macOS 26.4 o posterior. En el Mac App Store, añade primero el atajo del sistema indicado y elige después un objetivo compatible en la sección de carga de la app. Iniciar el atajo no confirma el cambio: comprueba el resultado en los ajustes de Batería del sistema."
       ],
       [
         "¿Qué equipos admiten la monitorización básica?",

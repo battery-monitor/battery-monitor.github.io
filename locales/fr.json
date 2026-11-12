@@ -60,22 +60,22 @@
       "Téléchargements",
       "Longues tâches d’agent"
     ],
-    "closedNote": "Le fonctionnement capot fermé nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La prévention ordinaire de la veille du canal Mac App Store n’équivaut pas à cette fonction. Gardez le Mac sur une surface fixe et ventilée.",
-    "controlLabel": "Un produit. Un panneau de contrôle.",
-    "controlTitle": "Les commandes utiles, réunies.",
-    "controlIntro": "La barre des menus pour un coup d’œil. Un panneau dédié pour une vue complète. BatterVibe rassemble les deux dans une même expérience.",
+    "closedNote": "Le fonctionnement capot fermé nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La compatibilité via le Mac App Store est encore en cours de vérification. Utilisez une surface fixe et ventilée.",
+    "controlLabel": "Le panneau BatterVibe",
+    "controlTitle": "Comprendre les fonctions. Restaurer l’achat.",
+    "controlIntro": "La barre des menus affiche la batterie et la puissance. Le panneau dédié réunit les explications, la compatibilité, la restauration des achats et un merci pour votre soutien à BatterVibe.",
     "controlFeatures": [
       [
-        "Voir, puis agir",
-        "Identifiez la puissance, la luminosité et l’état de fonctionnement, puis choisissez les commandes utiles à votre tâche."
+        "Guide des fonctions",
+        "Découvrez les mesures de puissance, le HDR et le fonctionnement capot fermé, avec leurs exigences d’appareil et d’installation."
       ],
       [
-        "14 jours d’essai gratuit",
-        "Un premier essai gratuit de 14 jours est prévu pour votre propre environnement. L’intégration de l’essai et de l’achat est en développement."
+        "Restaurer les achats",
+        "Après la sortie, retrouvez vos droits avec le compte Apple de l’achat d’origine. Aucun compte BatterVibe distinct n’est nécessaire."
       ],
       [
-        "Un achat unique avec Apple",
-        "Le tarif prévu en Chine continentale est de 6 CNY. Aucun renouvellement automatique ; restauration des achats prévue dans le panneau."
+        "Merci pour votre soutien",
+        "Votre soutien nous aide à améliorer ce petit outil qui accompagne vos journées de création et de code."
       ]
     ],
     "releaseLabel": "Disponibilité",
@@ -100,7 +100,7 @@
       ],
       [
         "Quelle différence entre la barre des menus et le panneau ?",
-        "La barre des menus permet de consulter rapidement la batterie ou la puissance. Le panneau dédié prévu regroupe les états détaillés, les commandes de luminosité et de fonctionnement, ainsi que l’essai, l’achat et la restauration. Tout appartient au même produit."
+        "La barre des menus permet de consulter rapidement la batterie ou la puissance. Le panneau dédié réunit les explications, l’état et la restauration des achats, ainsi que nos remerciements. Chaque fonction se commande depuis son accès dans l’app."
       ],
       [
         "Pourquoi la puissance nette est-elle négative avec l’adaptateur ?",
@@ -112,7 +112,7 @@
       ],
       [
         "Quels modes d’installation permettent le fonctionnement capot fermé ?",
-        "Cette fonction nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La prévention ordinaire de la veille du Mac App Store ne suffit pas à garantir le fonctionnement capot fermé. Utilisez une surface fixe et bien ventilée ; consultez les conditions de la version installée."
+        "Cette fonction nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La compatibilité via le Mac App Store est encore à l’étude. Consultez les conditions de la version installée et utilisez une surface fixe et ventilée."
       ],
       [
         "L’essai déclenche-t-il un paiement automatique ?",
@@ -128,7 +128,7 @@
       ],
       [
         "Puis-je définir une limite de charge ?",
-        "La prochaine version inclut une limite de charge pour les Mac avec puce Apple sous macOS 26.4 ou ultérieur. Avec le Mac App Store, ajoutez d’abord le raccourci système officiel indiqué, puis choisissez une limite compatible dans le panneau. Le lancement du raccourci ne confirme pas le changement : la limite doit être relue depuis le système."
+        "La prochaine version propose un accès à la limite de charge pour les Mac avec puce Apple sous macOS 26.4 ou ultérieur. Avec le Mac App Store, ajoutez d’abord le raccourci système indiqué, puis choisissez une cible compatible dans la rubrique de charge de l’app. Le lancement du raccourci ne confirme pas le changement : vérifiez le résultat dans les réglages Batterie du système."
       ],
       [
         "Quels appareils permettent le suivi de base ?",

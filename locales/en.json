@@ -60,22 +60,22 @@
       "Downloads",
       "Long-running agent tasks"
     ],
-    "closedNote": "Closed-lid operation needs the background component and system authorization available through website installation. Ordinary sleep prevention in the Mac App Store channel is not closed-lid support. Leave the Mac on a ventilated, stationary surface.",
-    "controlLabel": "One product. One control panel.",
-    "controlTitle": "Your everyday controls, together.",
-    "controlIntro": "The menu bar is for a quick glance. A dedicated control panel is for the full picture. BatterVibe is bringing them together in one experience.",
+    "closedNote": "Closed-lid operation requires the website installation’s background component and system authorization. Support through the Mac App Store is still being verified. Keep the Mac on a ventilated, stationary surface.",
+    "controlLabel": "The BatterVibe control panel",
+    "controlTitle": "Learn the features. Restore your purchase.",
+    "controlIntro": "The menu bar shows battery and power readings. The dedicated panel brings together feature explanations, compatibility, purchase restoration and a thank-you for supporting BatterVibe.",
     "controlFeatures": [
       [
-        "Glance, then take control",
-        "See power, display and running states clearly, and choose the controls your current task needs."
+        "Feature guide",
+        "Understand power readings, HDR boost and closed-lid operation, along with their device and installation requirements."
       ],
       [
-        "14 days, free to try",
-        "Try it in your own workspace for 14 days on first use. Trial and purchase integration is in development."
+        "Restore Purchases",
+        "After release, use your original Apple purchase account to restore eligible entitlements. No separate BatterVibe account is needed."
       ],
       [
-        "One-time Apple purchase",
-        "Planned at CNY 6 in mainland China, with no automatic renewal. Restore Purchases will be available in the control panel."
+        "Thank you",
+        "Your support helps us keep improving the little utility that accompanies your coding day."
       ]
     ],
     "releaseLabel": "Release status",
@@ -100,7 +100,7 @@
       ],
       [
         "How do the menu bar and control panel differ?",
-        "The menu bar provides a quick battery or power reading. The planned dedicated control panel shows fuller status, display and running controls, plus trial, purchase and restore options. They are parts of the same product."
+        "The menu bar provides a quick battery or power reading. The dedicated panel brings together feature explanations, purchase status and restoration, and a thank-you for your support. Individual features are operated through their respective in-app entry points."
       ],
       [
         "Why is net battery power negative when plugged in?",
@@ -112,7 +112,7 @@
       ],
       [
         "Which installation channels support closed-lid operation?",
-        "Closed-lid operation needs the website installation’s background component and system authorization. Ordinary sleep prevention in the Mac App Store channel does not by itself keep a closed Mac awake. Check the capabilities of the installed release and leave the Mac on a ventilated, stationary surface."
+        "Closed-lid operation requires the website installation’s background component and system authorization. Mac App Store support is still being verified. Check the capabilities of your installed release and leave the Mac on a ventilated, stationary surface."
       ],
       [
         "Will the trial charge me automatically?",
@@ -128,7 +128,7 @@
       ],
       [
         "Can I set a charge limit?",
-        "The upcoming release includes charge-limit control for Apple silicon Macs running macOS 26.4 or later. With Mac App Store installation, first add the official system shortcut as guided, then select a system-supported limit in the control panel. Starting the shortcut does not confirm a change; the limit must be read back from the system."
+        "The upcoming release includes a charge-limit entry point for Apple silicon Macs running macOS 26.4 or later. With Mac App Store installation, first add the system shortcut as guided, then choose a supported target from the app’s charge-limit entry point. Starting the shortcut does not confirm a change; check the result in the system Battery settings."
       ],
       [
         "Which devices support basic monitoring?",
