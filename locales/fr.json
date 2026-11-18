@@ -80,7 +80,7 @@
     ],
     "releaseLabel": "Disponibilité",
     "releaseTitle": "Le nouveau BatterVibe prend forme.",
-    "releaseIntro": "La version actuellement soumise à examen est l’ancienne version de suivi de la batterie. Les nouvelles fonctions, le panneau dédié et les achats intégrés Apple présentés ici sont en développement. Le téléchargement et l’essai de la nouvelle version ne sont pas encore ouverts.",
+    "releaseIntro": "La version directe 0.10.0 ajoute les commandes Terminal. Le téléchargement public et l’essai Apple restent à venir. La disponibilité sur le Mac App Store sera annoncée ici.",
     "releasePlanTitle": "Essayez. Puis décidez.",
     "releasePlan": "Un premier essai gratuit de 14 jours, puis un achat unique. Le tarif prévu pour la Chine continentale est de 6 CNY, sans renouvellement automatique. Les prix locaux seront indiqués dans la fenêtre d’achat Apple à la sortie.",
     "supportCTA": "Lire l’aide et les conditions de compatibilité",
@@ -96,7 +96,7 @@
     "faqs": [
       [
         "Puis-je télécharger ou essayer la nouvelle version ?",
-        "Pas encore. La version soumise à examen est l’ancienne version de suivi de la batterie. Le HDR, le panneau dédié, l’essai Apple et l’achat unique sont en développement. Le site proposera le téléchargement dès sa disponibilité."
+        "Le téléchargement public et l’essai Apple restent à venir. Si vous disposez déjà d’une version compatible, utilisez les commandes Terminal de cette page."
       ],
       [
         "Quelle différence entre la barre des menus et le panneau ?",
@@ -172,5 +172,18 @@
         "Écrivez à jiangzp.cs@icloud.com pour les questions de confidentialité ou la suppression des échanges d’assistance. Les modifications de cette politique seront publiées ici avec une nouvelle date d’entrée en vigueur."
       ]
     ]
+  },
+  "cli": {
+    "title": "Consulter et régler dans le Terminal",
+    "intro": "Vérifiez la batterie, la puissance et l’autonomie estimée. Utilisez le JSON dans vos scripts et réglez l’affichage de la barre des menus, le mode HDR et les autres commandes compatibles.",
+    "guide": "Guide des commandes",
+    "setup": "Si la version directe 0.10.0 ou la version Mac App Store 1.0 (build 3) ou ultérieure est installée, exécutez la ligne correspondante dans le Terminal. La première commande lance l’app de la barre des menus si nécessaire.",
+    "channels": [
+      "Version directe",
+      "Version Mac App Store"
+    ],
+    "exampleTitle": "Exemples de commandes",
+    "limits": "La luminosité HDR et la limite de charge suivent les conditions de compatibilité et d’accès de l’app. Pour la version Store, ajoutez d’abord le raccourci Apple dans le panneau de contrôle et vérifiez le résultat dans les réglages Batterie de macOS. Le fonctionnement capot fermé, les modes d’alimentation et les commandes des apps énergivores sont disponibles dans la version directe.",
+    "results": "Le code de sortie 3 signale un résultat non confirmé, le code 4 une demande envoyée. Vérifiez l’état avant de lancer une autre modification."
   }
 }

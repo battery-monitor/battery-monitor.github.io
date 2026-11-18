@@ -80,7 +80,7 @@
     ],
     "releaseLabel": "Release status",
     "releaseTitle": "The new BatterVibe is taking shape.",
-    "releaseIntro": "The version currently submitted for review is the earlier battery monitor. The new experience, dedicated control panel and Apple in-app purchases shown here are in development. Downloads and trials for the new release are not yet available.",
+    "releaseIntro": "Standalone 0.10.0 adds Terminal commands. Public downloads and the Apple trial are still pending. Mac App Store availability will be posted here.",
     "releasePlanTitle": "Try it. Then decide.",
     "releasePlan": "A free 14-day initial trial, followed by an optional one-time purchase. The planned mainland China price is CNY 6, with no automatic renewal. Local prices will appear in Apple’s purchase screen after release.",
     "supportCTA": "Read support and compatibility notes",
@@ -96,7 +96,7 @@
     "faqs": [
       [
         "Can I download or try the new release now?",
-        "Not yet. The version currently submitted for review is the earlier battery monitor. BatterVibe’s display controls, dedicated control panel, Apple trial and one-time purchase are in development. The website will link to the new release when it is available."
+        "Public downloads and the Apple trial are still pending. If you already have a compatible build installed, you can use the Terminal commands on this page."
       ],
       [
         "How do the menu bar and control panel differ?",
@@ -172,5 +172,18 @@
         "Contact jiangzp.cs@icloud.com for privacy questions or deletion of support correspondence. Changes to this policy will be posted here with an updated effective date."
       ]
     ]
+  },
+  "cli": {
+    "title": "Read and control from Terminal",
+    "intro": "Check battery, power and estimated runtime. Use JSON in your scripts, or change the menu bar display, HDR boost and supported controls from Terminal.",
+    "guide": "Read the command-line guide",
+    "setup": "With standalone 0.10.0 or Mac App Store 1.0 (build 3) or later installed, run the line for your edition in Terminal. The first command opens the menu bar app if needed.",
+    "channels": [
+      "Standalone edition",
+      "Mac App Store edition"
+    ],
+    "exampleTitle": "Try these commands",
+    "limits": "HDR and charge limits follow the app’s hardware and access requirements. With the App Store edition, add the Apple shortcut in the control panel first and verify charge limits in macOS Battery settings. Closed-lid operation, power modes and high-energy app commands come with the standalone edition.",
+    "results": "Exit code 3 means the result is unconfirmed. Code 4 means the request was sent. Read the current state before issuing another change."
   }
 }

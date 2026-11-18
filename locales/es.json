@@ -80,7 +80,7 @@
     ],
     "releaseLabel": "Estado del lanzamiento",
     "releaseTitle": "El nuevo BatterVibe está tomando forma.",
-    "releaseIntro": "La versión enviada a revisión es la anterior aplicación de monitorización de batería. Las nuevas funciones, el panel independiente y las compras integradas de Apple están en desarrollo. La descarga y la prueba de la nueva versión aún no están disponibles.",
+    "releaseIntro": "La edición directa 0.10.0 añade comandos de Terminal. La descarga pública y la prueba de Apple siguen pendientes. La disponibilidad en el Mac App Store se anunciará aquí.",
     "releasePlanTitle": "Pruébalo. Después decide.",
     "releasePlan": "Una primera prueba gratuita de 14 días y una compra única. El precio previsto en China continental es de 6 CNY, sin renovación automática. Los precios locales aparecerán en la pantalla de compra de Apple tras el lanzamiento.",
     "supportCTA": "Leer ayuda y compatibilidad",
@@ -96,7 +96,7 @@
     "faqs": [
       [
         "¿Puedo descargar o probar ya la nueva versión?",
-        "Todavía no. La versión enviada a revisión es la anterior aplicación de monitorización. El HDR, el panel independiente, la prueba de Apple y la compra única están en desarrollo. La web ofrecerá la descarga cuando esté disponible."
+        "La descarga pública y la prueba de Apple siguen pendientes. Con una edición compatible ya instalada, puedes usar los comandos de Terminal de esta página."
       ],
       [
         "¿En qué se diferencian la barra de menús y el panel?",
@@ -172,5 +172,18 @@
         "Escribe a jiangzp.cs@icloud.com para preguntas de privacidad o eliminación de mensajes de soporte. Los cambios de esta política se publicarán aquí con una fecha de entrada en vigor actualizada."
       ]
     ]
+  },
+  "cli": {
+    "title": "Consulta y controla desde Terminal",
+    "intro": "Consulta la batería, la potencia y la autonomía estimada. Usa JSON en tus scripts y cambia la vista de la barra de menús, el brillo HDR y los controles compatibles.",
+    "guide": "Guía de la línea de comandos",
+    "setup": "Si tienes instalada la edición directa 0.10.0 o la edición del Mac App Store 1.0 (compilación 3) o posterior, ejecuta la línea correspondiente en Terminal. El primer comando abre la app de la barra de menús si hace falta.",
+    "channels": [
+      "Edición directa",
+      "Edición del Mac App Store"
+    ],
+    "exampleTitle": "Ejemplos de comandos",
+    "limits": "El brillo HDR y el límite de carga siguen los requisitos de hardware y acceso de la app. En la edición del App Store, añade primero el atajo de Apple desde el panel de control y verifica el límite en los ajustes Batería de macOS. La edición directa ofrece los comandos de tapa cerrada, modos de energía y apps de alto consumo.",
+    "results": "El código de salida 3 indica un resultado sin confirmar y el 4, una solicitud enviada. Consulta el estado antes de hacer otro cambio."
   }
 }

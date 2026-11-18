@@ -11,6 +11,12 @@ LANGUAGES = {"zh-Hans": ("", "简体中文"), "zh-Hant": ("zh-Hant", "繁體中�
              "de": ("de", "Deutsch"), "fr": ("fr", "Français"), "es": ("es", "Español")}
 PAGES = ("index.html", "support.html", "privacy.html")
 EMAIL = "jiangzp.cs@icloud.com"
+CLI_EXAMPLES = "battervibe status --json\nbattervibe menu net"
+CLI_HELP = CLI_EXAMPLES + "\nbattervibe --help"
+CLI_INSTALL = (
+    "alias battervibe='/Applications/battery-mon.app/Contents/MacOS/battery-mon cli'",
+    "alias battervibe='/Applications/BatterVibe.app/Contents/MacOS/BatterVibe cli'",
+)
 
 
 def url(language, page):
@@ -52,6 +58,7 @@ def header(language, page, t):
 
 def home(language, t):
     h = t['home']
+    cli = t['cli']
     tags = ''.join(f'<a href="#{anchor}">{icon(symbol)}<span>{escape(label)}</span><span class="tag-arrow" aria-hidden="true">↓</span></a>'
                    for label, anchor, symbol in zip(h['heroTags'], ('power', 'daylight', 'flow'), ('power', 'sun', 'flow')))
     values = ('60.3', '82.5', '−22.2')
@@ -77,6 +84,9 @@ def home(language, t):
 <section class="scene-section flow-section wrap" id="flow"><div class="section-copy"><p class="section-label">03 / {escape(h['closedLabel'])}</p><h2>{escape(h['closedTitle'])}</h2><p class="section-intro">{escape(h['closedIntro'])}</p><div class="task-tags">{closed_tags}</div><p class="note">{escape(h['closedNote'])}</p></div>
 <figure class="feature-scene">{picture('closed-lid', h['closedAlt'])}<figcaption>{escape(h['sceneCaption'])}</figcaption></figure></section>
 <section class="control-section"><div class="wrap"><div class="control-heading"><p class="section-label">{escape(h['controlLabel'])}</p><h2>{escape(h['controlTitle'])}</h2><p class="section-intro">{escape(h['controlIntro'])}</p></div><div class="control-features">{control_features}</div></div></section>
+<section class="cli-section wrap" id="cli"><div><h2>{escape(cli['title'])}</h2><p class="section-intro">{escape(cli['intro'])}</p>
+<a class="text-link" href="{url(language, 'support.html')}#cli">{escape(cli['guide'])} <span aria-hidden="true">→</span></a></div>
+<pre class="cli-code"><code>{escape(CLI_EXAMPLES)}</code></pre></section>
 <section class="availability wrap" id="availability"><div><p class="section-label"><span class="status-dot" aria-hidden="true"></span>{escape(h['releaseLabel'])}</p><h2>{escape(h['releaseTitle'])}</h2><p class="section-intro">{escape(h['releaseIntro'])}</p></div><div class="release-plan"><h3>{escape(h['releasePlanTitle'])}</h3><p>{escape(h['releasePlan'])}</p><a class="text-link" href="{url(language, 'support.html')}">{escape(h['supportCTA'])} <span aria-hidden="true">→</span></a></div></section>
 <section class="privacy-band"><div class="wrap"><div><h2>{escape(h['privacyTitle'])}</h2><p>{escape(h['privacyIntro'])}</p></div><a class="text-link" href="{url(language, 'privacy.html')}">{escape(h['privacyLink'])} <span aria-hidden="true">→</span></a></div></section></main>'''
 
@@ -85,7 +95,13 @@ def document(language, page, t):
     d = t['support' if page == 'support.html' else 'privacy']
     updated = '' if page == 'support.html' else f'<p class="updated">{escape(d["effective"])}</p>'
     if page == 'support.html':
-        content = '<div class="faq">' + ''.join(f'<details{" open" if i == 0 else ""}><summary>{escape(question)}</summary><p>{escape(answer)}</p></details>'
+        cli = t['cli']
+        installs = ''.join(f'<h3>{escape(label)}</h3><pre class="cli-code"><code>{escape(command)}</code></pre>'
+                           for label, command in zip(cli['channels'], CLI_INSTALL))
+        content = f'''<section class="cli-guide" id="cli"><h2>{escape(cli['title'])}</h2><p>{escape(cli['setup'])}</p>
+{installs}<h3>{escape(cli['exampleTitle'])}</h3><pre class="cli-code"><code>{escape(CLI_HELP)}</code></pre>
+<p>{escape(cli['limits'])}</p><p>{escape(cli['results'])}</p></section>'''
+        content += '<div class="faq">' + ''.join(f'<details{" open" if i == 0 else ""}><summary>{escape(question)}</summary><p>{escape(answer)}</p></details>'
                     for i, (question, answer) in enumerate(d['faqs'])) + '</div>'
     else:
         content = '<div class="prose">' + ''.join(f'<h2>{escape(title)}</h2><p>{escape(body)}</p>' for title, body in d['sections']) + '</div>'

@@ -80,7 +80,7 @@
     ],
     "releaseLabel": "Veröffentlichungsstatus",
     "releaseTitle": "Das neue BatterVibe entsteht.",
-    "releaseIntro": "Zur Prüfung eingereicht ist derzeit die frühere Batterieüberwachung. Die hier gezeigten neuen Funktionen, das eigene Bedienfeld und Apple-In-App-Käufe sind in Entwicklung. Download und Testphase der neuen Version sind noch nicht verfügbar.",
+    "releaseIntro": "Die Website-Version 0.10.0 ergänzt Terminalbefehle. Der öffentliche Download und die Apple-Testversion stehen noch aus. Die Verfügbarkeit im Mac App Store wird hier bekanntgegeben.",
     "releasePlanTitle": "Erst ausprobieren. Dann entscheiden.",
     "releasePlan": "Vorgesehen sind 14 kostenlose Tage beim ersten Start und ein einmaliger Kauf. Der geplante Preis für Festlandchina ist CNY 6, ohne automatische Verlängerung. Regionale Preise erscheinen nach Veröffentlichung im Apple-Kaufdialog.",
     "supportCTA": "Hilfe und Kompatibilität lesen",
@@ -96,7 +96,7 @@
     "faqs": [
       [
         "Kann ich die neue Version schon herunterladen oder testen?",
-        "Noch nicht. Zur Prüfung eingereicht ist die frühere Batterieüberwachung. Bildschirmsteuerung, eigenes Bedienfeld, Apple-Testphase und Einmalkauf sind in Entwicklung. Nach Veröffentlichung verlinkt die Website den Download."
+        "Der öffentliche Download und die Apple-Testversion stehen noch aus. Mit einer bereits installierten kompatiblen Version kannst du die Terminalbefehle auf dieser Seite verwenden."
       ],
       [
         "Was unterscheidet Menüleiste und Bedienfeld?",
@@ -172,5 +172,18 @@
         "Datenschutzfragen und Löschanfragen zur Support-Korrespondenz kannst du an jiangzp.cs@icloud.com senden. Änderungen dieser Erklärung werden hier mit einem aktualisierten Gültigkeitsdatum veröffentlicht."
       ]
     ]
+  },
+  "cli": {
+    "title": "Im Terminal abfragen und steuern",
+    "intro": "Prüfe Akkustand, Leistung und geschätzte Laufzeit. Nutze JSON in Skripten und ändere die Menüleistenanzeige, den HDR-Boost oder verfügbare Einstellungen im Terminal.",
+    "guide": "Anleitung zur Kommandozeile",
+    "setup": "Wenn die Website-Version ab 0.10.0 oder die Mac-App-Store-Version ab 1.0 (Build 3) installiert ist, führe die entsprechende Zeile im Terminal aus. Der erste Befehl startet bei Bedarf die Menüleisten-App.",
+    "channels": [
+      "Website-Version",
+      "Mac-App-Store-Version"
+    ],
+    "exampleTitle": "Beispielbefehle",
+    "limits": "Für HDR und Ladelimit gelten die Geräte- und Zugriffsvoraussetzungen der App. Füge in der Store-Version zuerst den Apple-Kurzbefehl im Bedienfeld hinzu und prüfe das Ladelimit in den macOS-Batterieeinstellungen. Befehle für den Betrieb mit geschlossenem Deckel, Energiemodi und Apps mit hohem Energieverbrauch gibt es in der Website-Version.",
+    "results": "Exitcode 3 steht für ein unbestätigtes Ergebnis, Code 4 für eine gesendete Anfrage. Prüfe den aktuellen Zustand, bevor du erneut eine Änderung anstößt."
   }
 }

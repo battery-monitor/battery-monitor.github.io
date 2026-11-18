@@ -560,6 +560,63 @@ h1 span {
   line-height:1.9;
 }
 
+.cli-section {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));
+  gap:clamp(20px,5vw,70px);
+  align-items:center;
+  padding-block:clamp(38px,6vw,70px);
+  border-bottom:1px solid var(--line);
+}
+
+.cli-section h2 {
+  font-size:clamp(27px,3.4vw,39px);
+}
+
+.cli-section .text-link {
+  margin-top:14px;
+}
+
+.cli-code {
+  min-width:0;
+  overflow-x:auto;
+  margin:0;
+  padding:16px 20px;
+  border:1px solid var(--line);
+  border-radius:9px;
+  background:#eaf1e5;
+  color:var(--ink);
+  font:14px/1.75 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+.cli-code code {
+  font:inherit;
+}
+
+.cli-guide {
+  min-width:0;
+  padding-bottom:28px;
+  border-bottom:1px solid var(--line);
+}
+
+.cli-guide .cli-code {
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+}
+
+.cli-guide h2 {
+  font-size:26px;
+}
+
+.cli-guide h3 {
+  margin:18px 0 6px;
+  font-size:16px;
+}
+
+.cli-guide p {
+  margin-top:12px;
+}
+
 .availability {
   padding-block:85px;
   display:grid;
