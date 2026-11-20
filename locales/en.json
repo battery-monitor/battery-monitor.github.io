@@ -8,34 +8,27 @@
   "language": "Language",
   "navigation": "Main navigation",
   "home": {
-    "title": "BatterVibe · Keep your Web Coding flow",
+    "title": "BatterVibe · Mac battery, live power, and HDR",
     "kicker": "Made for Web Coding & Vibe Coding",
     "headline": [
       "Take your ideas",
       "a little further."
     ],
-    "intro": "From your desk to the daylight, BatterVibe brings live Mac power readings, a brighter screen and ongoing development tasks into one thoughtful workspace.",
-    "cta": "Explore the workflow",
-    "releaseLink": "In development · Release status",
-    "compat": "MacBook · macOS 13 or later · Support varies by device and installation channel",
-    "heroAlt": "AI-generated outdoor coding scene: a laptop with code and a web design on a wooden table beside an alpine lake.",
-    "sceneCaption": "AI-generated scene, not an app screenshot",
+    "intro": "See your Mac’s battery, live power, and estimated runtime in the menu bar while coding away from your desk, running long tasks, or using portable power. Boost HDR brightness on compatible Macs.",
+    "cta": "Download on the Mac App Store",
+    "releaseLink": "See versions and features",
+    "compat": "Battery and power monitoring in mainland China Mac App Store 1.0 · macOS 13 or later",
+    "heroAlt": "BatterVibe menu overview with battery level, power state, and three live power readings.",
+    "sceneCaption": "AI-generated setting · Switch from BatterVibe 0.10.1",
     "heroTags": [
       "Power at a glance",
       "Clear in the daylight",
       "Lid closed. Work continues."
     ],
     "powerLabel": "Stay in your editor",
-    "powerTitle": "What is this build using?",
-    "powerIntro": "AI coding, browser previews and build tests all draw power. Keep input, system usage or net battery power in the menu bar, and see how your Mac is doing without leaving your work.",
-    "powerTerms": [
-      "Power input",
-      "System usage",
-      "Net battery power"
-    ],
-    "powerCaption": "Example: {input} − {use} = {net} W. When usage exceeds input, the battery supplies the difference.",
-    "exampleLabel": "Illustrative power readings",
-    "powerFootnote": "Readings vary by device, macOS and power state. These are Mac-wide measurements, not power attributed to individual apps.",
+    "powerTitle": "Know how your Mac is using power.",
+    "powerIntro": "See battery level, input power, system use, and net battery power. The overview shows available charge and runtime estimates. Open Battery Details for battery health, cycles, temperature, and more.",
+    "powerFootnote": "Input power is the DC reading at the Mac’s port. Available readings depend on the Mac, macOS, and power state.",
     "outdoorLabel": "Make room for nature",
     "outdoorTitle": "More daylight. More clarity.",
     "outdoorIntro": "Find a fresh view and keep making things. Use a compatible display’s extra brightness to read code and preview your website in natural light.",
@@ -60,43 +53,47 @@
       "Downloads",
       "Long-running agent tasks"
     ],
-    "closedNote": "Closed-lid operation requires the website installation’s background component and system authorization. Support through the Mac App Store is still being verified. Keep the Mac on a ventilated, stationary surface.",
+    "closedNote": "Closed-lid operation uses the website distribution’s background component and requires system approval. Turn it off in the menu bar when you finish.",
     "controlLabel": "The BatterVibe control panel",
-    "controlTitle": "Learn the features. Restore your purchase.",
-    "controlIntro": "The menu bar shows battery and power readings. The dedicated panel brings together feature explanations, compatibility, purchase restoration and a thank-you for supporting BatterVibe.",
+    "controlTitle": "Manage charge limits and purchases.",
+    "controlIntro": "The control panel explains features and requirements and links to the Terminal guide. The Mac App Store 1.1 update adds the trial, in-app purchase, and purchase restoration.",
     "controlFeatures": [
       [
-        "Feature guide",
-        "Understand power readings, HDR boost and closed-lid operation, along with their device and installation requirements."
+        "Charge limit",
+        "Set a target on a compatible Apple silicon Mac running macOS 26.4 or later. The App Store update uses an Apple shortcut."
       ],
       [
-        "Restore Purchases",
-        "After release, use your original Apple purchase account to restore eligible entitlements. No separate BatterVibe account is needed."
+        "In-app purchase",
+        "Try advanced controls free for 14 days or unlock them with a one-time in-app purchase."
       ],
       [
-        "Thank you",
-        "Your support helps us keep improving the little utility that accompanies your coding day."
+        "Restore purchases",
+        "Sign in with the Apple Account you used to buy and choose Restore Purchases in the control panel."
       ]
     ],
-    "releaseLabel": "Release status",
-    "releaseTitle": "The new BatterVibe is taking shape.",
-    "releaseIntro": "Standalone 0.10.0 adds Terminal commands. Public downloads and the Apple trial are still pending. Mac App Store availability will be posted here.",
-    "releasePlanTitle": "Try it. Then decide.",
-    "releasePlan": "A free 14-day initial trial, followed by an optional one-time purchase. The planned mainland China price is CNY 6, with no automatic renewal. Local prices will appear in Apple’s purchase screen after release.",
+    "releaseLabel": "Downloads and versions",
+    "releaseTitle": "Mac App Store 1.0 is available.",
+    "releaseIntro": "Download 1.0 for free from the mainland China store to monitor battery and power. Website distribution 0.10.1 includes Terminal commands, runtime estimates, and HDR, closed-lid, and charge controls on compatible Macs.",
+    "releasePlanTitle": "Mac App Store 1.1 update",
+    "releasePlan": "Version 1.1 is being prepared with eight interface languages, runtime estimates, Terminal commands, HDR brightness, and charge limits. Advanced controls offer a 14-day free trial and a one-time in-app purchase for CNY 6. The trial ends on its own.",
     "supportCTA": "Read support and compatibility notes",
     "privacyTitle": "Your readings stay on your Mac.",
     "privacyIntro": "No separate app account. Battery and power readings are not collected or uploaded.",
-    "privacyLink": "Read the privacy policy"
+    "privacyLink": "Read the privacy policy",
+    "captureCaption": "BatterVibe 0.10.1 app capture",
+    "detailAlt": "Battery details showing capacity, health, cycles, temperature, and power supply readings.",
+    "hdrAlt": "HDR brightness switch in the menu panel.",
+    "lidAlt": "Closed-lid operation switch in the menu panel."
   },
   "support": {
     "title": "Support",
-    "lead": "Understand BatterVibe’s release status, power readings, display controls, closed-lid support and purchase plans.",
+    "lead": "Find downloads, compatibility, and help with battery readings, trials, and in-app purchases.",
     "contactTitle": "Contact the developer",
     "contactIntro": "Please include your Mac model, macOS version, app version, installation channel and a description of what you see.",
     "faqs": [
       [
-        "Can I download or try the new release now?",
-        "Public downloads and the Apple trial are still pending. If you already have a compatible build installed, you can use the Terminal commands on this page."
+        "Where can I download BatterVibe?",
+        "Version 1.0 is available for free in the mainland China Mac App Store for battery and power monitoring. Version 1.1 is being prepared. You can install it from the App Store once it’s available."
       ],
       [
         "How do the menu bar and control panel differ?",
@@ -112,15 +109,15 @@
       ],
       [
         "Which installation channels support closed-lid operation?",
-        "Closed-lid operation requires the website installation’s background component and system authorization. Mac App Store support is still being verified. Check the capabilities of your installed release and leave the Mac on a ventilated, stationary surface."
+        "Closed-lid operation uses the website distribution’s background component and requires system approval. Turn it off in the menu bar when you finish."
       ],
       [
-        "Will the trial charge me automatically?",
-        "No. The initial trial is free for 14 days, after which you choose whether to make a one-time Apple in-app purchase. The planned mainland China price is CNY 6, with no automatic renewal. This flow is in development; local prices will appear in Apple’s purchase screen after release."
+        "How do I use the advanced controls?",
+        "When the Mac App Store 1.1 update is available, open Control Panel from the gear menu. Start a 14-day free trial or unlock the controls with a one-time CNY 6 in-app purchase. The trial ends on its own, and battery and power monitoring remain available."
       ],
       [
-        "How will I restore a purchase after reinstalling?",
-        "Restore Purchases is planned for the control panel. Once released, use the Apple account used for the original purchase to restore eligible entitlements. No separate BatterVibe account is planned. Purchases for the new release are not yet open."
+        "How do I restore a purchase?",
+        "In the App Store update, sign in with the Apple Account you used to buy and choose Restore Purchases in the control panel."
       ],
       [
         "Which languages are supported?",
@@ -128,7 +125,7 @@
       ],
       [
         "Can I set a charge limit?",
-        "The upcoming release includes a charge-limit entry point for Apple silicon Macs running macOS 26.4 or later. With Mac App Store installation, first add the system shortcut as guided, then choose a supported target from the app’s charge-limit entry point. Starting the shortcut does not confirm a change; check the result in the system Battery settings."
+        "On a compatible Apple silicon Mac with macOS 26.4 or later, choose 80%, 85%, 90%, 95%, or 100%. With the App Store update, add the supplied Apple shortcut first and verify the result in macOS Battery settings."
       ],
       [
         "Which devices support basic monitoring?",
@@ -138,8 +135,8 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "lead": "BatterVibe processes battery and power readings locally without collecting or uploading them. This policy also describes the Apple services planned for the purchase features in development.",
-    "effective": "Updated November 12, 2026",
+    "lead": "Battery and power readings are processed on your Mac. This policy describes local preferences and the Apple purchase services used in the Mac App Store update.",
+    "effective": "Updated November 21, 2026",
     "contactTitle": "Privacy contact",
     "contactIntro": "Contact Zhiping Jiang with privacy questions or to request deletion of support correspondence.",
     "sections": [
@@ -160,8 +157,8 @@
         "If you voluntarily email support, your email address and message are used only to respond and investigate your request. You may request deletion of support correspondence, except information that must be retained by law. Please avoid sending unnecessary personal information."
       ],
       [
-        "Trial and purchases (in development)",
-        "The planned trial, one-time purchase and purchase restoration use Apple StoreKit. Apple processes payments and purchase records; the app reads the required entitlement status. The developer does not receive payment card details. A purchase or trial does not create a battery history database or require a separate BatterVibe account."
+        "Trials and in-app purchases",
+        "The Mac App Store update uses Apple StoreKit for trials, one-time in-app purchases, and purchase restoration. BatterVibe reads the purchase status needed to verify access. Apple processes payment details and purchase records."
       ],
       [
         "Website and Apple services",
@@ -177,13 +174,13 @@
     "title": "Read and control from Terminal",
     "intro": "Check battery, power and estimated runtime. Use JSON in your scripts, or change the menu bar display, HDR boost and supported controls from Terminal.",
     "guide": "Read the command-line guide",
-    "setup": "With standalone 0.10.0 or Mac App Store 1.0 (build 3) or later installed, run the line for your edition in Terminal. The first command opens the menu bar app if needed.",
+    "setup": "After installing website distribution 0.10.1 or the Mac App Store 1.1 update, open Terminal and use the appropriate command. On first use it opens the menu bar app.",
     "channels": [
-      "Standalone edition",
-      "Mac App Store edition"
+      "Website distribution",
+      "Mac App Store 1.1 update"
     ],
     "exampleTitle": "Try these commands",
-    "limits": "HDR and charge limits follow the app’s hardware and access requirements. With the App Store edition, add the Apple shortcut in the control panel first and verify charge limits in macOS Battery settings. Closed-lid operation, power modes and high-energy app commands come with the standalone edition.",
+    "limits": "HDR and charge limits follow the app’s device and access requirements. The App Store update uses the Apple shortcut for charging. Check the result in macOS Battery settings. The website distribution also provides closed-lid, power mode, and high-energy app commands.",
     "results": "Exit code 3 means the result is unconfirmed. Code 4 means the request was sent. Read the current state before issuing another change."
   }
 }

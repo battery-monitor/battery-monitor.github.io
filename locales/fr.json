@@ -8,34 +8,27 @@
   "language": "Langue",
   "navigation": "Navigation principale",
   "home": {
-    "title": "BatterVibe · Gardez le rythme du Web Coding",
+    "title": "BatterVibe · Batterie, puissance et HDR pour Mac",
     "kicker": "Pour le Web Coding et le Vibe Coding",
     "headline": [
       "Emmenez vos idées",
       "un peu plus loin."
     ],
-    "intro": "Du bureau à la lumière du jour, BatterVibe affiche la puissance de votre Mac, éclaire votre écran et accompagne les tâches de développement qui prennent du temps.",
-    "cta": "Découvrir les usages",
-    "releaseLink": "En développement · Disponibilité",
-    "compat": "MacBook · macOS 13 ou ultérieur · Fonctions selon l’appareil et le mode d’installation",
-    "heroAlt": "Scène de développement générée par IA : un ordinateur affichant du code et une maquette web sur une table au bord d’un lac de montagne.",
-    "sceneCaption": "Scène générée par IA, pas une capture de l’app",
+    "intro": "Consultez la batterie, la puissance et l’autonomie estimée dans la barre des menus, en déplacement, pendant une tâche longue ou sur batterie externe. Augmentez la luminosité HDR sur les Mac compatibles.",
+    "cta": "Télécharger sur le Mac App Store",
+    "releaseLink": "Voir les versions et les fonctions",
+    "compat": "Batterie et puissance dans le Mac App Store de Chine continentale, version 1.0 · macOS 13 ou ultérieur",
+    "heroAlt": "Vue d’ensemble de BatterVibe avec niveau de batterie, état d’alimentation et trois mesures de puissance.",
+    "sceneCaption": "Scène générée par IA · Interrupteur de BatterVibe 0.10.1",
     "heroTags": [
       "La puissance en un regard",
       "Plus clair au grand jour",
       "Capot fermé. Travail en cours."
     ],
     "powerLabel": "Restez dans votre éditeur",
-    "powerTitle": "Combien consomme cette compilation ?",
-    "powerIntro": "Code avec l’IA, aperçu dans le navigateur, compilation et tests consomment de l’énergie. Gardez l’alimentation, la consommation totale ou la puissance nette de la batterie dans la barre des menus.",
-    "powerTerms": [
-      "Puissance d’entrée",
-      "Consommation",
-      "Puissance nette"
-    ],
-    "powerCaption": "Exemple : {input} − {use} = {net} W. Si la consommation dépasse l’entrée, la batterie fournit la différence.",
-    "exampleLabel": "Exemple de mesures de puissance",
-    "powerFootnote": "Les valeurs varient selon l’appareil, macOS et l’alimentation. Elles concernent l’ensemble du Mac, pas chaque application.",
+    "powerTitle": "Suivez la consommation de votre Mac.",
+    "powerIntro": "Consultez le niveau de batterie, la puissance d’entrée, la consommation du Mac et la puissance nette de la batterie. La vue d’ensemble affiche les estimations disponibles de charge et d’autonomie. Les détails indiquent l’état de santé, les cycles et la température.",
+    "powerFootnote": "La puissance d’entrée est la mesure en courant continu au port du Mac. Les données dépendent du modèle, de macOS et de l’alimentation.",
     "outdoorLabel": "Faites une place à la nature",
     "outdoorTitle": "Plus de soleil. Plus de clarté.",
     "outdoorIntro": "Changez de paysage et continuez à créer. Augmentez la luminosité d’un écran compatible pour mieux profiter de votre espace de travail à l’extérieur.",
@@ -60,43 +53,47 @@
       "Téléchargements",
       "Longues tâches d’agent"
     ],
-    "closedNote": "Le fonctionnement capot fermé nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La compatibilité via le Mac App Store est encore en cours de vérification. Utilisez une surface fixe et ventilée.",
+    "closedNote": "Le fonctionnement capot fermé utilise le composant en arrière-plan de l’installation via le site et nécessite une autorisation système. Désactivez-le dans la barre des menus à la fin du travail.",
     "controlLabel": "Le panneau BatterVibe",
-    "controlTitle": "Comprendre les fonctions. Restaurer l’achat.",
-    "controlIntro": "La barre des menus affiche la batterie et la puissance. Le panneau dédié réunit les explications, la compatibilité, la restauration des achats et un merci pour votre soutien à BatterVibe.",
+    "controlTitle": "Gérez la limite de charge et les achats.",
+    "controlIntro": "Le panneau de contrôle présente les fonctions et leurs prérequis et donne accès au guide Terminal. La mise à jour 1.1 du Mac App Store ajoute l’essai, l’achat intégré et sa restauration.",
     "controlFeatures": [
       [
-        "Guide des fonctions",
-        "Découvrez les mesures de puissance, le HDR et le fonctionnement capot fermé, avec leurs exigences d’appareil et d’installation."
+        "Limite de charge",
+        "Choisissez une cible sur un Mac compatible à puce Apple avec macOS 26.4 ou ultérieur. La mise à jour App Store utilise un raccourci Apple."
       ],
       [
-        "Restaurer les achats",
-        "Après la sortie, retrouvez vos droits avec le compte Apple de l’achat d’origine. Aucun compte BatterVibe distinct n’est nécessaire."
+        "Achat intégré",
+        "Essayez gratuitement les commandes avancées pendant 14 jours ou activez-les par un achat intégré unique."
       ],
       [
-        "Merci pour votre soutien",
-        "Votre soutien nous aide à améliorer ce petit outil qui accompagne vos journées de création et de code."
+        "Restaurer un achat",
+        "Utilisez le compte Apple ayant servi à l’achat, puis restaurez celui-ci depuis le panneau de contrôle."
       ]
     ],
-    "releaseLabel": "Disponibilité",
-    "releaseTitle": "Le nouveau BatterVibe prend forme.",
-    "releaseIntro": "La version directe 0.10.0 ajoute les commandes Terminal. Le téléchargement public et l’essai Apple restent à venir. La disponibilité sur le Mac App Store sera annoncée ici.",
-    "releasePlanTitle": "Essayez. Puis décidez.",
-    "releasePlan": "Un premier essai gratuit de 14 jours, puis un achat unique. Le tarif prévu pour la Chine continentale est de 6 CNY, sans renouvellement automatique. Les prix locaux seront indiqués dans la fenêtre d’achat Apple à la sortie.",
+    "releaseLabel": "Téléchargement et versions",
+    "releaseTitle": "La version 1.0 est sur le Mac App Store.",
+    "releaseIntro": "Téléchargez gratuitement la version 1.0 sur le Store de Chine continentale pour suivre la batterie et la puissance. La version 0.10.1 installée via le site propose les commandes Terminal, une estimation d’autonomie et les réglages HDR, capot fermé et charge sur les Mac compatibles.",
+    "releasePlanTitle": "Mise à jour 1.1 du Mac App Store",
+    "releasePlan": "La version 1.1 est en préparation. Elle ajoute huit langues, une estimation de l’autonomie, les commandes Terminal, la luminosité HDR et la limite de charge. Les commandes avancées offrent un essai gratuit de 14 jours et un achat intégré unique à 6 CNY en Chine continentale. L’essai se termine de lui-même.",
     "supportCTA": "Lire l’aide et les conditions de compatibilité",
     "privacyTitle": "Vos mesures restent sur votre Mac.",
     "privacyIntro": "Aucun compte d’app distinct. Les valeurs de batterie et de puissance ne sont ni collectées ni envoyées.",
-    "privacyLink": "Lire la politique de confidentialité"
+    "privacyLink": "Lire la politique de confidentialité",
+    "captureCaption": "Capture de BatterVibe 0.10.1",
+    "detailAlt": "Détails de la batterie avec capacité, état de santé, cycles, température et alimentation.",
+    "hdrAlt": "Interrupteur de luminosité HDR dans le menu.",
+    "lidAlt": "Interrupteur de fonctionnement capot fermé dans le menu."
   },
   "support": {
     "title": "Assistance",
-    "lead": "Disponibilité de BatterVibe, mesures de puissance, luminosité HDR, fonctionnement capot fermé et achat.",
+    "lead": "Téléchargement, compatibilité, mesures de batterie, essais et achats intégrés.",
     "contactTitle": "Contacter le développeur",
     "contactIntro": "Indiquez votre modèle de Mac, les versions de macOS et de l’app, le mode d’installation et le problème observé.",
     "faqs": [
       [
-        "Puis-je télécharger ou essayer la nouvelle version ?",
-        "Le téléchargement public et l’essai Apple restent à venir. Si vous disposez déjà d’une version compatible, utilisez les commandes Terminal de cette page."
+        "Où télécharger BatterVibe ?",
+        "La version 1.0 est gratuite sur le Mac App Store de Chine continentale pour suivre la batterie et la puissance. La version 1.1 est en préparation et sera disponible sur le Store après sa publication."
       ],
       [
         "Quelle différence entre la barre des menus et le panneau ?",
@@ -112,23 +109,23 @@
       ],
       [
         "Quels modes d’installation permettent le fonctionnement capot fermé ?",
-        "Cette fonction nécessite le composant d’arrière-plan de l’installation depuis le site et une autorisation système. La compatibilité via le Mac App Store est encore à l’étude. Consultez les conditions de la version installée et utilisez une surface fixe et ventilée."
+        "Le fonctionnement capot fermé utilise le composant en arrière-plan de l’installation via le site et nécessite une autorisation système. Désactivez-le dans la barre des menus à la fin du travail."
       ],
       [
-        "L’essai déclenche-t-il un paiement automatique ?",
-        "Après 14 jours gratuits lors du premier essai, vous choisissez un achat intégré Apple unique. Le prix prévu en Chine continentale est de 6 CNY, sans renouvellement automatique. Le processus est en développement ; le prix local sera indiqué par Apple à la sortie."
+        "Comment utiliser les commandes avancées ?",
+        "Quand la version 1.1 sera disponible, ouvrez le panneau de contrôle via le menu de la roue dentée. Lancez l’essai gratuit de 14 jours ou choisissez l’achat intégré unique à 6 CNY. L’essai se termine de lui-même. Les mesures de batterie et de puissance restent accessibles."
       ],
       [
-        "Comment restaurer un achat après réinstallation ?",
-        "Le panneau doit proposer « Restaurer les achats ». Après la sortie, utilisez le compte Apple de l’achat d’origine pour retrouver les droits applicables. Aucun compte BatterVibe distinct n’est prévu. L’achat de la nouvelle version n’est pas encore ouvert."
+        "Comment restaurer un achat ?",
+        "Dans la mise à jour App Store, connectez-vous avec le compte Apple ayant servi à l’achat et choisissez la restauration dans le panneau de contrôle."
       ],
       [
         "Quelles langues sont prises en charge ?",
         "Chinois simplifié et traditionnel, anglais, japonais, coréen, allemand, français et espagnol. Le sélecteur de langue du site conserve le type de page. La langue de l’app est enregistrée sur votre Mac."
       ],
       [
-        "Puis-je définir une limite de charge ?",
-        "La prochaine version propose un accès à la limite de charge pour les Mac avec puce Apple sous macOS 26.4 ou ultérieur. Avec le Mac App Store, ajoutez d’abord le raccourci système indiqué, puis choisissez une cible compatible dans la rubrique de charge de l’app. Le lancement du raccourci ne confirme pas le changement : vérifiez le résultat dans les réglages Batterie du système."
+        "Peut-on limiter la charge ?",
+        "Sur un Mac compatible à puce Apple avec macOS 26.4 ou ultérieur, choisissez 80 %, 85 %, 90 %, 95 % ou 100 %. Dans la mise à jour App Store, ajoutez d’abord le raccourci Apple fourni. Vérifiez le résultat dans les réglages Batterie de macOS."
       ],
       [
         "Quels appareils permettent le suivi de base ?",
@@ -138,8 +135,8 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "lead": "BatterVibe traite les mesures de batterie et de puissance sur votre Mac, sans les collecter ni les envoyer. Cette politique décrit aussi les services Apple prévus pour les fonctions d’achat en développement.",
-    "effective": "Mise à jour le 12 novembre 2026",
+    "lead": "Les mesures sont traitées sur votre Mac. Cette politique décrit les préférences locales et les services d’achat Apple de la mise à jour Mac App Store.",
+    "effective": "Mis à jour le 21 novembre 2026",
     "contactTitle": "Contact pour la confidentialité",
     "contactIntro": "Contactez Zhiping Jiang pour toute question de confidentialité ou demande de suppression des échanges d’assistance.",
     "sections": [
@@ -160,8 +157,8 @@
         "Si vous envoyez volontairement un e-mail d’assistance, votre adresse et votre message servent uniquement à vous répondre et à examiner votre demande. Vous pouvez demander la suppression des échanges, sauf informations dont la conservation est imposée par la loi. Évitez de transmettre des données personnelles inutiles."
       ],
       [
-        "Essai et achats (en développement)",
-        "L’essai, l’achat unique et la restauration prévus utilisent Apple StoreKit. Apple traite les paiements et les justificatifs d’achat ; l’app lit l’état des droits nécessaires. Le développeur ne reçoit pas les informations de carte bancaire. Aucun historique de batterie ni compte BatterVibe distinct n’est créé pour l’essai ou l’achat."
+        "Essai et achats intégrés",
+        "La mise à jour Mac App Store utilise Apple StoreKit pour l’essai, l’achat intégré unique et sa restauration. BatterVibe lit l’état de l’achat pour vérifier l’accès. Apple traite les données de paiement et l’historique des achats."
       ],
       [
         "Site et services Apple",
@@ -177,13 +174,13 @@
     "title": "Consulter et régler dans le Terminal",
     "intro": "Vérifiez la batterie, la puissance et l’autonomie estimée. Utilisez le JSON dans vos scripts et réglez l’affichage de la barre des menus, le mode HDR et les autres commandes compatibles.",
     "guide": "Guide des commandes",
-    "setup": "Si la version directe 0.10.0 ou la version Mac App Store 1.0 (build 3) ou ultérieure est installée, exécutez la ligne correspondante dans le Terminal. La première commande lance l’app de la barre des menus si nécessaire.",
+    "setup": "Après l’installation de la version 0.10.1 via le site ou de la mise à jour 1.1 du Mac App Store, lancez Terminal et utilisez la commande appropriée. Le premier appel ouvre l’app de la barre des menus.",
     "channels": [
-      "Version directe",
-      "Version Mac App Store"
+      "Installation via le site",
+      "Mise à jour 1.1 du Mac App Store"
     ],
     "exampleTitle": "Exemples de commandes",
-    "limits": "La luminosité HDR et la limite de charge suivent les conditions de compatibilité et d’accès de l’app. Pour la version Store, ajoutez d’abord le raccourci Apple dans le panneau de contrôle et vérifiez le résultat dans les réglages Batterie de macOS. Le fonctionnement capot fermé, les modes d’alimentation et les commandes des apps énergivores sont disponibles dans la version directe.",
+    "limits": "Le HDR et la limite de charge suivent les conditions de l’app. Pour la mise à jour App Store, ajoutez le raccourci Apple et vérifiez la charge dans les réglages Batterie. L’installation via le site propose aussi les commandes pour le capot fermé, le mode d’énergie et les apps énergivores.",
     "results": "Le code de sortie 3 signale un résultat non confirmé, le code 4 une demande envoyée. Vérifiez l’état avant de lancer une autre modification."
   }
 }

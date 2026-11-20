@@ -6,6 +6,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://battervibe.zpj.io"
+STORE_URL = "https://apps.apple.com/cn/app/battervibe/id6833069090?mt=12"
+CAPTURE_PATH = "/assets/app/0.10.1"
+CAPTURE_SIZES = {"overview": (680, 384), "details": (732, 1140), "hdr": (680, 86), "lid": (680, 86)}
 LANGUAGES = {"zh-Hans": ("", "简体中文"), "zh-Hant": ("zh-Hant", "繁體中文"),
              "en": ("en", "English"), "ja": ("ja", "日本語"), "ko": ("ko", "한국어"),
              "de": ("de", "Deutsch"), "fr": ("fr", "Français"), "es": ("es", "Español")}
@@ -33,12 +36,16 @@ def icon(name):
     return f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{paths[name]}</svg>'
 
 
-def picture(name, alt, hero=False):
-    width, height = (1672, 941) if hero else (1536, 1024)
-    loading = 'fetchpriority="high"' if hero else 'loading="lazy"'
-    sizes = '(max-width: 680px) 100vw, (max-width: 1440px) 90vw, 1280px' if hero else '(max-width: 800px) 90vw, 600px'
-    return f'<img src="/assets/scenes/{name}.webp" srcset="/assets/scenes/{name}-800.webp 800w, /assets/scenes/{name}.webp {width}w" sizes="{sizes}" width="{width}" height="{height}" {loading} alt="{escape(alt)}">'
+def picture(name, alt):
+    width, height = 1536, 1024
+    sizes = '(max-width: 800px) 90vw, 600px'
+    return f'<img class="scene-photo" src="/assets/scenes/{name}.webp" srcset="/assets/scenes/{name}-800.webp 800w, /assets/scenes/{name}.webp {width}w" sizes="{sizes}" width="{width}" height="{height}" loading="lazy" alt="{escape(alt)}">'
 
+
+def capture(language, name, alt):
+    width, height = CAPTURE_SIZES[name]
+    loading = 'fetchpriority="high"' if name == "overview" else 'loading="lazy"'
+    return f'<img class="native-capture" src="{CAPTURE_PATH}/{language}/{name}.webp" width="{width}" height="{height}" {loading} alt="{escape(alt)}">'
 
 def header(language, page, t):
     links = "".join(f'<a href="{url(language, name)}"' + (' aria-current="page"' if page == name else '')
@@ -61,33 +68,29 @@ def home(language, t):
     cli = t['cli']
     tags = ''.join(f'<a href="#{anchor}">{icon(symbol)}<span>{escape(label)}</span><span class="tag-arrow" aria-hidden="true">↓</span></a>'
                    for label, anchor, symbol in zip(h['heroTags'], ('power', 'daylight', 'flow'), ('power', 'sun', 'flow')))
-    values = ('60.3', '82.5', '−22.2')
-    if language in ('de', 'fr', 'es'): values = tuple(value.replace('.', ',') for value in values)
-    terms = ''.join(f'<div><dt>{escape(term)}</dt><dd>{value}<small>W</small></dd></div>'
-                    for term, value in zip(h['powerTerms'], values))
     outdoor_features = ''.join(f'<div><dt>{escape(title)}</dt><dd>{escape(body)}</dd></div>' for title, body in h['outdoorFeatures'])
     closed_tags = ''.join(f'<span>{escape(label)}</span>' for label in h['closedTags'])
-    control_features = ''.join(f'<div><span class="feature-number" aria-hidden="true">0{i+1}</span><h3>{escape(title)}</h3><p>{escape(body)}</p></div>'
-                               for i, (title, body) in enumerate(h['controlFeatures']))
+    control_features = ''.join(f'<div><h3>{escape(title)}</h3><p>{escape(body)}</p></div>'
+                               for title, body in h['controlFeatures'])
     return f'''<main id="main">
 <section class="hero wrap"><div class="hero-copy"><p class="kicker">{escape(h['kicker'])}</p>
 <h1>{escape(h['headline'][0])}<span>{escape(h['headline'][1])}</span></h1>
 <p class="hero-intro">{escape(h['intro'])}</p>
-<div class="hero-actions"><a class="cta" href="#power">{escape(h['cta'])}<span aria-hidden="true">↓</span></a><a class="status-link" href="#availability"><span class="status-dot" aria-hidden="true"></span>{escape(h['releaseLink'])}</a></div>
+<div class="hero-actions"><a class="cta" href="{STORE_URL}">{escape(h['cta'])}<span aria-hidden="true">↗</span></a><a class="status-link" href="#availability">{escape(h['releaseLink'])}</a></div>
 <p class="compat">{escape(h['compat'])}</p></div>
-<figure class="hero-scene">{picture('outdoor-coding', h['heroAlt'], True)}<figcaption>{escape(h['sceneCaption'])}</figcaption></figure>
+<figure class="hero-scene">{capture(language, 'overview', h['heroAlt'])}<figcaption>{escape(h['captureCaption'])}</figcaption></figure>
 <div class="scene-links">{tags}</div></section>
-<section class="wrap power-section" id="power"><div class="section-copy"><p class="section-label">01 / {escape(h['powerLabel'])}</p><h2>{escape(h['powerTitle'])}</h2><p class="section-intro">{escape(h['powerIntro'])}</p><p class="note">{escape(h['powerFootnote'])}</p></div>
-<figure class="power-readout"><div class="readout-head">{icon('power')}<span>{escape(h['exampleLabel'])}</span></div><dl>{terms}</dl><figcaption>{escape(h['powerCaption'].format(input=values[0], use=values[1], net=values[2]))}</figcaption></figure></section>
-<section class="scene-section wrap" id="daylight"><figure class="feature-scene">{picture('daylight-screen', h['outdoorAlt'])}<figcaption>{escape(h['sceneCaption'])}</figcaption></figure>
-<div class="section-copy"><p class="section-label">02 / {escape(h['outdoorLabel'])}</p><h2>{escape(h['outdoorTitle'])}</h2><p class="section-intro">{escape(h['outdoorIntro'])}</p><dl class="feature-list">{outdoor_features}</dl><p class="note">{escape(h['outdoorNote'])}</p></div></section>
-<section class="scene-section flow-section wrap" id="flow"><div class="section-copy"><p class="section-label">03 / {escape(h['closedLabel'])}</p><h2>{escape(h['closedTitle'])}</h2><p class="section-intro">{escape(h['closedIntro'])}</p><div class="task-tags">{closed_tags}</div><p class="note">{escape(h['closedNote'])}</p></div>
-<figure class="feature-scene">{picture('closed-lid', h['closedAlt'])}<figcaption>{escape(h['sceneCaption'])}</figcaption></figure></section>
+<section class="wrap power-section" id="power"><div class="section-copy"><p class="section-label">{escape(h['powerLabel'])}</p><h2>{escape(h['powerTitle'])}</h2><p class="section-intro">{escape(h['powerIntro'])}</p><p class="note">{escape(h['powerFootnote'])}</p></div>
+<figure class="battery-capture">{capture(language, 'details', h['detailAlt'])}<figcaption>{escape(h['captureCaption'])}</figcaption></figure></section>
+<section class="scene-section wrap" id="daylight"><figure class="feature-scene">{picture('daylight-screen', h['outdoorAlt'])}<div class="scene-control">{capture(language, 'hdr', h['hdrAlt'])}</div><figcaption>{escape(h['sceneCaption'])}</figcaption></figure>
+<div class="section-copy"><p class="section-label">{escape(h['outdoorLabel'])}</p><h2>{escape(h['outdoorTitle'])}</h2><p class="section-intro">{escape(h['outdoorIntro'])}</p><dl class="feature-list">{outdoor_features}</dl><p class="note">{escape(h['outdoorNote'])}</p></div></section>
+<section class="scene-section flow-section wrap" id="flow"><div class="section-copy"><p class="section-label">{escape(h['closedLabel'])}</p><h2>{escape(h['closedTitle'])}</h2><p class="section-intro">{escape(h['closedIntro'])}</p><div class="task-tags">{closed_tags}</div><p class="note">{escape(h['closedNote'])}</p></div>
+<figure class="feature-scene">{picture('closed-lid', h['closedAlt'])}<div class="scene-control">{capture(language, 'lid', h['lidAlt'])}</div><figcaption>{escape(h['sceneCaption'])}</figcaption></figure></section>
 <section class="control-section"><div class="wrap"><div class="control-heading"><p class="section-label">{escape(h['controlLabel'])}</p><h2>{escape(h['controlTitle'])}</h2><p class="section-intro">{escape(h['controlIntro'])}</p></div><div class="control-features">{control_features}</div></div></section>
 <section class="cli-section wrap" id="cli"><div><h2>{escape(cli['title'])}</h2><p class="section-intro">{escape(cli['intro'])}</p>
 <a class="text-link" href="{url(language, 'support.html')}#cli">{escape(cli['guide'])} <span aria-hidden="true">→</span></a></div>
 <pre class="cli-code"><code>{escape(CLI_EXAMPLES)}</code></pre></section>
-<section class="availability wrap" id="availability"><div><p class="section-label"><span class="status-dot" aria-hidden="true"></span>{escape(h['releaseLabel'])}</p><h2>{escape(h['releaseTitle'])}</h2><p class="section-intro">{escape(h['releaseIntro'])}</p></div><div class="release-plan"><h3>{escape(h['releasePlanTitle'])}</h3><p>{escape(h['releasePlan'])}</p><a class="text-link" href="{url(language, 'support.html')}">{escape(h['supportCTA'])} <span aria-hidden="true">→</span></a></div></section>
+<section class="availability wrap" id="availability"><div><p class="section-label">{escape(h['releaseLabel'])}</p><h2>{escape(h['releaseTitle'])}</h2><p class="section-intro">{escape(h['releaseIntro'])}</p><a class="text-link" href="{STORE_URL}">{escape(h['cta'])} <span aria-hidden="true">↗</span></a></div><div class="release-plan"><h3>{escape(h['releasePlanTitle'])}</h3><p>{escape(h['releasePlan'])}</p><a class="text-link" href="{url(language, 'support.html')}">{escape(h['supportCTA'])} <span aria-hidden="true">→</span></a></div></section>
 <section class="privacy-band"><div class="wrap"><div><h2>{escape(h['privacyTitle'])}</h2><p>{escape(h['privacyIntro'])}</p></div><a class="text-link" href="{url(language, 'privacy.html')}">{escape(h['privacyLink'])} <span aria-hidden="true">→</span></a></div></section></main>'''
 
 
@@ -127,7 +130,7 @@ def build():
             html = f'''<!doctype html>
 <html lang="{code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f8f2">
 <title>{escape(title)}</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{BASE}{url(code, page)}">{alternates}
-<meta property="og:type" content="website"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{BASE}{url(code, page)}"><meta property="og:image" content="{BASE}/assets/scenes/originals/outdoor-coding.png"><meta property="og:site_name" content="BatterVibe">
+<meta property="og:type" content="website"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{BASE}{url(code, page)}"><meta property="og:image" content="{BASE}{CAPTURE_PATH}/{code}/overview.webp"><meta property="og:site_name" content="BatterVibe">
 <link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head><body>{header(code, page, t)}{main}
 <footer class="site-foot"><div class="wrap"><span>BatterVibe · © 2026 Zhiping Jiang</span><div class="foot-links">{footer}</div></div></footer></body></html>
 '''
