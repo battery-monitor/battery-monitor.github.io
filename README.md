@@ -6,8 +6,8 @@
 
 翻译源位于 `locales/*.json`，所有页面共用 `site.css`、`site.js` 和 `assets/`。更新翻译后运行 `python3 tools/build-site.py`，再运行 `python3 tools/check-site.py` 核对 24 个页面及语言跳转。本地预览可运行 `python3 -m http.server 4887 --bind 127.0.0.1`。
 
-官网记录中国大陆 Mac App Store 的公开版本与更新进度。已上架的 1.0 提供电量和功率监测，1.1 更新包含预计续航、终端命令、HDR 增亮和充电上限。兼容设备的高级控制通过控制面板试用或一次性应用内购买，购买可恢复。
+官网展示独立版 **0.10.6（构建 43）**。八种语言的概况、电池详情、桌面控制和最大功耗测试均在同一台 M2 Max 上从该构建实拍。功耗窗口使用同一次 60 秒测试的结果。网页图位于 `assets/app/0.10.6/<语言>/`，每种语言的分享预览由对应的概况截图裁切得到。品牌图标与当前应用一致。
 
-`assets/app/0.10.1/` 保存 0.10.1 实际应用界面，覆盖八种语言。户外使用和合盖场景图由 Image Generation 生成，页面以图注标明。原图、生成说明和早期素材可在 `assets/` 与 `docs/generated-scene-prompts.json` 查看。
+截至 2026 年 11 月 23 日，中国大陆 Mac App Store 提供 1.0 电池与功率监测版。商店更新 1.1（构建 4）已提交 Apple 审核。网站分别介绍可下载的商店版本、1.1 的功能和独立版的硬件控制。
 
-GitHub Pages 从 `main` 分支根目录发布。当前 CNAME、canonical、Open Graph 与语言 alternate 地址统一指向 `battervibe.zpj.io`，语言路径保持不变。DNS、GitHub Pages 自定义域名与外部应用链接的切换由发布步骤单独处理；仓库内地址更新不代表线上域名已经可用。
+GitHub Pages 从 `main` 分支根目录发布，自定义域名为 `battervibe.zpj.io`。

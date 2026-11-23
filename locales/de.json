@@ -8,179 +8,160 @@
   "language": "Sprache",
   "navigation": "Hauptnavigation",
   "home": {
-    "title": "BatterVibe · Akku, Leistung und HDR für den Mac",
-    "kicker": "Für Vibe Coding",
+    "title": "BatterVibe · Leistungsaufnahme, Akkulaufzeit und Energiesteuerung am Mac",
+    "kicker": "Eine Mac-Menüleisten-App für Vibe Coding",
     "headline": [
-      "Nimm deine Ideen",
-      "ein Stück weiter mit."
+      "Reicht dein Netzteil",
+      "für diesen Build?"
     ],
-    "intro": "Behalte Akkustand, Leistung und geschätzte Laufzeit in der Menüleiste im Blick, wenn du unterwegs entwickelst, längere Aufgaben laufen lässt oder eine Powerbank nutzt. Kompatible Macs bieten mehr HDR-Helligkeit.",
-    "cta": "Im Mac App Store laden",
-    "releaseLink": "Versionen und Funktionen ansehen",
-    "compat": "Akku und Leistung in Version 1.0 im Mac App Store in Festlandchina · macOS 13 oder neuer",
-    "heroAlt": "BatterVibe-Menü mit Akkustand, Stromversorgung und drei aktuellen Leistungswerten.",
-    "sceneCaption": "KI-Szene · Schalter aus BatterVibe 0.10.1",
-    "heroTags": [
-      "Leistung auf einen Blick",
-      "Klar im Tageslicht",
-      "Deckel zu. Arbeit läuft weiter."
+    "intro": "Vergleiche Eingangsleistung, Verbrauch des Mac und Nettoleistung des Akkus direkt in der Menüleiste. Auch mit einer Powerbank siehst du, ob der Akku lädt oder zusätzliche Leistung beisteuert.",
+    "cta": "Im Mac App Store ansehen",
+    "releaseLink": "Versionen vergleichen",
+    "compat": "Monitoring-Version 1.0 im Store für Festlandchina · ab macOS 13",
+    "overviewAlt": "Die Übersicht zeigt die Zeit bis zur Vollladung, drei Leistungswerte, Energieeinstellungen und zuletzt besonders energieintensive Apps.",
+    "overviewCaption": "Eigenständige Version 0.10.6 · Übersicht in der Menüleiste",
+    "original": "In Originalgröße ansehen",
+    "jumps": [
+      "Batteriedetails",
+      "Einstellungen für den Mac",
+      "Spitzenleistungstest"
     ],
-    "powerLabel": "Bleib in deinem Editor",
-    "powerTitle": "Den Stromverbrauch des Mac im Blick.",
-    "powerIntro": "Lies Akkustand, Eingangsleistung, Systemverbrauch und Netto-Akkuleistung ab. Die Übersicht zeigt verfügbare Schätzungen für Ladezeit und Restlaufzeit. Details enthalten den Akkuzustand, Ladezyklen und die Temperatur.",
-    "powerFootnote": "Die Eingangsleistung ist der Gleichstrom-Messwert am Anschluss des Macs. Welche Daten verfügbar sind, hängt von Modell, macOS und Stromversorgung ab.",
-    "outdoorLabel": "Mehr Platz für Natur",
-    "outdoorTitle": "Mehr Tageslicht. Mehr Klarheit.",
-    "outdoorIntro": "Ein neuer Ausblick, dieselbe Freude am Gestalten. Nutze die zusätzliche Helligkeit eines kompatiblen Displays, um Code und Websites im Tageslicht besser zu sehen.",
-    "outdoorAlt": "KI-generierter Arbeitsplatz im Garten: Ein Laptop zeigt ein helles Webdesign und Code im Sonnenlicht.",
-    "outdoorFeatures": [
-      [
-        "HDR-Helligkeitsboost",
-        "Nutze die zusätzliche Helligkeitsreserve eines kompatiblen XDR-Displays in heller Umgebung."
+    "battery": {
+      "title": "Wie viel Ladung kann dein Akku heute speichern?",
+      "body": "Vergleiche die aktuelle Kapazität bei Vollladung mit der ursprünglichen Auslegung. Prüfe Batteriezustand, Ladezyklen und Temperatur. Bei angeschlossenem Netzteil siehst du auch die ausgehandelte Leistungsgrenze, Eingangsspannung und Stromstärke.",
+      "note": "Die Übersicht zeigt beim Laden die Zeit bis zur Vollladung. Beim Entladen schätzt sie die verbleibende Laufzeit, auch bei angeschlossenem Netzteil, sofern genügend Messwerte vorliegen.",
+      "alt": "Der Tab „Batterie“ zeigt Kapazität, Zustand, Zyklen, Temperatur und Werte des Netzteils.",
+      "caption": "Batteriedetails bei angeschlossenem Netzteil"
+    },
+    "controls": {
+      "title": "Draußen programmieren, mit geschlossenem Deckel weiterbauen.",
+      "body": "In der Übersicht der eigenständigen Version findest du die Einstellungen, die dein Mac unterstützt.",
+      "items": [
+        [
+          "Helligkeit im Freien",
+          "Mit „HDR-Helligkeit“ nutzt ein kompatibles integriertes XDR-Display zusätzliche Helligkeitsreserven. In Innenräumen kannst du sie wieder ausschalten und Energie sparen."
+        ],
+        [
+          "Mit geschlossenem Deckel",
+          "Starte den Build oder Download und aktiviere „Mit geschlossenem Deckel“. Ein Hintergrunddienst hält die Aufgabe am Laufen. Beim Ausschalten werden die vorherigen Ruhezustandseinstellungen wiederhergestellt."
+        ],
+        [
+          "Laden und Energiemodus",
+          "Klappe das Ladelimit auf und wähle einen Zielwert. Ein manuell gewählter Energiemodus gilt für Batterie- und Netzbetrieb."
+        ]
       ],
-      [
-        "Bei Bedarf einschalten",
-        "Aktiviere den HDR-Boost, wenn du mehr Helligkeit brauchst, und schalte ihn drinnen wieder aus."
-      ]
-    ],
-    "outdoorNote": "HDR wurde auf dem integrierten XDR-Display des MacBook Pro (Mac14,6) geprüft. Andere Modelle sind noch nicht verifiziert. Mehr Helligkeit kann mehr Energie benötigen.",
-    "closedLabel": "Überlass deinem Mac das Warten",
-    "closedTitle": "Zuklappen. Im Flow bleiben.",
-    "closedIntro": "Der Build läuft noch. Der Download ist nicht fertig. Lass deinen Mac auf dem Schreibtisch weiterarbeiten und mach später dort weiter, wo du aufgehört hast.",
-    "closedAlt": "KI-generierte Szene: Ein vollständig geschlossener, ladender Laptop liegt auf einem offenen Holztisch am See.",
-    "closedTags": [
-      "Projekt-Builds",
-      "Downloads",
-      "Lange Agent-Aufgaben"
-    ],
-    "closedNote": "Der Betrieb mit geschlossenem Deckel nutzt die Hintergrundkomponente der Installation über die Website und erfordert eine Systemfreigabe. Über die Menüleiste lässt er sich wieder ausschalten.",
-    "controlLabel": "Das BatterVibe-Bedienfeld",
-    "controlTitle": "Ladelimit und Käufe verwalten.",
-    "controlIntro": "Das Kontrollfenster erklärt Funktionen und Voraussetzungen und verlinkt die Terminalanleitung. Das Mac-App-Store-Update 1.1 ergänzt die Testphase, den In-App-Kauf und die Wiederherstellung.",
-    "controlFeatures": [
-      [
-        "Ladelimit",
-        "Lege auf einem kompatiblen Mac mit Apple-Chip und macOS 26.4 oder neuer ein Ladelimit fest. Das App-Store-Update nutzt einen Apple-Kurzbefehl."
-      ],
-      [
-        "In-App-Kauf",
-        "Erweiterte Funktionen lassen sich 14 Tage kostenlos testen oder per einmaligem In-App-Kauf freischalten."
-      ],
-      [
-        "Käufe wiederherstellen",
-        "Verwende den Apple Account des ursprünglichen Kaufs und stelle ihn im Kontrollfenster wieder her."
-      ]
-    ],
-    "releaseLabel": "Download und Versionen",
-    "releaseTitle": "Version 1.0 ist im Mac App Store verfügbar.",
-    "releaseIntro": "Version 1.0 ist im Store in Festlandchina kostenlos und zeigt Akku- und Leistungswerte. Version 0.10.1 aus der Website-Installation bietet Terminalbefehle und Laufzeitschätzungen sowie HDR, Ladelimit und Betrieb mit geschlossenem Deckel auf kompatiblen Macs.",
-    "releasePlanTitle": "Mac-App-Store-Update 1.1",
-    "releasePlan": "Version 1.1 mit acht Oberflächensprachen, Laufzeitschätzung, Terminalbefehlen, HDR-Helligkeit und Ladelimit ist in Vorbereitung. Die erweiterten Funktionen bieten eine kostenlose 14-tägige Testphase und einen einmaligen In-App-Kauf für 6 CNY in Festlandchina. Die Testphase endet von selbst.",
-    "supportCTA": "Hilfe und Kompatibilität lesen",
-    "privacyTitle": "Deine Messwerte bleiben auf deinem Mac.",
-    "privacyIntro": "Kein separates App-Konto. Batterie- und Leistungswerte werden weder gesammelt noch hochgeladen.",
-    "privacyLink": "Datenschutzerklärung lesen",
-    "captureCaption": "BatterVibe 0.10.1 in der Menüleiste",
-    "detailAlt": "Akkudetails mit Kapazität, Zustand, Ladezyklen, Temperatur und Stromversorgung.",
-    "hdrAlt": "Schalter für HDR-Helligkeit im Menü.",
-    "lidAlt": "Schalter für den Betrieb bei geschlossenem Deckel."
+      "alt": "HDR-Helligkeit, Betrieb mit geschlossenem Deckel, geöffneter Ladelimit-Regler und gemeinsamer Energiemodus für Batterie- und Netzbetrieb.",
+      "caption": "Eigenständige Version · Ausschnitt der Energieeinstellungen"
+    },
+    "peak": {
+      "title": "Spitzenverbrauch von CPU und GPU getrennt messen.",
+      "body": "Öffne den „Spitzenleistungstest“ im Zahnradmenü. Er belastet CPU und GPU bis zu 60 Sekunden lang gleichzeitig, misst alle 0,5 Sekunden die Leistungsaufnahme und speichert den höchsten Wert je Komponente.",
+      "note": "Verfügbar in der eigenständigen Version auf Macs mit Apple Chip und auslesbaren Chip-Leistungswerten. Du kannst jederzeit stoppen. Die Spitzenwerte bleiben bis zum nächsten Test oder Beenden der App sichtbar.",
+      "alt": "Abgeschlossener Test auf einem M2 Max mit getrennten Spitzenwerten für CPU und GPU.",
+      "caption": "M2 Max · Ergebnis eines 60-Sekunden-Tests"
+    },
+    "release": {
+      "title": "Funktionen nach Version",
+      "direct": "Eigenständige Version 0.10.6",
+      "directBody": "Die Bildschirmfotos auf dieser Seite stammen aus dieser Version. Sie bietet den Betrieb mit geschlossenem Deckel, einen gemeinsamen Energiemodus, eine Übersicht energieintensiver Apps und auf kompatiblen Macs den Spitzenleistungstest.",
+      "store": "Mac App Store 1.0",
+      "storeBody": "Im Store für Festlandchina kostenlos erhältlich. Zeigt Akkuladung, aktuelle Leistungswerte und Batteriedetails.",
+      "update": "Store-Update 1.1",
+      "updateBody": "Version 1.1 wurde bei Apple zur Prüfung eingereicht. Sie enthält Laufzeitschätzung, Terminalbefehle und auf kompatiblen Macs HDR-Helligkeit und Ladelimit. Die erweiterten Funktionen bieten 14 Tage kostenlosen Testzugang oder einen einmaligen In-App-Kauf für 6 CNY in Festlandchina.",
+      "support": "Zur Hilfe"
+    },
+    "privacyTitle": "Die Messwerte bleiben auf deinem Mac",
+    "privacyIntro": "Batteriewerte und Testergebnisse für CPU und GPU werden lokal verarbeitet.",
+    "privacyLink": "Datenschutz"
   },
   "support": {
     "title": "Hilfe",
-    "lead": "Hilfe zum Download, zu kompatiblen Macs, Akkuwerten, Testphasen und In-App-Käufen.",
+    "lead": "Hier findest du die Bedeutung der Messwerte, die Funktionen der einzelnen Versionen und Anleitungen für Ladelimit, Deckelbetrieb und Leistungstest.",
     "contactTitle": "Entwickler kontaktieren",
-    "contactIntro": "Bitte nenne Mac-Modell, macOS-Version, App-Version, Installationsweg und die beobachtete Situation.",
+    "contactIntro": "Nenne bitte Mac-Modell, macOS- und BatterVibe-Version, Installationsquelle und das, was du in der App siehst.",
     "faqs": [
       [
-        "Wo lade ich BatterVibe herunter?",
-        "Die kostenlose Version 1.0 zeigt Akku- und Leistungswerte und ist im Mac App Store in Festlandchina verfügbar. Das Update 1.1 ist in Vorbereitung und kann nach der Veröffentlichung im Store installiert werden."
+        "Wo bekomme ich die App und welche Macs unterstützt sie?",
+        "Der Mac App Store für Festlandchina bietet derzeit Version 1.0 zur Batterie- und Leistungsüberwachung ab macOS 13. Batteriedetails gibt es auf MacBooks mit integriertem Akku. Diese Website zeigt die eigenständige Version 0.10.6. Das Store-Update 1.1 wurde zur Prüfung eingereicht."
       ],
       [
-        "Was unterscheidet Menüleiste und Bedienfeld?",
-        "Die Menüleiste zeigt Batterie oder Leistung auf einen Blick. Das eigene Bedienfeld bündelt Funktionserklärungen, Kaufstatus und Wiederherstellung sowie ein Dankeschön. Einzelne Funktionen bedienst du über ihre jeweiligen Zugänge in der App."
+        "Warum ist die Nettoleistung am Netzteil negativ?",
+        "Verbraucht dein Mac mehr Leistung, als am Anschluss ankommt, steuert der Akku die Differenz bei. Positive Werte stehen für Laden, negative für Entladen. Die Eingangsleistung misst Gleichstromleistung am Mac. Die Nennleistung des Netzteils ist eine eigene Angabe."
       ],
       [
-        "Warum ist die Netto-Batterieleistung trotz Netzteil negativ?",
-        "Die Nettoleistung ist Eingang minus Systemverbrauch. Verbraucht der Mac mehr als das Netzteil liefert, gleicht die Batterie die Differenz aus. Die Nennleistung des Netzteils und der aktuelle Gleichstromeingang sind verschiedene Werte. Ein Strich bedeutet, dass ein Wert nicht verfügbar ist."
+        "Wo finde ich Laufzeit und Batteriezustand?",
+        "Die Übersicht zeigt beim Laden die Zeit bis zur Vollladung und beim Entladen die geschätzte Laufzeit. Die Schätzung ändert sich mit der Last. Ein Strich steht für fehlende Daten. Unter „Batterie“ findest du Kapazität, Zustand, Ladezyklen und Temperatur."
       ],
       [
-        "Funktioniert der HDR-Boost auf jedem Mac?",
-        "Nein. Er hängt vom Display ab. Geprüft wurde das integrierte XDR-Display des MacBook Pro (Mac14,6); andere Modelle sind noch nicht verifiziert. Für nicht unterstützte Geräte wird kein Boost zugesagt. Mehr Helligkeit kann den Energieverbrauch erhöhen."
+        "Wie nutze ich HDR und den Betrieb mit geschlossenem Deckel?",
+        "HDR-Helligkeit erfordert ein kompatibles integriertes XDR-Display. Für den Deckelbetrieb registriert die eigenständige Version beim Start einen Hintergrunddienst. Nach einer Unterbrechung verbindet sie sich automatisch wieder. Wenn der Schalter eine Freigabe anfordert, folge dem Link zu „Anmeldeobjekte & Erweiterungen“ in macOS. Beim Ausschalten gelten wieder die vorherigen Ruhezustandseinstellungen."
       ],
       [
-        "Welche Installationswege unterstützen den geschlossenen Deckel?",
-        "Der Betrieb mit geschlossenem Deckel nutzt die Hintergrundkomponente der Installation über die Website und erfordert eine Systemfreigabe. Über die Menüleiste lässt er sich wieder ausschalten."
+        "Wie stelle ich das Ladelimit ein?",
+        "Auf einem kompatiblen Mac mit Apple Chip und macOS 26.4 oder neuer bietet der Regler der eigenständigen Version 80 %, 85 %, 90 %, 95 % und 100 %. Store-Version 1.1 nutzt einen mitgelieferten Apple-Kurzbefehl. Füge ihn vor dem ersten Einsatz hinzu und prüfe das Ergebnis in den Batterieeinstellungen."
       ],
       [
-        "Wie nutze ich die erweiterten Funktionen?",
-        "Sobald das Update 1.1 im Mac App Store verfügbar ist, öffne über das Zahnrad das Kontrollfenster. Starte eine kostenlose 14-tägige Testphase oder schalte die Funktionen per einmaligem In-App-Kauf für 6 CNY frei. Die Testphase endet von selbst. Akku- und Leistungswerte bleiben verfügbar."
+        "Für welche Stromquelle gilt der Energiemodus?",
+        "Eine manuelle Auswahl in der eigenständigen Version ändert die Einstellungen für Batterie- und Netzbetrieb gemeinsam. Der Hochleistungsmodus erscheint auf unterstützten Modellen. Die Liste der zuletzt energieintensiven Apps erfordert einen Apple Chip und macOS 27. Ihre Werte vergleichen die Apps innerhalb dieser Liste."
       ],
       [
-        "Wie stelle ich einen Kauf wieder her?",
-        "Melde dich im App-Store-Update mit dem Apple Account des ursprünglichen Kaufs an und wähle im Kontrollfenster „Käufe wiederherstellen“."
+        "Wie messe ich die Leistungsaufnahme von CPU und GPU?",
+        "Öffne auf einem Mac mit Apple Chip und entsprechenden Messwerten in der eigenständigen Version das Zahnradmenü. Wähle „Spitzenleistungstest“ und dann „Test starten“. Beide Komponenten laufen bis zu 60 Sekunden unter Last. Der höchste Halbsekundenmittelwert jeder Komponente ist ihr Spitzenwert. Du kannst früher stoppen. Ruhezustand oder starke Überhitzung beenden den Test ebenfalls."
       ],
       [
-        "Welche Sprachen werden unterstützt?",
-        "Vereinfachtes und traditionelles Chinesisch, Englisch, Japanisch, Koreanisch, Deutsch, Französisch und Spanisch. Das Sprachmenü der Website bleibt beim entsprechenden Seitentyp. Die App-Sprachwahl wird auf deinem Mac gespeichert."
+        "Wie teste, kaufe oder reaktiviere ich erweiterte Funktionen?",
+        "Sobald Store-Version 1.1 verfügbar ist, öffne über das Zahnradmenü das BatterVibe-Kontrollfenster. Dort kannst du 14 Tage kostenlos testen oder in Festlandchina einmalig 6 CNY zahlen. Der Test endet automatisch, die Überwachung bleibt verfügbar. „Käufe wiederherstellen“ verwendet den Apple Account des ursprünglichen Kaufs."
       ],
       [
-        "Kann ich ein Ladelimit einstellen?",
-        "Auf einem kompatiblen Mac mit Apple-Chip und macOS 26.4 oder neuer kannst du 80 %, 85 %, 90 %, 95 % oder 100 % wählen. Füge im App-Store-Update zuerst den Apple-Kurzbefehl hinzu und prüfe das Ergebnis in den Batterieeinstellungen."
-      ],
-      [
-        "Welche Geräte unterstützen die grundlegende Überwachung?",
-        "Sie benötigt macOS 13 oder neuer und ist für MacBooks mit eingebauter Batterie gedacht. Werte variieren nach Modell und System. Desktop-Macs haben keine batteriespezifischen Werte. HDR und geschlossener Betrieb stellen zusätzliche Anforderungen."
+        "Wie wechsle ich die Sprache?",
+        "Im Zahnradmenü kannst du der Systemsprache folgen oder eine von acht Sprachen wählen. Die Auswahl gilt sofort. Auf der Website öffnet das Sprachmenü oben rechts dieselbe Seite in der gewählten Sprache."
       ]
     ]
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lead": "Messwerte werden auf deinem Mac verarbeitet. Diese Richtlinie beschreibt die lokalen Einstellungen und die Apple-Kaufdienste im Mac-App-Store-Update.",
-    "effective": "Aktualisiert am 21. November 2026",
+    "lead": "Diese Erklärung beschreibt Messwerte und Einstellungen auf deinem Mac sowie den Umgang mit Support-E-Mails und den Kaufdiensten von Apple.",
+    "effective": "Aktualisiert am 23. November 2026",
     "contactTitle": "Datenschutzkontakt",
-    "contactIntro": "Kontaktiere Zhiping Jiang bei Datenschutzfragen oder zur Löschung von Support-Nachrichten.",
+    "contactIntro": "Bei Fragen zum Datenschutz oder zur Löschung von Support-E-Mails wende dich an Zhiping Jiang.",
     "sections": [
       [
-        "Messwerte auf dem Gerät",
-        "BatterVibe liest von macOS bereitgestellte Informationen und zeigt sie lokal an, ohne Batterie- oder Leistungswerte zu erfassen oder zu übertragen. Echtzeitwerte werden im Arbeitsspeicher verarbeitet; eine Batteriehistorie wird nicht als Datenbank gespeichert. Hardware-Seriennummern werden weder im Anzeigemodell aufbewahrt noch an den Entwickler gesendet."
+        "Batterie- und Leistungswerte",
+        "BatterVibe liest Batterie-, Strom- und Temperaturdaten von macOS lokal aus. Aktuelle Messwerte liegen im Arbeitsspeicher. Die App legt keine Batterieverlaufsdatenbank an und sendet weder Messwerte noch Hardware-Seriennummern an den Entwickler."
       ],
       [
-        "Einstellungen und Berechtigungen",
-        "Anzeige- und Spracheinstellungen sowie der Zustand des ersten Starts werden lokal auf deinem Mac gespeichert. Die App benötigt kein Konto und enthält weder Werbung noch Tracking, Drittanbieteranalysen oder Telemetrie. Sie liest für ihre Funktionen keine persönlichen Dokumente, Kontakte, Fotos, Standort-, Kamera- oder Mikrofondaten. Support- und Datenschutzlinks öffnen sich im Systembrowser."
+        "Leistungstest und energieintensive Apps",
+        "Die eigenständige Version liest CPU- und GPU-Leistung sowie die von macOS ermittelten Energiedaten kürzlich aktiver Apps auf deinem Mac. Das Testfenster behält die Spitzenwerte bis zum nächsten Lauf oder Beenden der App."
       ],
       [
-        "Speicherung und Löschung",
-        "Echtzeitwerte werden beim Beenden der App freigegeben. Lokale Einstellungen bleiben erhalten, bis die App-Daten mit macOS-Funktionen entfernt werden. Der Entwickler besitzt keine entfernte Kopie deiner lokalen App-Daten und kann nicht aus der Ferne darauf zugreifen."
+        "Lokale Einstellungen und Berechtigungen",
+        "Anzeige, Sprache und Start bei der Anmeldung werden auf dem Mac gespeichert. macOS kann die Freigabe des Hintergrunddienstes für Deckelbetrieb und Energieeinstellungen anfordern. Die App benötigt kein Konto und enthält weder Werbung noch Tracking oder Analysedienste Dritter."
       ],
       [
-        "Support-Anfragen",
-        "Wenn du freiwillig eine Support-E-Mail sendest, werden Adresse und Inhalt nur zur Antwort und Untersuchung deiner Anfrage verwendet. Du kannst die Löschung der Korrespondenz verlangen, ausgenommen gesetzlich aufzubewahrende Informationen. Bitte sende keine unnötigen personenbezogenen Daten."
+        "Speichern und Löschen",
+        "Beim Beenden werden aktuelle Messwerte aus dem Speicher freigegeben. Einstellungen bleiben erhalten, bis du die entsprechenden App-Daten mit macOS löschst. Der Entwickler hat keinen Fernzugriff auf diese Daten."
       ],
       [
-        "Testphase und In-App-Käufe",
-        "Das Mac-App-Store-Update nutzt Apple StoreKit für Testphase, einmaligen In-App-Kauf und Wiederherstellung. BatterVibe liest den Kaufstatus, um den Zugriff zu prüfen. Zahlungsdaten und Kaufbelege verarbeitet Apple."
+        "Testzugang und Käufe",
+        "Store-Version 1.1 verwendet Apple StoreKit für Testzugang, Einmalkauf und Wiederherstellung. Die App liest den für den Zugriff nötigen Transaktionsstatus. Zahlungsdaten und Kaufbelege werden von Apple verarbeitet."
       ],
       [
-        "Website und Apple-Dienste",
-        "Diese Website bindet weder Werbung noch Analyseskripte von Drittanbietern ein. Der Hosting-Anbieter kann übliche Zugriffsprotokolle zur Bereitstellung und Absicherung der Website verarbeiten. Für App Store-Downloads, Updates und Apples eigene Datenverarbeitung gelten Apples Richtlinien."
-      ],
-      [
-        "Kontakt und Änderungen",
-        "Datenschutzfragen und Löschanfragen zur Support-Korrespondenz kannst du an jiangzp.cs@icloud.com senden. Änderungen dieser Erklärung werden hier mit einem aktualisierten Gültigkeitsdatum veröffentlicht."
+        "E-Mail-Support und Website",
+        "Bei einer Supportanfrage verwenden wir E-Mail-Adresse und Nachricht zur Antwort und Untersuchung. Du kannst die Löschung verlangen, soweit keine gesetzliche Aufbewahrungspflicht besteht. Die Website bindet keine Analyseskripte Dritter ein. Der Hostinganbieter kann übliche Zugriffsprotokolle für Betrieb und Sicherheit verarbeiten. Für den App Store gilt Apples Datenschutzerklärung."
       ]
     ]
   },
   "cli": {
-    "title": "Im Terminal abfragen und steuern",
-    "intro": "Prüfe Akkustand, Leistung und geschätzte Laufzeit. Nutze JSON in Skripten und ändere die Menüleistenanzeige, den HDR-Boost oder verfügbare Einstellungen im Terminal.",
-    "guide": "Anleitung zur Kommandozeile",
-    "setup": "Öffne nach der Installation von Version 0.10.1 über die Website oder dem Mac-App-Store-Update 1.1 das Terminal und führe den passenden Befehl aus. Der erste Aufruf öffnet die Menüleisten-App.",
+    "title": "Leistungswerte im Terminal lesen",
+    "intro": "Übergib Akkustand, Leistung und Zeitschätzungen als JSON an ein Skript oder ändere direkt im Terminal die Anzeige der Menüleiste.",
+    "guide": "Anleitung für die Befehlszeile",
+    "setup": "Ist die eigenständige Version 0.10.6 oder Store-Version 1.1 installiert, richte im Terminal den passenden Alias ein. Beim ersten Befehl startet die Menüleisten-App bei Bedarf.",
     "channels": [
-      "Installation über die Website",
-      "Mac-App-Store-Update 1.1"
+      "Eigenständige Version",
+      "Mac App Store 1.1"
     ],
-    "exampleTitle": "Beispielbefehle",
-    "limits": "Für HDR und Ladelimit gelten dieselben Geräte- und Zugriffsbedingungen wie in der App. Das App-Store-Update benötigt den Apple-Kurzbefehl. Prüfe das Ergebnis in den Batterieeinstellungen. Die Website-Installation bietet auch Befehle für geschlossenen Deckel, Energiemodus und Apps mit hohem Energieverbrauch.",
-    "results": "Exitcode 3 steht für ein unbestätigtes Ergebnis, Code 4 für eine gesendete Anfrage. Prüfe den aktuellen Zustand, bevor du erneut eine Änderung anstößt."
+    "exampleTitle": "Status lesen und Anzeige wechseln",
+    "limits": "Die eigenständige Version bietet auch Befehle für Deckelbetrieb, Energiemodus und energieintensive Apps. Für HDR und Ladelimit gelten die Voraussetzungen der App. Füge für das Ladelimit der Store-Version zuerst den Kurzbefehl hinzu und prüfe das Ergebnis in den Batterieeinstellungen.",
+    "results": "Rückgabecode 3 bedeutet, dass das Ergebnis unbestätigt ist. Code 4 bedeutet, dass die Anfrage gesendet wurde. Prüfe den Zustand, bevor du den Befehl wiederholst."
   }
 }

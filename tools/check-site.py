@@ -15,12 +15,15 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__(); self.language = None; self.picker = False
         self.choices = []; self.assets = []; self.alternates = []; self.canonical = None
+        self.images = []; self.preview = None
     def handle_starttag(self, tag, values):
         attrs = dict(values)
         if tag == 'html': self.language = attrs.get('lang')
         if tag == 'details' and 'language-picker' in attrs.get('class', ''): self.picker = True
         if tag == 'a' and self.picker: self.choices.append(attrs)
         if tag in ('img', 'script') and attrs.get('src'): self.assets.append(attrs['src'])
+        if tag == 'img': self.images.append(attrs)
+        if tag == 'meta' and attrs.get('property') == 'og:image': self.preview = attrs.get('content')
         if tag == 'link' and attrs.get('rel') == 'stylesheet': self.assets.append(attrs['href'])
         if tag == 'link' and attrs.get('rel') == 'alternate': self.alternates.append(attrs)
         if tag == 'link' and attrs.get('rel') == 'canonical': self.canonical = attrs['href']
@@ -42,6 +45,15 @@ for language, (folder, _) in builder.LANGUAGES.items():
             path = urlsplit(choice['href']).path
             assert (ROOT / path.lstrip('/') / ('index.html' if path.endswith('/') else '')).is_file()
         assert page.canonical == builder.BASE + builder.url(language, name)
+        capture_dir = f'{builder.CAPTURE_PATH}/{language}'
+        preview = f'{capture_dir}/share.png'
+        assert page.preview == builder.BASE + preview and (ROOT / preview.lstrip('/')).is_file()
+        if name == 'index.html':
+            shots = [img for img in page.images if img['src'] != '/assets/app-icon.png']
+            expected = {f'{capture_dir}/{slug}.webp': size for slug, size in builder.CAPTURE_SIZES.items()}
+            assert {img['src'] for img in shots} == set(expected), (language, 'product screenshots')
+            for img in shots:
+                assert img.get('alt') and (int(img['width']), int(img['height'])) == expected[img['src']]
         for asset in page.assets: assert (ROOT / urlsplit(asset).path.lstrip('/')).is_file(), asset
         count += 1
-print(f'Checked {count} pages, {count * 8} language routes, assets, current selections and canonical URLs')
+print(f'Checked {count} pages, {count * 8} language routes, localized screenshots and previews, assets and canonical URLs')

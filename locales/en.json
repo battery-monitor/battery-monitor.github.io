@@ -8,179 +8,160 @@
   "language": "Language",
   "navigation": "Main navigation",
   "home": {
-    "title": "BatterVibe · Mac battery, live power, and HDR",
-    "kicker": "Made for Vibe Coding",
+    "title": "BatterVibe · Mac battery runtime, live power and desktop controls",
+    "kicker": "A Mac menu bar app for Vibe Coding",
     "headline": [
-      "Take your ideas",
-      "a little further."
+      "Can your charger",
+      "keep up with this build?"
     ],
-    "intro": "See your Mac’s battery, live power, and estimated runtime in the menu bar while coding away from your desk, running long tasks, or using portable power. Boost HDR brightness on compatible Macs.",
-    "cta": "Download on the Mac App Store",
-    "releaseLink": "See versions and features",
-    "compat": "Battery and power monitoring in mainland China Mac App Store 1.0 · macOS 13 or later",
-    "heroAlt": "BatterVibe menu overview with battery level, power state, and three live power readings.",
-    "sceneCaption": "AI-generated setting · Switch from BatterVibe 0.10.1",
-    "heroTags": [
-      "Power at a glance",
-      "Clear in the daylight",
-      "Lid closed. Work continues."
+    "intro": "Compare power coming in, power used by your Mac and net battery power in the menu bar. Even on a power bank, you can see whether the battery is charging or making up the difference.",
+    "cta": "View on the Mac App Store",
+    "releaseLink": "Compare versions",
+    "compat": "Monitoring version 1.0 in the mainland China store · macOS 13 or later",
+    "overviewAlt": "BatterVibe Overview showing time to full, three power readings, desktop controls and recent high-energy apps.",
+    "overviewCaption": "Standalone 0.10.6 · Menu bar overview",
+    "original": "Full-size image",
+    "jumps": [
+      "Battery details",
+      "Desktop controls",
+      "Peak Power Test"
     ],
-    "powerLabel": "Stay in your editor",
-    "powerTitle": "Know how your Mac is using power.",
-    "powerIntro": "See battery level, input power, system use, and net battery power. The overview shows available charge and runtime estimates. Open Battery Details for battery health, cycles, temperature, and more.",
-    "powerFootnote": "Input power is the DC reading at the Mac’s port. Available readings depend on the Mac, macOS, and power state.",
-    "outdoorLabel": "Make room for nature",
-    "outdoorTitle": "More daylight. More clarity.",
-    "outdoorIntro": "Find a fresh view and keep making things. Use a compatible display’s extra brightness to read code and preview your website in natural light.",
-    "outdoorAlt": "AI-generated garden workspace: a laptop showing a bright web design and code in natural sunlight.",
-    "outdoorFeatures": [
-      [
-        "HDR brightness boost",
-        "Use the extra brightness headroom of a compatible XDR display for viewing in bright surroundings."
+    "battery": {
+      "title": "How much charge can your battery hold today?",
+      "body": "Compare full charge capacity with design capacity, then check battery health, cycle count and temperature. When you plug in, the Battery tab also shows the negotiated power limit, input voltage and current.",
+      "note": "For a time estimate, return to Overview. It shows time to full while charging and estimates remaining runtime while discharging, even when plugged in, when enough data is available.",
+      "alt": "The Battery tab groups full charge capacity, battery health, cycles, temperature and adapter readings.",
+      "caption": "Battery details with external power connected"
+    },
+    "controls": {
+      "title": "Code in daylight. Let a build run with the lid closed.",
+      "body": "Overview brings together the desktop controls available on your Mac in the standalone app.",
+      "items": [
+        [
+          "Outdoor brightness",
+          "Turn on HDR boost to use the extra brightness of a compatible built-in XDR display. Switch it off indoors to conserve power."
+        ],
+        [
+          "Run with Lid Closed",
+          "Start your build or download, then turn on Run with Lid Closed. The background service keeps it running. Turning the switch off restores the previous sleep settings."
+        ],
+        [
+          "Charging and power mode",
+          "Expand Charge limit to choose a target. A manual power mode selection applies to both battery and external power."
+        ]
       ],
-      [
-        "On when you need it",
-        "Turn on HDR boost when you need extra brightness, then turn it off when you head indoors."
-      ]
-    ],
-    "outdoorNote": "HDR has been verified on the built-in XDR display of MacBook Pro (Mac14,6); other models await verification. Boosting brightness may use more power.",
-    "closedLabel": "Leave the waiting to your Mac",
-    "closedTitle": "Close the lid. Keep the flow.",
-    "closedIntro": "The build is still running. The download is not done. Let your Mac keep working on the desk, ready for you to pick up where you left off.",
-    "closedAlt": "AI-generated closed-lid scene: a charging laptop lies fully closed on an open wooden terrace table beside a lake.",
-    "closedTags": [
-      "Project builds",
-      "Downloads",
-      "Long-running agent tasks"
-    ],
-    "closedNote": "Closed-lid operation uses the website distribution’s background component and requires system approval. Turn it off in the menu bar when you finish.",
-    "controlLabel": "The BatterVibe control panel",
-    "controlTitle": "Manage charge limits and purchases.",
-    "controlIntro": "The control panel explains features and requirements and links to the Terminal guide. The Mac App Store 1.1 update adds the trial, in-app purchase, and purchase restoration.",
-    "controlFeatures": [
-      [
-        "Charge limit",
-        "Set a target on a compatible Apple silicon Mac running macOS 26.4 or later. The App Store update uses an Apple shortcut."
-      ],
-      [
-        "In-app purchase",
-        "Try advanced controls free for 14 days or unlock them with a one-time in-app purchase."
-      ],
-      [
-        "Restore purchases",
-        "Sign in with the Apple Account you used to buy and choose Restore Purchases in the control panel."
-      ]
-    ],
-    "releaseLabel": "Downloads and versions",
-    "releaseTitle": "Mac App Store 1.0 is available.",
-    "releaseIntro": "Download 1.0 for free from the mainland China store to monitor battery and power. Website distribution 0.10.1 includes Terminal commands, runtime estimates, and HDR, closed-lid, and charge controls on compatible Macs.",
-    "releasePlanTitle": "Mac App Store 1.1 update",
-    "releasePlan": "Version 1.1 is being prepared with eight interface languages, runtime estimates, Terminal commands, HDR brightness, and charge limits. Advanced controls offer a 14-day free trial and a one-time in-app purchase for CNY 6. The trial ends on its own.",
-    "supportCTA": "Read support and compatibility notes",
-    "privacyTitle": "Your readings stay on your Mac.",
-    "privacyIntro": "No separate app account. Battery and power readings are not collected or uploaded.",
-    "privacyLink": "Read the privacy policy",
-    "captureCaption": "BatterVibe 0.10.1 app capture",
-    "detailAlt": "Battery details showing capacity, health, cycles, temperature, and power supply readings.",
-    "hdrAlt": "HDR brightness switch in the menu panel.",
-    "lidAlt": "Closed-lid operation switch in the menu panel."
+      "alt": "Overview controls showing HDR boost, Run with Lid Closed, the expanded charge limit and a power mode shared by battery and external power.",
+      "caption": "Standalone app · Desktop controls in Overview"
+    },
+    "peak": {
+      "title": "Measure peak CPU and GPU power separately.",
+      "body": "Open Peak Power Test from the gear menu. It loads the CPU and GPU together for up to 60 seconds, samples power every half second and keeps the highest reading for each chip component.",
+      "note": "Available in the standalone app on Apple silicon Macs that report chip power. You can stop early. Peaks stay in the window until the next run or until you quit the app.",
+      "alt": "Completed test on an M2 Max showing separate peak power readings for the CPU and GPU.",
+      "caption": "M2 Max · Results from one 60-second run"
+    },
+    "release": {
+      "title": "What each version includes",
+      "direct": "Standalone 0.10.6",
+      "directBody": "The screenshots on this page show this build. It includes closed-lid operation, a shared power mode, recent high-energy apps and the peak power test on supported Macs.",
+      "store": "Mac App Store 1.0",
+      "storeBody": "Available as a free download in the mainland China store for battery level, live power and battery details.",
+      "update": "Store update 1.1",
+      "updateBody": "Version 1.1 has been submitted to Apple. It includes runtime estimates, Terminal commands, HDR boost and charge limits on compatible Macs. Advanced controls offer a 14-day free trial and a one-time in-app purchase of CNY 6 in mainland China.",
+      "support": "Read the support guide"
+    },
+    "privacyTitle": "Your readings stay on your Mac",
+    "privacyIntro": "Battery readings and CPU and GPU test results are processed locally.",
+    "privacyLink": "Privacy"
   },
   "support": {
     "title": "Support",
-    "lead": "Find downloads, compatibility, and help with battery readings, trials, and in-app purchases.",
+    "lead": "Find out which controls your Mac supports, what the power readings mean and how to run a peak power test.",
     "contactTitle": "Contact the developer",
-    "contactIntro": "Please include your Mac model, macOS version, app version, installation channel and a description of what you see.",
+    "contactIntro": "Include your Mac model, macOS version, BatterVibe version and installation channel, along with what you saw in the app.",
     "faqs": [
       [
-        "Where can I download BatterVibe?",
-        "Version 1.0 is available for free in the mainland China Mac App Store for battery and power monitoring. Version 1.1 is being prepared. You can install it from the App Store once it’s available."
-      ],
-      [
-        "How do the menu bar and control panel differ?",
-        "The menu bar provides a quick battery or power reading. The dedicated panel brings together feature explanations, purchase status and restoration, and a thank-you for your support. Individual features are operated through their respective in-app entry points."
+        "Where can I download BatterVibe, and what does it support?",
+        "The mainland China Mac App Store currently offers version 1.0 for battery and power monitoring on macOS 13 or later. Battery details apply to MacBooks with a built-in battery. This website shows standalone 0.10.6. Store update 1.1 has been submitted to Apple."
       ],
       [
         "Why is net battery power negative when plugged in?",
-        "Net battery power is input minus system usage. When your Mac uses more than the adapter supplies, the battery makes up the difference. Adapter wattage and live DC input are separate readings. A dash means that a reading is unavailable."
+        "If your Mac draws more power than it receives, the battery covers the shortfall. A positive reading means net charging and a negative one means net discharging. Input power measures DC power at the Mac’s port. The charger’s rated wattage is a separate figure."
       ],
       [
-        "Can every Mac use the HDR brightness boost?",
-        "No. HDR boost depends on display capability. It has been verified on the built-in XDR display of MacBook Pro (Mac14,6); other models await verification. Unsupported devices are not promised a boost. Increased brightness may also use more power."
+        "Where can I see runtime and battery health?",
+        "Overview shows time to full when charging and estimated runtime when discharging. Estimates change with the workload. A dash means there is too little information. Open Battery for capacity, health, cycles and temperature."
       ],
       [
-        "Which installation channels support closed-lid operation?",
-        "Closed-lid operation uses the website distribution’s background component and requires system approval. Turn it off in the menu bar when you finish."
+        "How do HDR boost and closed-lid operation work?",
+        "HDR boost requires a compatible built-in XDR display. The standalone app registers its background service at launch and reconnects automatically if the connection drops. This service keeps tasks running with the lid closed. If the switch requests approval, follow its link to Login Items & Extensions in macOS and then return to the app. Switching it off restores the previous sleep settings."
       ],
       [
-        "How do I use the advanced controls?",
-        "When the Mac App Store 1.1 update is available, open Control Panel from the gear menu. Start a 14-day free trial or unlock the controls with a one-time CNY 6 in-app purchase. The trial ends on its own, and battery and power monitoring remain available."
+        "How do I set a charge limit?",
+        "On a compatible Apple silicon Mac running macOS 26.4 or later, expand the standalone app’s slider and choose 80%, 85%, 90%, 95% or 100%. Store version 1.1 uses a bundled Apple shortcut. Add it on first use, then check the result in Battery settings."
       ],
       [
-        "How do I restore a purchase?",
-        "In the App Store update, sign in with the Apple Account you used to buy and choose Restore Purchases in the control panel."
+        "Which power sources does my selected mode affect?",
+        "In the standalone app, choosing a mode updates both the battery and external power settings. High Power is available on supported models. The recent high-energy apps list requires Apple silicon and macOS 27. Its scores compare apps within that list."
       ],
       [
-        "Which languages are supported?",
-        "Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French and Spanish. The website’s language menu keeps you on the corresponding page. App language preferences are stored on your Mac."
+        "How can I measure CPU and GPU power?",
+        "On an Apple silicon Mac with chip power readings, open the standalone app’s gear menu, choose Peak Power Test and click Start Test. Both components run under load for up to 60 seconds. Each peak is the highest half-second average. You can stop at any time. Sleep or severe overheating also ends the test."
       ],
       [
-        "Can I set a charge limit?",
-        "On a compatible Apple silicon Mac with macOS 26.4 or later, choose 80%, 85%, 90%, 95%, or 100%. With the App Store update, add the supplied Apple shortcut first and verify the result in macOS Battery settings."
+        "How do I try, buy or restore advanced controls?",
+        "Once store version 1.1 is available, open the BatterVibe control panel from the gear menu for a 14-day free trial or a one-time purchase of CNY 6 in mainland China. The trial ends automatically and basic monitoring remains available. Choose Restore Purchases with the Apple Account used for the original purchase."
       ],
       [
-        "Which devices support basic monitoring?",
-        "Basic monitoring requires macOS 13 or later and is designed for MacBooks with a built-in battery. Readings vary by model and macOS. Desktop Macs have no battery-specific readings. HDR and closed-lid controls have additional device and installation requirements."
+        "How do I change languages?",
+        "Choose Language in the gear menu to follow the system or select one of eight interface languages. The change takes effect immediately. The website’s language menu opens the same page in the language you choose."
       ]
     ]
   },
   "privacy": {
     "title": "Privacy policy",
-    "lead": "Battery and power readings are processed on your Mac. This policy describes local preferences and the Apple purchase services used in the Mac App Store update.",
-    "effective": "Updated November 21, 2026",
+    "lead": "This policy covers battery and power readings on your Mac, local preferences, support email and Apple purchase services.",
+    "effective": "Updated November 23, 2026",
     "contactTitle": "Privacy contact",
-    "contactIntro": "Contact Zhiping Jiang with privacy questions or to request deletion of support correspondence.",
+    "contactIntro": "Contact Zhiping Jiang with a privacy question or a request to delete support correspondence.",
     "sections": [
       [
-        "On-device readings",
-        "BatterVibe reads information provided by macOS and displays it locally without collecting or transmitting battery or power readings. Live readings are processed in memory, with no battery history database. Hardware serial numbers are not retained in the display model or sent to the developer."
+        "Battery and power readings",
+        "BatterVibe reads macOS battery, power and temperature information locally. Live readings are held in memory. The app keeps no battery history database and sends no readings or hardware serial numbers to the developer."
       ],
       [
-        "Preferences and permissions",
-        "Display and language preferences and first-run state are stored locally on your Mac. The app requires no account and includes no advertising, tracking, third-party analytics, or telemetry. It does not read personal documents, contacts, photos, location, camera, or microphone data for its features. Support and privacy links open in your system browser."
+        "Power tests and high-energy apps",
+        "The standalone app reads CPU and GPU power and recent app energy information on your Mac. The test window keeps the current run’s peaks until you start a new test or quit the app."
+      ],
+      [
+        "Local preferences and permissions",
+        "Menu bar display, language and launch-at-login choices stay on the Mac. macOS may request approval for the background service used by closed-lid and power controls. The app requires no account and includes no advertising, tracking or third-party analytics."
       ],
       [
         "Storage and deletion",
-        "Live readings are released when the app exits. Local preferences remain until the app’s data is removed using macOS facilities. The developer has no remote copy of, or access to, your local app data."
+        "Quitting releases live readings. Preferences remain until you remove the corresponding app data using macOS. The developer cannot access or delete this local data remotely."
       ],
       [
-        "Support requests",
-        "If you voluntarily email support, your email address and message are used only to respond and investigate your request. You may request deletion of support correspondence, except information that must be retained by law. Please avoid sending unnecessary personal information."
+        "Trials and purchases",
+        "Store version 1.1 uses Apple StoreKit for trials, one-time purchases and restoration. The app reads the transaction status needed to determine access. Apple handles payment information and purchase records."
       ],
       [
-        "Trials and in-app purchases",
-        "The Mac App Store update uses Apple StoreKit for trials, one-time in-app purchases, and purchase restoration. BatterVibe reads the purchase status needed to verify access. Apple processes payment details and purchase records."
-      ],
-      [
-        "Website and Apple services",
-        "This website embeds no advertising or third-party analytics scripts. Its hosting provider may process ordinary access logs to serve and secure the site. App Store downloads, updates, and Apple’s own data handling are governed by Apple’s policies."
-      ],
-      [
-        "Contact and updates",
-        "Contact jiangzp.cs@icloud.com for privacy questions or deletion of support correspondence. Changes to this policy will be posted here with an updated effective date."
+        "Support email and website visits",
+        "If you contact support, we use your email address and message to respond and investigate. You may request deletion, subject to legal retention requirements. The website has no third-party analytics scripts. The hosting provider may process routine logs for operation and security. Apple’s privacy policy applies to App Store services."
       ]
     ]
   },
   "cli": {
-    "title": "Read and control from Terminal",
-    "intro": "Check battery, power and estimated runtime. Use JSON in your scripts, or change the menu bar display, HDR boost and supported controls from Terminal.",
-    "guide": "Read the command-line guide",
-    "setup": "After installing website distribution 0.10.1 or the Mac App Store 1.1 update, open Terminal and use the appropriate command. On first use it opens the menu bar app.",
+    "title": "Read power from Terminal",
+    "intro": "Pass battery status, power and time estimates to a script as JSON, or change what the menu bar displays from Terminal.",
+    "guide": "Command-line guide",
+    "setup": "With standalone 0.10.6 or store version 1.1 installed, set the alias below for your installation in Terminal. The first command opens the menu bar app if needed.",
     "channels": [
-      "Website distribution",
-      "Mac App Store 1.1 update"
+      "Standalone app",
+      "Mac App Store 1.1"
     ],
-    "exampleTitle": "Try these commands",
-    "limits": "HDR and charge limits follow the app’s device and access requirements. The App Store update uses the Apple shortcut for charging. Check the result in macOS Battery settings. The website distribution also provides closed-lid, power mode, and high-energy app commands.",
-    "results": "Exit code 3 means the result is unconfirmed. Code 4 means the request was sent. Read the current state before issuing another change."
+    "exampleTitle": "Read status and change the display",
+    "limits": "The standalone app also provides commands for closed-lid operation, power modes and high-energy apps. HDR and charge limits use the same hardware and access requirements as the app. For store charge limits, add the shortcut first and verify the result in Battery settings.",
+    "results": "Exit code 3 means the result is unconfirmed. Code 4 means the request was sent. Read the current state before repeating the command."
   }
 }

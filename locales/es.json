@@ -8,179 +8,160 @@
   "language": "Idioma",
   "navigation": "Navegación principal",
   "home": {
-    "title": "BatterVibe · Batería, potencia y HDR para Mac",
-    "kicker": "Para Vibe Coding",
+    "title": "BatterVibe · Autonomía, potencia en tiempo real y controles del Mac",
+    "kicker": "Una app de la barra de menús para Vibe Coding",
     "headline": [
-      "Lleva tus ideas",
-      "un poco más lejos."
+      "¿Puede tu cargador",
+      "con esta compilación?"
     ],
-    "intro": "Consulta la batería, la potencia en directo y la autonomía estimada en la barra de menús cuando programes fuera, ejecutes tareas largas o uses una batería externa. Aumenta el brillo HDR en un Mac compatible.",
-    "cta": "Descargar en el Mac App Store",
-    "releaseLink": "Ver versiones y funciones",
-    "compat": "Batería y potencia en Mac App Store de China continental, versión 1.0 · macOS 13 o posterior",
-    "heroAlt": "Vista de BatterVibe con nivel de batería, estado de alimentación y tres mediciones de potencia.",
-    "sceneCaption": "Escena generada con IA · Interruptor de BatterVibe 0.10.1",
-    "heroTags": [
-      "Potencia de un vistazo",
-      "Más claridad al sol",
-      "Tapa cerrada. Trabajo en marcha."
+    "intro": "Compara la potencia de entrada, el consumo del Mac y la potencia neta de la batería en la barra de menús. Incluso con una batería externa, verás si el Mac se está cargando o si su propia batería aporta la energía que falta.",
+    "cta": "Ver en el Mac App Store",
+    "releaseLink": "Comparar versiones",
+    "compat": "Versión de monitorización 1.0 en la tienda de China continental · macOS 13 o posterior",
+    "overviewAlt": "El resumen muestra el tiempo hasta la carga completa, tres lecturas de potencia, los controles y las apps con mayor consumo reciente.",
+    "overviewCaption": "Versión independiente 0.10.6 · Resumen de la barra de menús",
+    "original": "Ver a tamaño completo",
+    "jumps": [
+      "Detalles de la batería",
+      "Controles del Mac",
+      "Prueba de potencia máxima"
     ],
-    "powerLabel": "Sin salir de tu editor",
-    "powerTitle": "Consulta el consumo de tu Mac.",
-    "powerIntro": "Consulta el nivel de batería, la potencia de entrada, el consumo del Mac y la potencia neta de la batería. La vista general muestra las estimaciones disponibles de carga y autonomía. Los detalles incluyen la salud de la batería, los ciclos y la temperatura.",
-    "powerFootnote": "La potencia de entrada es la lectura de corriente continua en el puerto del Mac. Los datos dependen del modelo, macOS y la fuente de alimentación.",
-    "outdoorLabel": "Hazle sitio a la naturaleza",
-    "outdoorTitle": "Más luz. Más claridad.",
-    "outdoorIntro": "Cambia de paisaje y sigue creando. Aumenta el brillo de una pantalla compatible para disfrutar mejor de tu trabajo al aire libre.",
-    "outdoorAlt": "Escena de jardín generada con IA: un portátil muestra un diseño web luminoso y código bajo la luz natural.",
-    "outdoorFeatures": [
-      [
-        "Brillo HDR",
-        "Aprovecha el margen de brillo adicional de una pantalla XDR compatible en entornos luminosos."
+    "battery": {
+      "title": "¿Cuánta carga admite hoy tu batería?",
+      "body": "Compara la capacidad de carga completa actual con la capacidad de diseño. Consulta el estado de la batería, los ciclos y la temperatura. Al conectar una fuente de alimentación, también verás el límite de potencia negociado, la tensión y la corriente de entrada.",
+      "note": "Vuelve a Resumen para consultar el tiempo restante. Durante la carga se muestra el tiempo hasta completarla. Durante la descarga se estima la autonomía, incluso con el Mac enchufado, si hay datos suficientes.",
+      "alt": "La pestaña Batería agrupa la capacidad, el estado, los ciclos, la temperatura y las lecturas del adaptador.",
+      "caption": "Detalles de la batería con alimentación externa"
+    },
+    "controls": {
+      "title": "Programa al sol y deja que la compilación siga con la tapa cerrada.",
+      "body": "El resumen de la versión independiente reúne los controles que admite tu Mac.",
+      "items": [
+        [
+          "Brillo en exteriores",
+          "Activa Brillo HDR para aprovechar el margen de brillo de una pantalla XDR integrada compatible. Puedes desactivarlo en interiores para ahorrar energía."
+        ],
+        [
+          "Usar con la tapa cerrada",
+          "Inicia la compilación o descarga y activa «Usar con la tapa cerrada». Un servicio en segundo plano mantiene la tarea en marcha. Al desactivarlo se recuperan los ajustes de reposo anteriores."
+        ],
+        [
+          "Carga y modo de energía",
+          "Despliega Límite de carga para elegir un objetivo. El modo de energía que selecciones manualmente se aplica tanto a la batería como a la alimentación externa."
+        ]
       ],
-      [
-        "Actívalo cuando lo necesites",
-        "Enciende el aumento de brillo cuando haga falta y desactívalo al volver al interior."
-      ]
-    ],
-    "outdoorNote": "El HDR se ha verificado en la pantalla XDR integrada del MacBook Pro (Mac14,6). Otros modelos están pendientes de verificación. Más brillo puede implicar más consumo.",
-    "closedLabel": "Deja la espera en manos del Mac",
-    "closedTitle": "Cierra la tapa. Sigue avanzando.",
-    "closedIntro": "La compilación sigue en marcha. La descarga no ha terminado. Deja que el Mac trabaje sobre la mesa y retoma lo que estabas haciendo a tu regreso.",
-    "closedAlt": "Escena generada con IA: un portátil cargándose, con la tapa totalmente cerrada, sobre una mesa de madera ventilada junto a un lago.",
-    "closedTags": [
-      "Compilaciones",
-      "Descargas",
-      "Tareas largas de agentes"
-    ],
-    "closedNote": "El funcionamiento con la tapa cerrada utiliza el componente en segundo plano de la instalación desde la web y requiere autorización del sistema. Desactívalo en la barra de menús al terminar.",
-    "controlLabel": "El panel de BatterVibe",
-    "controlTitle": "Gestiona la carga y las compras.",
-    "controlIntro": "El panel de control indica las funciones, los requisitos y el uso de Terminal. La actualización 1.1 del Mac App Store añade la prueba, la compra dentro de la app y la opción de restaurarla.",
-    "controlFeatures": [
-      [
-        "Límite de carga",
-        "Elige un objetivo en un Mac compatible con chip de Apple y macOS 26.4 o posterior. La actualización del App Store usa un atajo de Apple."
-      ],
-      [
-        "Compra dentro de la app",
-        "Prueba los controles avanzados gratis durante 14 días o actívalos con una compra única dentro de la app."
-      ],
-      [
-        "Restaurar compras",
-        "Usa la cuenta de Apple con la que compraste y restaura la compra desde el panel de control."
-      ]
-    ],
-    "releaseLabel": "Descarga y versiones",
-    "releaseTitle": "La versión 1.0 está en el Mac App Store.",
-    "releaseIntro": "Descarga gratis la versión 1.0 en la tienda de China continental para consultar la batería y la potencia. La versión 0.10.1 instalada desde la web incluye comandos de Terminal, estimaciones de autonomía y controles de HDR, carga y tapa cerrada en equipos compatibles.",
-    "releasePlanTitle": "Actualización 1.1 del Mac App Store",
-    "releasePlan": "La versión 1.1 está en preparación e incorpora ocho idiomas, autonomía estimada, comandos de Terminal, brillo HDR y límite de carga. Los controles avanzados se pueden probar 14 días gratis o activar con una compra única dentro de la app por 6 CNY en China continental. La prueba termina por sí sola.",
-    "supportCTA": "Leer ayuda y compatibilidad",
-    "privacyTitle": "Tus lecturas se quedan en tu Mac.",
-    "privacyIntro": "Sin cuenta propia de la app. No se recopilan ni se suben lecturas de batería o potencia.",
-    "privacyLink": "Leer la política de privacidad",
-    "captureCaption": "Captura de BatterVibe 0.10.1",
-    "detailAlt": "Detalles de la batería con capacidad, salud, ciclos, temperatura y alimentación.",
-    "hdrAlt": "Interruptor del brillo HDR en el panel de menú.",
-    "lidAlt": "Interruptor de funcionamiento con la tapa cerrada."
+      "alt": "Brillo HDR, uso con la tapa cerrada, regulador de límite de carga desplegado y modo de energía común a las dos fuentes.",
+      "caption": "Versión independiente · Detalle de los controles del resumen"
+    },
+    "peak": {
+      "title": "Mide por separado el consumo máximo de la CPU y la GPU.",
+      "body": "Abre «Prueba de potencia máxima» en el menú del engranaje. La CPU y la GPU funcionan bajo carga simultánea durante un máximo de 60 segundos. La ventana actualiza las lecturas cada medio segundo y conserva el pico de cada componente.",
+      "note": "Disponible en la versión independiente para Mac con chip de Apple que proporcionan lecturas de potencia del chip. Puedes detenerla cuando quieras. Los picos se conservan hasta la siguiente prueba o hasta que salgas de la app.",
+      "alt": "Prueba terminada en un M2 Max con los picos de potencia de la CPU y la GPU por separado.",
+      "caption": "M2 Max · Resultado de una prueba de 60 segundos"
+    },
+    "release": {
+      "title": "Qué incluye cada versión",
+      "direct": "Versión independiente 0.10.6",
+      "directBody": "Las capturas de esta página corresponden a esta versión. Incluye uso con la tapa cerrada, un modo de energía común, apps con mayor consumo reciente y la prueba de potencia máxima en equipos compatibles.",
+      "store": "Mac App Store 1.0",
+      "storeBody": "Descarga gratuita en la tienda de China continental para consultar el nivel de batería, la potencia en tiempo real y los detalles de la batería.",
+      "update": "Actualización 1.1 de la tienda",
+      "updateBody": "La versión 1.1 se ha enviado a Apple para su revisión. Incluye estimaciones de autonomía, comandos de Terminal, brillo HDR y límites de carga en equipos compatibles. Los controles avanzados ofrecen 14 días de prueba gratuita y una compra única dentro de la app por 6 CNY en China continental.",
+      "support": "Consultar la ayuda"
+    },
+    "privacyTitle": "Tus lecturas se quedan en el Mac",
+    "privacyIntro": "Las lecturas de batería y los resultados de las pruebas de CPU y GPU se procesan localmente.",
+    "privacyLink": "Privacidad"
   },
   "support": {
     "title": "Ayuda",
-    "lead": "Información sobre descarga, compatibilidad, batería, periodos de prueba y compras dentro de la app.",
+    "lead": "Consulta qué significan las lecturas, qué incluye cada versión y cómo usar el límite de carga, la tapa cerrada y la prueba de potencia.",
     "contactTitle": "Contactar con el desarrollador",
-    "contactIntro": "Incluye el modelo de Mac, las versiones de macOS y la app, el canal de instalación y lo que observas.",
+    "contactIntro": "Indica el modelo del Mac, las versiones de macOS y de BatterVibe, el canal de instalación y lo que has observado en la app.",
     "faqs": [
       [
-        "¿Dónde descargo BatterVibe?",
-        "La versión 1.0 está disponible gratis en el Mac App Store de China continental para consultar la batería y la potencia. La versión 1.1 está en preparación y se podrá instalar desde la tienda cuando se publique."
+        "¿Dónde se descarga y qué Mac son compatibles?",
+        "El Mac App Store de China continental ofrece actualmente la versión 1.0 para consultar batería y potencia en macOS 13 o posterior. Los detalles de batería están pensados para MacBook con batería integrada. La web muestra la versión independiente 0.10.6. La actualización 1.1 de la tienda ya se ha enviado a revisión."
       ],
       [
-        "¿En qué se diferencian la barra de menús y el panel?",
-        "La barra de menús permite consultar batería o potencia rápidamente. El panel independiente reúne las explicaciones, el estado y la restauración de compras y nuestro agradecimiento. Cada función se utiliza desde su propio acceso en la app."
+        "¿Por qué es negativa la potencia neta con el Mac enchufado?",
+        "Si el Mac consume más potencia de la que recibe por el puerto, la batería cubre la diferencia. Un valor positivo indica carga neta y uno negativo, descarga neta. La entrada mide potencia de corriente continua en el Mac. La potencia nominal del cargador es un dato distinto."
       ],
       [
-        "¿Por qué la potencia neta es negativa con el cargador conectado?",
-        "La potencia neta es la entrada menos el consumo. Si el Mac consume más de lo que entra, la batería aporta la diferencia. La potencia nominal del cargador y la entrada continua real son medidas distintas. Un guion indica que el dato no está disponible."
+        "¿Dónde se ven la autonomía y el estado de la batería?",
+        "Resumen muestra el tiempo hasta la carga completa durante la carga y la autonomía estimada durante la descarga. La estimación cambia con la carga de trabajo. Un guion indica que faltan datos. Abre Batería para consultar capacidad, estado, ciclos y temperatura."
       ],
       [
-        "¿Todos los Mac admiten el aumento de brillo HDR?",
-        "No. Depende de la pantalla. Se ha verificado la XDR integrada del MacBook Pro (Mac14,6); otros modelos siguen pendientes. No se promete aumento en equipos incompatibles. Más brillo también puede aumentar el consumo."
+        "¿Cómo se usan el HDR y la tapa cerrada?",
+        "Brillo HDR requiere una pantalla XDR integrada compatible. La versión independiente registra al arrancar el servicio que permite trabajar con la tapa cerrada y vuelve a conectarse automáticamente si se interrumpe la conexión. Si el control pide aprobación, sigue el enlace a Ítems de inicio y extensiones de macOS. Al desactivarlo se recuperan los ajustes de reposo anteriores."
       ],
       [
-        "¿Qué instalaciones permiten trabajar con la tapa cerrada?",
-        "El funcionamiento con la tapa cerrada utiliza el componente en segundo plano de la instalación desde la web y requiere autorización del sistema. Desactívalo en la barra de menús al terminar."
+        "¿Cómo se fija un límite de carga?",
+        "En un Mac con chip de Apple compatible y macOS 26.4 o posterior, el regulador de la versión independiente permite elegir 80 %, 85 %, 90 %, 95 % o 100 %. La versión 1.1 de la tienda usa un atajo de Apple incluido. Añádelo la primera vez y comprueba el resultado en los ajustes de Batería."
       ],
       [
-        "¿Cómo uso los controles avanzados?",
-        "Cuando se publique la versión 1.1, abre el panel de control desde el icono de engranaje. Inicia la prueba gratuita de 14 días o activa los controles con una compra única de 6 CNY dentro de la app. La prueba termina por sí sola y los datos de batería y potencia siguen disponibles."
+        "¿A qué fuentes se aplica el modo de energía?",
+        "La selección manual en la versión independiente cambia los ajustes de batería y alimentación externa a la vez. El modo de alto rendimiento aparece en modelos compatibles. La lista de apps con mayor consumo reciente requiere un chip de Apple y macOS 27. Sus puntuaciones comparan las apps de esa misma lista."
       ],
       [
-        "¿Cómo restauro una compra?",
-        "En la actualización del App Store, inicia sesión con la cuenta de Apple que usaste para comprar y elige Restaurar compras en el panel de control."
+        "¿Cómo mido el consumo de la CPU y la GPU?",
+        "En un Mac con chip de Apple que ofrezca estas lecturas, abre el engranaje de la versión independiente, elige «Prueba de potencia máxima» y pulsa «Iniciar prueba». Ambos componentes trabajan bajo carga hasta 60 segundos. Cada pico es la mayor media de medio segundo. Puedes detenerla antes. El reposo o un sobrecalentamiento grave también finalizan la prueba."
       ],
       [
-        "¿Qué idiomas se admiten?",
-        "Chino simplificado y tradicional, inglés, japonés, coreano, alemán, francés y español. El selector de la web mantiene el tipo de página. La preferencia de idioma de la app se guarda en el Mac."
+        "¿Cómo pruebo, compro o restauro los controles avanzados?",
+        "Cuando esté disponible la versión 1.1 en la tienda, abre el panel de control de BatterVibe desde el engranaje. Puedes iniciar una prueba gratuita de 14 días o hacer una compra única de 6 CNY en China continental. La prueba termina automáticamente y la monitorización básica sigue disponible. Usa la cuenta de Apple original y elige «Restaurar compras»."
       ],
       [
-        "¿Puedo limitar la carga?",
-        "En un Mac compatible con chip de Apple y macOS 26.4 o posterior, elige el 80 %, 85 %, 90 %, 95 % o 100 %. En la actualización del App Store, añade primero el atajo de Apple incluido y comprueba el resultado en los ajustes de Batería."
-      ],
-      [
-        "¿Qué equipos admiten la monitorización básica?",
-        "Se requiere macOS 13 o posterior y está pensada para MacBook con batería integrada. Las lecturas varían según modelo y sistema. Los Mac de escritorio no tienen valores específicos de batería. El HDR y el uso con tapa cerrada tienen requisitos adicionales."
+        "¿Cómo cambio de idioma?",
+        "Abre Idioma en el menú del engranaje para seguir el idioma del sistema o elegir uno de los ocho disponibles. El cambio es inmediato. El selector de la web abre la misma página en el idioma elegido."
       ]
     ]
   },
   "privacy": {
     "title": "Política de privacidad",
-    "lead": "Las mediciones se procesan en tu Mac. Esta política describe las preferencias locales y los servicios de compra de Apple en la actualización del Mac App Store.",
-    "effective": "Actualizado el 21 de noviembre de 2026",
+    "lead": "Esta política explica el tratamiento de las medidas de batería y potencia, las preferencias del Mac, el correo de soporte y los servicios de compra de Apple.",
+    "effective": "Actualizado el 23 de noviembre de 2026",
     "contactTitle": "Contacto de privacidad",
-    "contactIntro": "Contacta con Zhiping Jiang para preguntas de privacidad o para solicitar la eliminación de mensajes de soporte.",
+    "contactIntro": "Para una consulta de privacidad o para solicitar la eliminación de correos de soporte, contacta con Zhiping Jiang.",
     "sections": [
       [
-        "Lecturas en el dispositivo",
-        "BatterVibe lee información proporcionada por macOS y la muestra localmente, sin recopilar ni transmitir lecturas de batería o potencia. Los datos en tiempo real se procesan en memoria, sin base de datos de historial. Los números de serie del hardware no se conservan en el modelo de visualización ni se envían al desarrollador."
+        "Lecturas de batería y potencia",
+        "BatterVibe lee localmente los datos de batería, alimentación y temperatura que proporciona macOS. Las lecturas en directo se procesan en memoria. La app no crea una base de datos del historial de batería ni envía lecturas o números de serie del equipo al desarrollador."
       ],
       [
-        "Preferencias y permisos",
-        "Las preferencias de visualización e idioma y el estado del primer inicio se guardan en tu Mac. La app no requiere cuenta y no incluye publicidad, rastreo, análisis de terceros ni telemetría. Sus funciones no leen documentos personales, contactos, fotos, ubicación, cámara ni micrófono. Los enlaces de soporte y privacidad se abren en el navegador del sistema."
+        "Pruebas de potencia y apps de alto consumo",
+        "La versión independiente lee en el Mac la potencia de la CPU y la GPU y los datos recientes de consumo de apps que facilita el sistema. La ventana conserva los picos hasta la siguiente prueba o hasta que salgas de la app."
+      ],
+      [
+        "Preferencias locales y permisos",
+        "La visualización, el idioma y la apertura al iniciar sesión se guardan en el Mac. macOS puede solicitar aprobación para el servicio en segundo plano que controla el reposo y la energía. La app no requiere cuenta ni incorpora publicidad, seguimiento o análisis de terceros."
       ],
       [
         "Almacenamiento y eliminación",
-        "Las lecturas en tiempo real se liberan al salir de la app. Las preferencias locales permanecen hasta eliminar los datos de la app con las herramientas de macOS. El desarrollador no tiene una copia remota de esos datos ni puede acceder a ellos a distancia."
+        "Al salir de la app se liberan las lecturas en directo. Las preferencias permanecen hasta que elimines los datos correspondientes mediante macOS. El desarrollador no puede acceder a estos datos ni borrarlos a distancia."
       ],
       [
-        "Solicitudes de soporte",
-        "Si envías voluntariamente un correo de soporte, tu dirección y mensaje solo se usan para responder e investigar tu solicitud. Puedes pedir que se eliminen los mensajes, salvo la información cuya conservación sea obligatoria por ley. Evita enviar datos personales innecesarios."
+        "Pruebas y compras",
+        "La versión 1.1 de la tienda utiliza Apple StoreKit para la prueba gratuita, la compra única y la restauración. La app lee el estado de la transacción necesario para determinar el acceso. Apple gestiona los datos de pago y los registros de compra."
       ],
       [
-        "Prueba y compras dentro de la app",
-        "La actualización del Mac App Store utiliza Apple StoreKit para la prueba, la compra única dentro de la app y la restauración. BatterVibe consulta el estado de la compra para verificar el acceso. Apple procesa los datos de pago y los registros de compra."
-      ],
-      [
-        "Sitio web y servicios de Apple",
-        "Este sitio no incorpora publicidad ni scripts de análisis de terceros. El proveedor de alojamiento puede procesar registros de acceso habituales para prestar y proteger el servicio. Las descargas y actualizaciones del App Store y el tratamiento de datos de Apple se rigen por las políticas de Apple."
-      ],
-      [
-        "Contacto y cambios",
-        "Escribe a jiangzp.cs@icloud.com para preguntas de privacidad o eliminación de mensajes de soporte. Los cambios de esta política se publicarán aquí con una fecha de entrada en vigor actualizada."
+        "Correo de soporte y visitas a la web",
+        "Si contactas con soporte, usamos tu dirección y el contenido de tu correo para responder e investigar. Puedes solicitar su eliminación, salvo que deban conservarse por ley. La web no carga scripts de análisis de terceros. El proveedor de alojamiento puede tratar registros rutinarios por motivos operativos y de seguridad. Los servicios del App Store están sujetos a la política de privacidad de Apple."
       ]
     ]
   },
   "cli": {
-    "title": "Consulta y controla desde Terminal",
-    "intro": "Consulta la batería, la potencia y la autonomía estimada. Usa JSON en tus scripts y cambia la vista de la barra de menús, el brillo HDR y los controles compatibles.",
+    "title": "Consultar la potencia desde Terminal",
+    "intro": "Envía el estado de la batería, la potencia y el tiempo estimado a un script en formato JSON o cambia desde Terminal la lectura de la barra de menús.",
     "guide": "Guía de la línea de comandos",
-    "setup": "Después de instalar la versión 0.10.1 desde la web o la actualización 1.1 del Mac App Store, abre Terminal y usa el comando correspondiente. Al usarlo por primera vez se abre la app de la barra de menús.",
+    "setup": "Con la versión independiente 0.10.6 o la versión 1.1 de la tienda instalada, configura en Terminal el alias de tu canal. El primer comando abrirá la app de la barra de menús si es necesario.",
     "channels": [
-      "Instalación desde la web",
-      "Actualización 1.1 del Mac App Store"
+      "Versión independiente",
+      "Mac App Store 1.1"
     ],
-    "exampleTitle": "Ejemplos de comandos",
-    "limits": "El HDR y el límite de carga tienen los mismos requisitos que en la app. En la actualización del App Store, añade el atajo de Apple y comprueba el resultado en los ajustes de Batería. La instalación desde la web también incluye comandos de tapa cerrada, modo de energía y apps de alto consumo.",
-    "results": "El código de salida 3 indica un resultado sin confirmar y el 4, una solicitud enviada. Consulta el estado antes de hacer otro cambio."
+    "exampleTitle": "Consultar el estado y cambiar la visualización",
+    "limits": "La versión independiente también incluye comandos para la tapa cerrada, los modos de energía y las apps de alto consumo. El HDR y el límite de carga tienen los mismos requisitos de equipo y acceso que en la app. Para el límite de carga de la tienda, añade el atajo y comprueba el resultado en los ajustes de Batería.",
+    "results": "El código de salida 3 indica que el resultado no está confirmado. El código 4 indica que la solicitud se ha enviado. Consulta el estado antes de repetir el comando."
   }
 }
