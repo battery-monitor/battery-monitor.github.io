@@ -8,34 +8,35 @@
   "language": "Language",
   "navigation": "Main navigation",
   "home": {
-    "title": "BatterVibe · Mac battery runtime, live power and desktop controls",
+    "title": "BatterVibe for Mac · CPU activity, live power, and battery life",
     "kicker": "A Mac menu bar app for Vibe Coding",
     "headline": [
-      "Can your charger",
-      "keep up with this build?"
+      "When your Mac slows down,",
+      "see which cores are busy."
     ],
-    "intro": "Compare power coming in, power used by your Mac and net battery power in the menu bar. Even on a power bank, you can see whether the battery is charging or making up the difference.",
+    "intro": "Check processor activity, battery life, and power in your menu bar during a long build, a local model run, or a session on portable power. See whether your charger is keeping up while you work.",
     "cta": "View on the Mac App Store",
     "releaseLink": "Compare versions",
-    "compat": "Monitoring version 1.0 in the mainland China store · macOS 13 or later",
+    "compat": "macOS 13 or later · Mac App Store in mainland China",
     "overviewAlt": "BatterVibe Overview showing time to full, three power readings, desktop controls and recent high-energy apps.",
     "overviewCaption": "Standalone 0.10.6 · Menu bar overview",
     "original": "Full-size image",
     "jumps": [
+      "CPU activity",
       "Battery details",
       "Desktop controls",
       "Peak Power Test"
     ],
     "battery": {
-      "title": "How much charge can your battery hold today?",
-      "body": "Compare full charge capacity with design capacity, then check battery health, cycle count and temperature. When you plug in, the Battery tab also shows the negotiated power limit, input voltage and current.",
-      "note": "For a time estimate, return to Overview. It shows time to full while charging and estimates remaining runtime while discharging, even when plugged in, when enough data is available.",
+      "title": "Find out if your charger is keeping up.",
+      "body": "Compare input power, system draw, and net battery power in Overview. A negative net reading means the battery is supplying the difference. When readings are available, see time to full or estimated battery life.",
+      "note": "Open Battery Details to compare full charge and design capacity and check health, cycles, and temperature. Supported adapters also show power, voltage, and current.",
       "alt": "The Battery tab groups full charge capacity, battery health, cycles, temperature and adapter readings.",
       "caption": "Battery details with external power connected"
     },
     "controls": {
-      "title": "Code in daylight. Let a build run with the lid closed.",
-      "body": "Overview brings together the desktop controls available on your Mac in the standalone app.",
+      "title": "Keep your screen readable and your work running.",
+      "body": "The standalone Overview puts brightness, closed-lid operation, charging, and power mode within reach.",
       "items": [
         [
           "Outdoor brightness",
@@ -54,35 +55,46 @@
       "caption": "Standalone app · Desktop controls in Overview"
     },
     "peak": {
-      "title": "Measure peak CPU and GPU power separately.",
-      "body": "Open Peak Power Test from the gear menu. It loads the CPU and GPU together for up to 60 seconds, samples power every half second and keeps the highest reading for each chip component.",
-      "note": "Available in the standalone app on Apple silicon Macs that report chip power. You can stop early. Peaks stay in the window until the next run or until you quit the app.",
+      "title": "Measure peak CPU and GPU power.",
+      "body": "Start Peak Power Test from the gear menu to load the CPU and GPU together for up to 60 seconds. Readings update twice per second, and the window retains each chip’s peak.",
+      "note": "Available in the standalone edition on supported Apple silicon Macs. You can stop early. Results remain until the next run or until you quit.",
       "alt": "Completed test on an M2 Max showing separate peak power readings for the CPU and GPU.",
       "caption": "M2 Max · Results from one 60-second run"
     },
     "release": {
       "title": "What each version includes",
       "direct": "Standalone 0.10.6",
-      "directBody": "The screenshots on this page show this build. It includes closed-lid operation, a shared power mode, recent high-energy apps and the peak power test on supported Macs.",
-      "store": "Mac App Store 1.0",
-      "storeBody": "Available as a free download in the mainland China store for battery level, live power and battery details.",
-      "update": "Store update 1.1",
-      "updateBody": "Version 1.1 has been submitted to Apple. It includes runtime estimates, Terminal commands, HDR boost and charge limits on compatible Macs. Advanced controls offer a 14-day free trial and a one-time in-app purchase of CNY 6 in mainland China.",
+      "directBody": "On Apple silicon, see CPU and GPU activity, active frequency, and wattage. Compatible Macs also get closed-lid operation, unified power modes, recent energy-intensive apps, and peak power testing.",
+      "store": "Mac App Store 1.1",
+      "storeBody": "Free to download in mainland China. Includes battery and power monitoring, time estimates, and Terminal readings. On compatible Macs, try HDR brightness and charge limits free for 14 days or unlock them with one ¥6 purchase.",
+      "update": "Per-core CPU in the App Store",
+      "updateBody": "Version 1.2 adds a logical-core heatmap to free monitoring. Check the App Store for the version currently available to download.",
       "support": "Read the support guide"
     },
     "privacyTitle": "Your readings stay on your Mac",
-    "privacyIntro": "Battery readings and CPU and GPU test results are processed locally.",
-    "privacyLink": "Privacy"
+    "privacyIntro": "Activity history, power, and battery readings stay on the Mac.",
+    "privacyLink": "Privacy",
+    "chip": {
+      "title": "See 20 seconds of work, core by core.",
+      "body": "Overview starts with current activity percentages. Hover to open the heatmap or click to keep it open. Each CPU core has its own row. Deeper color means the core was busy for more of that second.",
+      "note": "On Apple silicon, the standalone edition groups performance and efficiency cores and shows overall GPU activity. Select a CPU row for its activity and the clock of its cluster, or the GPU row for an estimated clock. Available wattage appears below.",
+      "alt": "Native BatterVibe heatmap with blue performance cores, teal efficiency cores, and a purple GPU row, plus the selected core’s reading.",
+      "caption": "Standalone on Apple silicon · CPU and GPU activity"
+    }
   },
   "support": {
     "title": "Support",
-    "lead": "Find out which controls your Mac supports, what the power readings mean and how to run a peak power test.",
+    "lead": "Learn to read the CPU heatmap and net power, set charging and energy controls, and find the features available in your edition.",
     "contactTitle": "Contact the developer",
     "contactIntro": "Include your Mac model, macOS version, BatterVibe version and installation channel, along with what you saw in the app.",
     "faqs": [
       [
         "Where can I download BatterVibe, and what does it support?",
-        "The mainland China Mac App Store currently offers version 1.0 for battery and power monitoring on macOS 13 or later. Battery details apply to MacBooks with a built-in battery. This website shows standalone 0.10.6. Store update 1.1 has been submitted to Apple."
+        "Version 1.1 is available in the mainland China Mac App Store on macOS 13 or later. Per-core CPU activity starts with App Store version 1.2. Check the storefront for current availability. Battery details require a built-in battery. Supported Apple silicon Macs can view GPU activity, frequency, and wattage in the standalone edition."
+      ],
+      [
+        "How do I read the CPU heatmap?",
+        "Open Overview and hover over the activity percentage, or click to pin the heatmap. Each row tracks a core and each column is about a second. Deeper color means more busy time, and blank cells are gaps in the readings. History starts when you open Overview. The purple row in the standalone edition represents the entire GPU."
       ],
       [
         "Why is net battery power negative when plugged in?",
@@ -110,7 +122,7 @@
       ],
       [
         "How do I try, buy or restore advanced controls?",
-        "Once store version 1.1 is available, open the BatterVibe control panel from the gear menu for a 14-day free trial or a one-time purchase of CNY 6 in mainland China. The trial ends automatically and basic monitoring remains available. Choose Restore Purchases with the Apple Account used for the original purchase."
+        "Open the BatterVibe control panel from the gear menu in the App Store edition. Start the free 14-day trial or make a one-time ¥6 purchase in mainland China. Free monitoring remains available when the trial ends. Use Restore Purchases with the Apple Account you used to buy it."
       ],
       [
         "How do I change languages?",
@@ -121,7 +133,7 @@
   "privacy": {
     "title": "Privacy policy",
     "lead": "This policy covers battery and power readings on your Mac, local preferences, support email and Apple purchase services.",
-    "effective": "Updated November 23, 2026",
+    "effective": "Updated November 26, 2026",
     "contactTitle": "Privacy contact",
     "contactIntro": "Contact Zhiping Jiang with a privacy question or a request to delete support correspondence.",
     "sections": [
@@ -130,8 +142,8 @@
         "BatterVibe reads macOS battery, power and temperature information locally. Live readings are held in memory. The app keeps no battery history database and sends no readings or hardware serial numbers to the developer."
       ],
       [
-        "Power tests and high-energy apps",
-        "The standalone app reads CPU and GPU power and recent app energy information on your Mac. The test window keeps the current run’s peaks until you start a new test or quit the app."
+        "Processor activity and short-term history",
+        "The app samples per-core activity while Overview is open, stores about 20 seconds in memory, and clears it when you leave Overview. The standalone edition also reads supported GPU, chip power, and recent app energy data locally. Peak test results remain until the next run or until you quit."
       ],
       [
         "Local preferences and permissions",
@@ -153,7 +165,7 @@
   },
   "cli": {
     "title": "Read power from Terminal",
-    "intro": "Pass battery status, power and time estimates to a script as JSON, or change what the menu bar displays from Terminal.",
+    "intro": "Read battery and power data as JSON for your scripts, or change the menu bar reading from Terminal.",
     "guide": "Command-line guide",
     "setup": "With standalone 0.10.6 or store version 1.1 installed, set the alias below for your installation in Terminal. The first command opens the menu bar app if needed.",
     "channels": [

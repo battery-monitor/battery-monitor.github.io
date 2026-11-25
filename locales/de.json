@@ -8,34 +8,35 @@
   "language": "Sprache",
   "navigation": "Hauptnavigation",
   "home": {
-    "title": "BatterVibe · Leistungsaufnahme, Akkulaufzeit und Energiesteuerung am Mac",
+    "title": "BatterVibe für Mac · CPU-Auslastung, Stromversorgung und Akku",
     "kicker": "Eine Mac-Menüleisten-App für Vibe Coding",
     "headline": [
-      "Reicht dein Netzteil",
-      "für diesen Build?"
+      "Mac langsam?",
+      "Sieh, welche Kerne arbeiten."
     ],
-    "intro": "Vergleiche Eingangsleistung, Verbrauch des Mac und Nettoleistung des Akkus direkt in der Menüleiste. Auch mit einer Powerbank siehst du, ob der Akku lädt oder zusätzliche Leistung beisteuert.",
+    "intro": "Bei langen Builds, lokalen Modellen oder am mobilen Netzteil siehst du CPU-Auslastung, Akkustand und Leistung direkt in der Menüleiste. So erkennst du beim Arbeiten, ob die Stromversorgung ausreicht.",
     "cta": "Im Mac App Store ansehen",
     "releaseLink": "Versionen vergleichen",
-    "compat": "Monitoring-Version 1.0 im Store für Festlandchina · ab macOS 13",
+    "compat": "Ab macOS 13 · Mac App Store in Festlandchina",
     "overviewAlt": "Die Übersicht zeigt die Zeit bis zur Vollladung, drei Leistungswerte, Energieeinstellungen und zuletzt besonders energieintensive Apps.",
     "overviewCaption": "Eigenständige Version 0.10.6 · Übersicht in der Menüleiste",
     "original": "In Originalgröße ansehen",
     "jumps": [
+      "CPU-Auslastung",
       "Batteriedetails",
       "Einstellungen für den Mac",
       "Spitzenleistungstest"
     ],
     "battery": {
-      "title": "Wie viel Ladung kann dein Akku heute speichern?",
-      "body": "Vergleiche die aktuelle Kapazität bei Vollladung mit der ursprünglichen Auslegung. Prüfe Batteriezustand, Ladezyklen und Temperatur. Bei angeschlossenem Netzteil siehst du auch die ausgehandelte Leistungsgrenze, Eingangsspannung und Stromstärke.",
-      "note": "Die Übersicht zeigt beim Laden die Zeit bis zur Vollladung. Beim Entladen schätzt sie die verbleibende Laufzeit, auch bei angeschlossenem Netzteil, sofern genügend Messwerte vorliegen.",
+      "title": "Reicht die Leistung deines Netzteils?",
+      "body": "Vergleiche Eingangsleistung, Verbrauch des Mac und Nettoleistung des Akkus. Ein negativer Nettowert zeigt, dass der Akku die Differenz deckt. Mit ausreichenden Messwerten siehst du die verbleibende Lade- oder Laufzeit.",
+      "note": "Die Akkudetails zeigen Lade- und Designkapazität, Zustand, Zyklen und Temperatur. Für geeignete Netzteile sind auch Leistung, Spannung und Stromstärke sichtbar.",
       "alt": "Der Tab „Batterie“ zeigt Kapazität, Zustand, Zyklen, Temperatur und Werte des Netzteils.",
       "caption": "Batteriedetails bei angeschlossenem Netzteil"
     },
     "controls": {
-      "title": "Draußen programmieren, mit geschlossenem Deckel weiterbauen.",
-      "body": "In der Übersicht der eigenständigen Version findest du die Einstellungen, die dein Mac unterstützt.",
+      "title": "Draußen besser sehen und weiterarbeiten.",
+      "body": "Helligkeit, Betrieb bei geschlossenem Deckel, Laden und Energiemodus lassen sich in der eigenständigen Übersicht einstellen.",
       "items": [
         [
           "Helligkeit im Freien",
@@ -54,35 +55,46 @@
       "caption": "Eigenständige Version · Ausschnitt der Energieeinstellungen"
     },
     "peak": {
-      "title": "Spitzenverbrauch von CPU und GPU getrennt messen.",
-      "body": "Öffne den „Spitzenleistungstest“ im Zahnradmenü. Er belastet CPU und GPU bis zu 60 Sekunden lang gleichzeitig, misst alle 0,5 Sekunden die Leistungsaufnahme und speichert den höchsten Wert je Komponente.",
-      "note": "Verfügbar in der eigenständigen Version auf Macs mit Apple Chip und auslesbaren Chip-Leistungswerten. Du kannst jederzeit stoppen. Die Spitzenwerte bleiben bis zum nächsten Test oder Beenden der App sichtbar.",
+      "title": "Spitzenleistung von CPU und GPU messen.",
+      "body": "Starte den Test im Zahnradmenü. CPU und GPU laufen bis zu 60 Sekunden gleichzeitig unter Last. Das Fenster misst zweimal pro Sekunde und merkt sich beide Spitzenwerte.",
+      "note": "Verfügbar in der eigenständigen Ausgabe auf unterstützten Macs mit Apple-Chip. Du kannst den Test jederzeit stoppen. Das Ergebnis bleibt bis zum nächsten Test oder Beenden sichtbar.",
       "alt": "Abgeschlossener Test auf einem M2 Max mit getrennten Spitzenwerten für CPU und GPU.",
       "caption": "M2 Max · Ergebnis eines 60-Sekunden-Tests"
     },
     "release": {
       "title": "Funktionen nach Version",
       "direct": "Eigenständige Version 0.10.6",
-      "directBody": "Die Bildschirmfotos auf dieser Seite stammen aus dieser Version. Sie bietet den Betrieb mit geschlossenem Deckel, einen gemeinsamen Energiemodus, eine Übersicht energieintensiver Apps und auf kompatiblen Macs den Spitzenleistungstest.",
-      "store": "Mac App Store 1.0",
-      "storeBody": "Im Store für Festlandchina kostenlos erhältlich. Zeigt Akkuladung, aktuelle Leistungswerte und Batteriedetails.",
-      "update": "Store-Update 1.1",
-      "updateBody": "Version 1.1 wurde bei Apple zur Prüfung eingereicht. Sie enthält Laufzeitschätzung, Terminalbefehle und auf kompatiblen Macs HDR-Helligkeit und Ladelimit. Die erweiterten Funktionen bieten 14 Tage kostenlosen Testzugang oder einen einmaligen In-App-Kauf für 6 CNY in Festlandchina.",
+      "directBody": "Auf Apple-Chips zeigt die eigenständige Ausgabe CPU- und GPU-Auslastung, Takt und Leistungsaufnahme. Unterstützte Macs bieten auch Betrieb bei geschlossenem Deckel, einen einheitlichen Energiemodus, Apps mit hohem Verbrauch und den Leistungstest.",
+      "store": "Mac App Store 1.1",
+      "storeBody": "In Festlandchina kostenlos verfügbar. Enthält Akku- und Leistungsmessung, Zeitschätzungen und Terminalabfragen. HDR-Helligkeit und Ladelimit kannst du auf geeigneten Macs 14 Tage kostenlos testen oder einmalig für 6 Yuan kaufen.",
+      "update": "CPU-Heatmap im App Store",
+      "updateBody": "Version 1.2 ergänzt die kostenlose Überwachung um eine Heatmap pro logischem Kern. Die verfügbare Version steht im App Store.",
       "support": "Zur Hilfe"
     },
     "privacyTitle": "Die Messwerte bleiben auf deinem Mac",
-    "privacyIntro": "Batteriewerte und Testergebnisse für CPU und GPU werden lokal verarbeitet.",
-    "privacyLink": "Datenschutz"
+    "privacyIntro": "Auslastungsverlauf, Leistungswerte und Akkudaten bleiben auf dem Mac.",
+    "privacyLink": "Datenschutz",
+    "chip": {
+      "title": "20 Sekunden Auslastung für jeden Kern.",
+      "body": "Die Übersicht zeigt zuerst die aktuelle Auslastung in Prozent. Zum Öffnen der Heatmap kurz mit der Maus darüberfahren. Ein Klick hält sie offen. Jede Zeile gehört zu einem CPU-Kern. Eine kräftigere Farbe steht für mehr aktive Zeit in dieser Sekunde.",
+      "note": "Auf Apple-Chips gruppiert die eigenständige Ausgabe Performance- und Effizienzkerne und zeigt die gesamte GPU-Auslastung. Eine CPU-Zeile zeigt Auslastung und Takt der zugehörigen Kerngruppe. Die GPU-Zeile zeigt den geschätzten Takt. Verfügbare Leistungswerte stehen darunter.",
+      "alt": "BatterVibe-Heatmap mit blauen Performancekernen, türkisen Effizienzkernen und violetter GPU-Zeile. Unter dem Diagramm steht der Wert des ausgewählten Kerns.",
+      "caption": "Eigenständige Ausgabe für Apple-Chips · CPU und GPU"
+    }
   },
   "support": {
     "title": "Hilfe",
-    "lead": "Hier findest du die Bedeutung der Messwerte, die Funktionen der einzelnen Versionen und Anleitungen für Ladelimit, Deckelbetrieb und Leistungstest.",
+    "lead": "Hier erfährst du, wie du Heatmap und Nettoleistung liest, Laden und Energiemodi einstellst und die passende Ausgabe findest.",
     "contactTitle": "Entwickler kontaktieren",
     "contactIntro": "Nenne bitte Mac-Modell, macOS- und BatterVibe-Version, Installationsquelle und das, was du in der App siehst.",
     "faqs": [
       [
         "Wo bekomme ich die App und welche Macs unterstützt sie?",
-        "Der Mac App Store für Festlandchina bietet derzeit Version 1.0 zur Batterie- und Leistungsüberwachung ab macOS 13. Batteriedetails gibt es auf MacBooks mit integriertem Akku. Diese Website zeigt die eigenständige Version 0.10.6. Das Store-Update 1.1 wurde zur Prüfung eingereicht."
+        "Version 1.1 ist im Mac App Store in Festlandchina verfügbar und erfordert macOS 13 oder neuer. Die CPU-Heatmap kommt ab Store-Version 1.2. Welche Version zum Download bereitsteht, erfährst du im Store. Akkudetails setzen einen integrierten Akku voraus. GPU-Auslastung, Takt und Leistung zeigt die eigenständige Ausgabe auf unterstützten Apple-Chips."
+      ],
+      [
+        "Wie lese ich die CPU-Heatmap?",
+        "Öffne die Übersicht und fahre über den Prozentwert. Per Klick hältst du die Heatmap offen. Jede Zeile steht für einen Kern und jede Spalte für etwa eine Sekunde. Kräftige Farbe zeigt längere aktive Zeit, leere Felder stehen für fehlende Messwerte. Beim Öffnen der Übersicht beginnt die Aufzeichnung. Die violette Zeile der eigenständigen Ausgabe steht für die gesamte GPU."
       ],
       [
         "Warum ist die Nettoleistung am Netzteil negativ?",
@@ -110,7 +122,7 @@
       ],
       [
         "Wie teste, kaufe oder reaktiviere ich erweiterte Funktionen?",
-        "Sobald Store-Version 1.1 verfügbar ist, öffne über das Zahnradmenü das BatterVibe-Kontrollfenster. Dort kannst du 14 Tage kostenlos testen oder in Festlandchina einmalig 6 CNY zahlen. Der Test endet automatisch, die Überwachung bleibt verfügbar. „Käufe wiederherstellen“ verwendet den Apple Account des ursprünglichen Kaufs."
+        "Öffne im Zahnradmenü der Store-Ausgabe das BatterVibe-Kontrollpanel. Dort kannst du 14 Tage kostenlos testen oder in Festlandchina einmalig für 6 Yuan kaufen. Die kostenlose Überwachung läuft danach weiter. Stelle frühere Käufe mit dem beim Kauf verwendeten Apple Account wieder her."
       ],
       [
         "Wie wechsle ich die Sprache?",
@@ -121,7 +133,7 @@
   "privacy": {
     "title": "Datenschutzerklärung",
     "lead": "Diese Erklärung beschreibt Messwerte und Einstellungen auf deinem Mac sowie den Umgang mit Support-E-Mails und den Kaufdiensten von Apple.",
-    "effective": "Aktualisiert am 23. November 2026",
+    "effective": "Stand 26. November 2026",
     "contactTitle": "Datenschutzkontakt",
     "contactIntro": "Bei Fragen zum Datenschutz oder zur Löschung von Support-E-Mails wende dich an Zhiping Jiang.",
     "sections": [
@@ -130,8 +142,8 @@
         "BatterVibe liest Batterie-, Strom- und Temperaturdaten von macOS lokal aus. Aktuelle Messwerte liegen im Arbeitsspeicher. Die App legt keine Batterieverlaufsdatenbank an und sendet weder Messwerte noch Hardware-Seriennummern an den Entwickler."
       ],
       [
-        "Leistungstest und energieintensive Apps",
-        "Die eigenständige Version liest CPU- und GPU-Leistung sowie die von macOS ermittelten Energiedaten kürzlich aktiver Apps auf deinem Mac. Das Testfenster behält die Spitzenwerte bis zum nächsten Lauf oder Beenden der App."
+        "CPU, GPU und kurzer Verlauf",
+        "Die App erfasst die Auslastung pro Kern bei geöffneter Übersicht, hält etwa 20 Sekunden im Arbeitsspeicher und löscht den Verlauf beim Verlassen der Übersicht. Die eigenständige Ausgabe liest unterstützte GPU- und Verbrauchsdaten lokal aus. Spitzenwerte bleiben bis zum nächsten Test oder bis zum Beenden erhalten."
       ],
       [
         "Lokale Einstellungen und Berechtigungen",
@@ -153,7 +165,7 @@
   },
   "cli": {
     "title": "Leistungswerte im Terminal lesen",
-    "intro": "Übergib Akkustand, Leistung und Zeitschätzungen als JSON an ein Skript oder ändere direkt im Terminal die Anzeige der Menüleiste.",
+    "intro": "Lies Akku- und Leistungswerte als JSON für Skripte aus oder ändere die Menüleistenanzeige im Terminal.",
     "guide": "Anleitung für die Befehlszeile",
     "setup": "Ist die eigenständige Version 0.10.6 oder Store-Version 1.1 installiert, richte im Terminal den passenden Alias ein. Beim ersten Befehl startet die Menüleisten-App bei Bedarf.",
     "channels": [

@@ -8,9 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://battervibe.zpj.io"
 STORE_URL = "https://apps.apple.com/cn/app/battervibe/id6833069090?mt=12"
 DIRECT_VERSION = "0.10.6"
+SITE_REVISION = "20261126"
 CAPTURE_PATH = f"/assets/app/{DIRECT_VERSION}"
 CAPTURE_SIZES = {"overview": (682, 1299), "details": (682, 1095),
-                 "controls": (680, 581), "peak": (1028, 708)}
+                 "controls": (680, 581), "peak": (1028, 708), "activity": (632, 526)}
 LANGUAGES = {"zh-Hans": ("", "简体中文"), "zh-Hant": ("zh-Hant", "繁體中文"),
              "en": ("en", "English"), "ja": ("ja", "日本語"), "ko": ("ko", "한국어"),
              "de": ("de", "Deutsch"), "fr": ("fr", "Français"), "es": ("es", "Español")}
@@ -56,10 +57,10 @@ def header(language, page, t):
 
 def home(language, t):
     h = t['home']
-    battery, controls, peak, release = (h[key] for key in ('battery', 'controls', 'peak', 'release'))
+    chip, battery, controls, peak, release = (h[key] for key in ('chip', 'battery', 'controls', 'peak', 'release'))
     cli = t['cli']
     jumps = ''.join(f'<a href="#{anchor}">{escape(label)} <span aria-hidden="true">↓</span></a>'
-                    for anchor, label in zip(('power', 'daylight', 'peak'), h['jumps']))
+                    for anchor, label in zip(('activity', 'power', 'daylight', 'peak'), h['jumps']))
     # Keep the original closed-lid deep link on the matching control.
     items = ''.join(f'<div{id_attr}><dt>{escape(title)}</dt><dd>{escape(body)}</dd></div>'
                     for id_attr, (title, body) in zip(('', ' id="flow"', ''), controls['items']))
@@ -72,13 +73,16 @@ def home(language, t):
 <p class="compat">{escape(h['compat'])}</p></div>
 {shot(language,'overview',h['overviewAlt'],h['overviewCaption'],h['original'])}</section>
 <div class="jump-links wrap">{jumps}</div>
-<section class="feature wrap" id="power"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][0])}</p>
+<section class="feature wrap" id="activity"><div class="feature-copy">
+<h2>{escape(chip['title'])}</h2><p>{escape(chip['body'])}</p><p>{escape(chip['note'])}</p></div>
+{shot(language,'activity',chip['alt'],chip['caption'],h['original'])}</section>
+<section class="feature wrap" id="power"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][1])}</p>
 <h2>{escape(battery['title'])}</h2><p>{escape(battery['body'])}</p><p>{escape(battery['note'])}</p></div>
 {shot(language,'details',battery['alt'],battery['caption'],h['original'])}</section>
-<section class="controls-band"><div class="feature wrap" id="daylight"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][1])}</p>
+<section class="controls-band"><div class="feature wrap" id="daylight"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][2])}</p>
 <h2>{escape(controls['title'])}</h2><p>{escape(controls['body'])}</p><dl class="feature-list">{items}</dl></div>
 {shot(language,'controls',controls['alt'],controls['caption'],h['original'])}</div></section>
-<section class="feature feature-peak wrap" id="peak"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][2])}</p>
+<section class="feature feature-peak wrap" id="peak"><div class="feature-copy"><p class="section-label">{escape(h['jumps'][3])}</p>
 <h2>{escape(peak['title'])}</h2><p>{escape(peak['body'])}</p><p>{escape(peak['note'])}</p></div>
 {shot(language,'peak',peak['alt'],peak['caption'],h['original'])}</section>
 <section class="cli-section wrap" id="cli"><div><h2>{escape(cli['title'])}</h2><p>{escape(cli['intro'])}</p>
@@ -127,8 +131,8 @@ def build():
             html = f'''<!doctype html>
 <html lang="{code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f8f2">
 <title>{escape(title)}</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{BASE}{url(code, page)}">{alternates}
-<meta property="og:type" content="website"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{BASE}{url(code, page)}"><meta property="og:image" content="{BASE}{CAPTURE_PATH}/{code}/share.png"><meta property="og:image:width" content="864"><meta property="og:image:height" content="454"><meta property="og:image:alt" content="{escape(t['home']['overviewCaption'])}"><meta property="og:site_name" content="BatterVibe">
-<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v={DIRECT_VERSION}"><script src="/site.js" defer></script></head><body>{header(code, page, t)}{main}
+<meta property="og:type" content="website"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{BASE}{url(code, page)}"><meta property="og:image" content="{BASE}{CAPTURE_PATH}/{code}/share.png"><meta property="og:image:width" content="864"><meta property="og:image:height" content="454"><meta property="og:image:alt" content="{escape(t['home']['chip']['caption'])}"><meta property="og:site_name" content="BatterVibe">
+<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v={SITE_REVISION}"><script src="/site.js" defer></script></head><body>{header(code, page, t)}{main}
 <footer class="site-foot"><div class="wrap"><span>BatterVibe · © 2026 Zhiping Jiang</span><div class="foot-links">{footer}</div></div></footer></body></html>
 '''
             output = ROOT / LANGUAGES[code][0] / page

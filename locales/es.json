@@ -8,34 +8,35 @@
   "language": "Idioma",
   "navigation": "Navegación principal",
   "home": {
-    "title": "BatterVibe · Autonomía, potencia en tiempo real y controles del Mac",
+    "title": "BatterVibe para Mac · CPU por núcleo, potencia y batería",
     "kicker": "Una app de la barra de menús para Vibe Coding",
     "headline": [
-      "¿Puede tu cargador",
-      "con esta compilación?"
+      "¿Va lento el Mac?",
+      "Mira qué núcleos trabajan."
     ],
-    "intro": "Compara la potencia de entrada, el consumo del Mac y la potencia neta de la batería en la barra de menús. Incluso con una batería externa, verás si el Mac se está cargando o si su propia batería aporta la energía que falta.",
+    "intro": "Durante una compilación larga, al ejecutar un modelo local o al usar una batería externa, consulta la actividad de la CPU, la batería y la potencia en la barra de menús. Comprueba si tu cargador cubre el consumo mientras trabajas.",
     "cta": "Ver en el Mac App Store",
     "releaseLink": "Comparar versiones",
-    "compat": "Versión de monitorización 1.0 en la tienda de China continental · macOS 13 o posterior",
+    "compat": "macOS 13 o posterior · Mac App Store en China continental",
     "overviewAlt": "El resumen muestra el tiempo hasta la carga completa, tres lecturas de potencia, los controles y las apps con mayor consumo reciente.",
     "overviewCaption": "Versión independiente 0.10.6 · Resumen de la barra de menús",
     "original": "Ver a tamaño completo",
     "jumps": [
+      "Actividad de la CPU",
       "Detalles de la batería",
       "Controles del Mac",
       "Prueba de potencia máxima"
     ],
     "battery": {
-      "title": "¿Cuánta carga admite hoy tu batería?",
-      "body": "Compara la capacidad de carga completa actual con la capacidad de diseño. Consulta el estado de la batería, los ciclos y la temperatura. Al conectar una fuente de alimentación, también verás el límite de potencia negociado, la tensión y la corriente de entrada.",
-      "note": "Vuelve a Resumen para consultar el tiempo restante. Durante la carga se muestra el tiempo hasta completarla. Durante la descarga se estima la autonomía, incluso con el Mac enchufado, si hay datos suficientes.",
+      "title": "Comprueba si el cargador cubre el consumo.",
+      "body": "Compara la potencia de entrada, el consumo del Mac y la potencia neta de la batería. Una cifra neta negativa indica que la batería suministra la diferencia. Cuando hay datos suficientes, el resumen estima el tiempo de carga o la autonomía.",
+      "note": "Los detalles de la batería muestran la capacidad actual y de diseño, la salud, los ciclos y la temperatura. Los adaptadores compatibles también muestran potencia, tensión y corriente.",
       "alt": "La pestaña Batería agrupa la capacidad, el estado, los ciclos, la temperatura y las lecturas del adaptador.",
       "caption": "Detalles de la batería con alimentación externa"
     },
     "controls": {
-      "title": "Programa al sol y deja que la compilación siga con la tapa cerrada.",
-      "body": "El resumen de la versión independiente reúne los controles que admite tu Mac.",
+      "title": "Lee mejor la pantalla y sigue trabajando.",
+      "body": "Ajusta el brillo, el funcionamiento con la tapa cerrada, la carga y el modo de energía desde el resumen de la edición independiente.",
       "items": [
         [
           "Brillo en exteriores",
@@ -54,35 +55,46 @@
       "caption": "Versión independiente · Detalle de los controles del resumen"
     },
     "peak": {
-      "title": "Mide por separado el consumo máximo de la CPU y la GPU.",
-      "body": "Abre «Prueba de potencia máxima» en el menú del engranaje. La CPU y la GPU funcionan bajo carga simultánea durante un máximo de 60 segundos. La ventana actualiza las lecturas cada medio segundo y conserva el pico de cada componente.",
-      "note": "Disponible en la versión independiente para Mac con chip de Apple que proporcionan lecturas de potencia del chip. Puedes detenerla cuando quieras. Los picos se conservan hasta la siguiente prueba o hasta que salgas de la app.",
+      "title": "Mide la potencia máxima de la CPU y la GPU.",
+      "body": "Inicia la prueba en el menú del engranaje. La CPU y la GPU trabajan a la vez con carga alta durante un máximo de 60 segundos. Las lecturas cambian dos veces por segundo y se guarda el máximo de cada chip.",
+      "note": "Disponible en la edición independiente para Mac compatibles con chip de Apple. Puedes detenerla en cualquier momento. El resultado permanece hasta la siguiente prueba o hasta que cierres la app.",
       "alt": "Prueba terminada en un M2 Max con los picos de potencia de la CPU y la GPU por separado.",
       "caption": "M2 Max · Resultado de una prueba de 60 segundos"
     },
     "release": {
       "title": "Qué incluye cada versión",
       "direct": "Versión independiente 0.10.6",
-      "directBody": "Las capturas de esta página corresponden a esta versión. Incluye uso con la tapa cerrada, un modo de energía común, apps con mayor consumo reciente y la prueba de potencia máxima en equipos compatibles.",
-      "store": "Mac App Store 1.0",
-      "storeBody": "Descarga gratuita en la tienda de China continental para consultar el nivel de batería, la potencia en tiempo real y los detalles de la batería.",
-      "update": "Actualización 1.1 de la tienda",
-      "updateBody": "La versión 1.1 se ha enviado a Apple para su revisión. Incluye estimaciones de autonomía, comandos de Terminal, brillo HDR y límites de carga en equipos compatibles. Los controles avanzados ofrecen 14 días de prueba gratuita y una compra única dentro de la app por 6 CNY en China continental.",
+      "directBody": "En los Mac compatibles con chip de Apple puedes ver la actividad de la CPU y la GPU, su frecuencia y su consumo. Según el equipo, también puedes usarlo con la tapa cerrada, elegir un modo de energía, ver apps de alto consumo y medir la potencia máxima.",
+      "store": "Mac App Store 1.1",
+      "storeBody": "Descarga gratis en China continental. Incluye lecturas de batería y potencia, estimación de tiempo y consultas en Terminal. Prueba gratis durante 14 días el brillo HDR y el límite de carga en un Mac compatible o desbloquéalos con una compra única de 6 yuanes.",
+      "update": "Mapa de la CPU en App Store",
+      "updateBody": "La versión 1.2 añade un mapa por núcleo lógico a las funciones gratuitas. Consulta en App Store la versión que está disponible para descargar.",
       "support": "Consultar la ayuda"
     },
     "privacyTitle": "Tus lecturas se quedan en el Mac",
-    "privacyIntro": "Las lecturas de batería y los resultados de las pruebas de CPU y GPU se procesan localmente.",
-    "privacyLink": "Privacidad"
+    "privacyIntro": "El historial de actividad y los datos de potencia y batería se quedan en el Mac.",
+    "privacyLink": "Privacidad",
+    "chip": {
+      "title": "Ve veinte segundos de actividad, núcleo a núcleo.",
+      "body": "El resumen muestra los porcentajes actuales. Pon el cursor encima para abrir el mapa de calor o haz clic para mantenerlo abierto. Cada fila corresponde a un núcleo. Un color más intenso indica que estuvo ocupado durante más tiempo en ese segundo.",
+      "note": "En los chips de Apple, la edición independiente agrupa los núcleos de rendimiento y eficiencia y muestra toda la GPU. Al elegir una fila de CPU ves la actividad del núcleo y la frecuencia de su grupo. La fila de la GPU muestra una frecuencia estimada. Los vatios disponibles aparecen debajo.",
+      "alt": "Mapa de calor de BatterVibe con los núcleos de rendimiento en azul, los de eficiencia en turquesa y la GPU en morado. Debajo aparece el valor del núcleo seleccionado.",
+      "caption": "Edición independiente para chips de Apple · CPU y GPU"
+    }
   },
   "support": {
     "title": "Ayuda",
-    "lead": "Consulta qué significan las lecturas, qué incluye cada versión y cómo usar el límite de carga, la tapa cerrada y la prueba de potencia.",
+    "lead": "Aprende a leer el mapa de calor y la potencia neta, ajustar la carga y la energía, y encontrar las funciones de tu edición.",
     "contactTitle": "Contactar con el desarrollador",
     "contactIntro": "Indica el modelo del Mac, las versiones de macOS y de BatterVibe, el canal de instalación y lo que has observado en la app.",
     "faqs": [
       [
         "¿Dónde se descarga y qué Mac son compatibles?",
-        "El Mac App Store de China continental ofrece actualmente la versión 1.0 para consultar batería y potencia en macOS 13 o posterior. Los detalles de batería están pensados para MacBook con batería integrada. La web muestra la versión independiente 0.10.6. La actualización 1.1 de la tienda ya se ha enviado a revisión."
+        "La versión 1.1 está disponible en el Mac App Store de China continental para macOS 13 o posterior. El mapa por núcleo de CPU llega en la versión 1.2. Comprueba qué versión puedes descargar en App Store. Los detalles de la batería requieren una batería integrada. En equipos compatibles con chip de Apple, la edición independiente muestra actividad de la GPU, frecuencia y vatios."
+      ],
+      [
+        "¿Cómo leo el mapa de calor de la CPU?",
+        "En el resumen, coloca el cursor sobre el porcentaje o haz clic para fijar el mapa. Cada fila es un núcleo y cada columna, aproximadamente un segundo. Cuanto más intenso el color, más tiempo estuvo ocupado. Las celdas vacías indican que no hubo muestra. El historial empieza al abrir el resumen. En la edición independiente, la fila morada representa toda la GPU."
       ],
       [
         "¿Por qué es negativa la potencia neta con el Mac enchufado?",
@@ -110,7 +122,7 @@
       ],
       [
         "¿Cómo pruebo, compro o restauro los controles avanzados?",
-        "Cuando esté disponible la versión 1.1 en la tienda, abre el panel de control de BatterVibe desde el engranaje. Puedes iniciar una prueba gratuita de 14 días o hacer una compra única de 6 CNY en China continental. La prueba termina automáticamente y la monitorización básica sigue disponible. Usa la cuenta de Apple original y elige «Restaurar compras»."
+        "En la edición de App Store, abre el panel de control de BatterVibe desde el engranaje. Activa la prueba gratuita de 14 días o compra una sola vez por 6 yuanes en China continental. Puedes seguir usando la supervisión gratuita al terminar la prueba. Para restaurar compras, usa la misma cuenta de Apple."
       ],
       [
         "¿Cómo cambio de idioma?",
@@ -121,7 +133,7 @@
   "privacy": {
     "title": "Política de privacidad",
     "lead": "Esta política explica el tratamiento de las medidas de batería y potencia, las preferencias del Mac, el correo de soporte y los servicios de compra de Apple.",
-    "effective": "Actualizado el 23 de noviembre de 2026",
+    "effective": "Actualizado el 26 de noviembre de 2026",
     "contactTitle": "Contacto de privacidad",
     "contactIntro": "Para una consulta de privacidad o para solicitar la eliminación de correos de soporte, contacta con Zhiping Jiang.",
     "sections": [
@@ -130,8 +142,8 @@
         "BatterVibe lee localmente los datos de batería, alimentación y temperatura que proporciona macOS. Las lecturas en directo se procesan en memoria. La app no crea una base de datos del historial de batería ni envía lecturas o números de serie del equipo al desarrollador."
       ],
       [
-        "Pruebas de potencia y apps de alto consumo",
-        "La versión independiente lee en el Mac la potencia de la CPU y la GPU y los datos recientes de consumo de apps que facilita el sistema. La ventana conserva los picos hasta la siguiente prueba o hasta que salgas de la app."
+        "Actividad de la CPU, la GPU e historial breve",
+        "La app mide la actividad por núcleo con el resumen abierto, guarda unos 20 segundos en memoria y la elimina al cerrar el resumen. La edición independiente recoge datos compatibles de la GPU, la potencia y el consumo reciente de las apps en el propio Mac. Los máximos se conservan hasta la siguiente prueba o hasta salir de la app."
       ],
       [
         "Preferencias locales y permisos",
@@ -153,7 +165,7 @@
   },
   "cli": {
     "title": "Consultar la potencia desde Terminal",
-    "intro": "Envía el estado de la batería, la potencia y el tiempo estimado a un script en formato JSON o cambia desde Terminal la lectura de la barra de menús.",
+    "intro": "Obtén datos de batería y potencia en JSON para tus scripts o cambia lo que ves en la barra de menús desde Terminal.",
     "guide": "Guía de la línea de comandos",
     "setup": "Con la versión independiente 0.10.6 o la versión 1.1 de la tienda instalada, configura en Terminal el alias de tu canal. El primer comando abrirá la app de la barra de menús si es necesario.",
     "channels": [

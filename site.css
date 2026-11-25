@@ -301,6 +301,16 @@ h1, h2, h3 {
 .shot-overview img { max-width: 291px; }
 .shot-details img { max-width: 303px; }
 
+.shot-activity .shot-display {
+  background: linear-gradient(145deg, #e7effb, #dcece9);
+  padding: clamp(14px, 2.4vw, 32px);
+}
+
+.shot-activity img {
+  max-width: 430px;
+  border-radius: 12px;
+}
+
 .shot-details .shot-display {
   background: linear-gradient(145deg, #e7eee2, #d6e6df);
 }
@@ -354,7 +364,7 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px clamp(36px, 8vw, 125px);
+  gap: 12px clamp(24px, 5vw, 84px);
   padding: 14px 0;
   border-block: 1px solid var(--line);
 }
