@@ -84,7 +84,7 @@
     "privacyLink": "Privacidad",
     "chip": {
       "title": "Ve veinte segundos de actividad, núcleo a núcleo.",
-      "body": "El resumen muestra los porcentajes actuales. Pon el cursor encima para abrir el mapa de calor o haz clic para mantenerlo abierto. Cada fila corresponde a un núcleo. Un color más intenso indica que estuvo ocupado durante más tiempo en ese segundo.",
+      "body": "El resumen muestra la actividad actual. Los últimos 20 segundos se registran en segundo plano. Pon el cursor sobre el porcentaje para verlos o haz clic para dejar abierto el mapa. Cada fila corresponde a un núcleo. Un color más intenso indica más tiempo de actividad.",
       "note": "En los chips de Apple, la edición independiente agrupa los núcleos de rendimiento y eficiencia y muestra toda la GPU. Al elegir una fila de CPU ves la actividad del núcleo y la frecuencia de su grupo. La fila de la GPU muestra una frecuencia estimada. Los vatios disponibles aparecen debajo.",
       "alt": "Mapa de calor de BatterVibe con los núcleos de rendimiento en azul, los de eficiencia en turquesa y la GPU en morado. Debajo aparece el valor del núcleo seleccionado.",
       "caption": "Edición independiente para chips de Apple · CPU y GPU"
@@ -102,7 +102,7 @@
       ],
       [
         "¿Cómo leo el mapa de calor de la CPU?",
-        "En el resumen, coloca el cursor sobre el porcentaje o haz clic para fijar el mapa. Cada fila es un núcleo y cada columna, aproximadamente un segundo. Cuanto más intenso el color, más tiempo estuvo ocupado. Las celdas vacías indican que no hubo muestra. El historial empieza al abrir el resumen. En la edición independiente, la fila morada representa toda la GPU."
+        "En el resumen, coloca el cursor sobre el porcentaje o haz clic para fijar el mapa. Cada fila es un núcleo y cada columna, aproximadamente un segundo. Cuanto más intenso el color, más tiempo estuvo ocupado. Las celdas vacías indican que no hubo muestra. BatterVibe sigue registrando datos mientras está en ejecución, incluso con el panel cerrado. Abre el mapa para consultar los últimos 20 segundos. En la edición independiente, la fila morada representa toda la GPU."
       ],
       [
         "¿Por qué es negativa la potencia neta con el Mac enchufado?",
@@ -151,7 +151,7 @@
       ],
       [
         "Actividad de la CPU, la GPU e historial breve",
-        "La app mide la actividad por núcleo con el resumen abierto, guarda unos 20 segundos en memoria y la elimina al cerrar el resumen. La edición independiente recoge datos compatibles de la GPU, la potencia y el consumo reciente de las apps en el propio Mac. Los máximos se conservan hasta la siguiente prueba o hasta salir de la app."
+        "Mientras BatterVibe está en ejecución y el Mac permanece activo, la app mide la actividad por núcleo y guarda en memoria solo los últimos 20 segundos aproximadamente. La medición continúa con el panel cerrado. El reposo detiene temporalmente la medición y borra el historial. La edición independiente recoge datos compatibles de la GPU, la potencia y el consumo reciente de las apps en el propio Mac. Los máximos se conservan hasta la siguiente prueba o hasta salir de la app."
       ],
       [
         "Preferencias locales y permisos",

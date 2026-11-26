@@ -84,7 +84,7 @@
     "privacyLink": "Confidentialité",
     "chip": {
       "title": "Vingt secondes d’activité, cœur par cœur.",
-      "body": "La vue d’ensemble affiche le pourcentage d’activité actuel. Survolez le chiffre pour ouvrir la carte thermique ou cliquez pour la laisser ouverte. Une ligne correspond à un cœur. Plus la couleur est soutenue, plus il a travaillé pendant cette seconde.",
+      "body": "La vue d’ensemble affiche l’activité actuelle. Les 20 dernières secondes sont enregistrées en arrière-plan. Survolez le chiffre pour les voir ou cliquez pour laisser la carte ouverte. Chaque ligne correspond à un cœur. Une couleur plus soutenue indique une activité plus longue.",
       "note": "Sur les puces Apple, l’édition autonome groupe les cœurs performants et économes et affiche l’activité du GPU. Une ligne CPU indique l’activité du cœur et la fréquence de son groupe. La ligne GPU indique une fréquence estimée. La puissance s’affiche lorsqu’elle est disponible.",
       "alt": "Carte thermique BatterVibe avec les cœurs performants en bleu, les cœurs économes en turquoise et le GPU en violet. La valeur du cœur sélectionné figure en dessous.",
       "caption": "Édition autonome sur puce Apple · Activité du CPU et du GPU"
@@ -102,7 +102,7 @@
       ],
       [
         "Comment lire la carte thermique du CPU ?",
-        "Dans la vue d’ensemble, survolez le pourcentage d’activité ou cliquez pour garder la carte ouverte. Chaque ligne représente un cœur, chaque colonne environ une seconde. Une teinte plus soutenue signifie davantage de temps actif. Une case vide indique une absence de mesure. L’historique démarre à l’ouverture de la vue d’ensemble. Dans l’édition autonome, la ligne violette représente le GPU entier."
+        "Dans la vue d’ensemble, survolez le pourcentage d’activité ou cliquez pour garder la carte ouverte. Chaque ligne représente un cœur, chaque colonne environ une seconde. Une teinte plus soutenue signifie davantage de temps actif. Une case vide indique une absence de mesure. BatterVibe continue les relevés en arrière-plan tant que l’app fonctionne, même si le panneau est fermé. Ouvrez la carte pour voir les 20 dernières secondes. Dans l’édition autonome, la ligne violette représente le GPU entier."
       ],
       [
         "Pourquoi la puissance nette est-elle négative sur secteur ?",
@@ -151,7 +151,7 @@
       ],
       [
         "Activité du CPU, du GPU et historique récent",
-        "L’app relève l’activité des cœurs lorsque la vue d’ensemble est ouverte, garde environ 20 secondes en mémoire et efface l’historique à sa fermeture. L’édition autonome lit aussi localement les données GPU et les mesures de consommation compatibles. Les valeurs de pic restent jusqu’au test suivant ou à la fermeture de l’app."
+        "Tant que BatterVibe fonctionne et que le Mac est éveillé, l’app relève l’activité des cœurs et garde uniquement les 20 dernières secondes environ en mémoire. Les relevés continuent quand le panneau est fermé. La mise en veille suspend la mesure et efface l’historique. L’édition autonome lit aussi localement les données GPU et les mesures de consommation compatibles. Les valeurs de pic restent jusqu’au test suivant ou à la fermeture de l’app."
       ],
       [
         "Préférences et autorisations locales",

@@ -84,7 +84,7 @@
     "privacyLink": "Privacy",
     "chip": {
       "title": "See 20 seconds of work, core by core.",
-      "body": "Overview starts with current activity percentages. Hover to open the heatmap or click to keep it open. Each CPU core has its own row. Deeper color means the core was busy for more of that second.",
+      "body": "Overview shows current activity. The last 20 seconds are recorded in the background and ready when you hover. Click to keep the heatmap open. Each CPU core has its own row. Deeper color means more busy time in that second.",
       "note": "On Apple silicon, the standalone edition groups performance and efficiency cores and shows overall GPU activity. Select a CPU row for its activity and the clock of its cluster, or the GPU row for an estimated clock. Available wattage appears below.",
       "alt": "Native BatterVibe heatmap with blue performance cores, teal efficiency cores, and a purple GPU row, plus the selected core’s reading.",
       "caption": "Standalone on Apple silicon · CPU and GPU activity"
@@ -102,7 +102,7 @@
       ],
       [
         "How do I read the CPU heatmap?",
-        "Open Overview and hover over the activity percentage, or click to pin the heatmap. Each row tracks a core and each column is about a second. Deeper color means more busy time, and blank cells are gaps in the readings. History starts when you open Overview. The purple row in the standalone edition represents the entire GPU."
+        "Open Overview and hover over the activity percentage, or click to pin the heatmap. Each row tracks a core and each column is about a second. Deeper color means more busy time, and blank cells are gaps in the readings. BatterVibe keeps recording while it is running, even with the panel closed. Expand the heatmap to see the last 20 seconds. The purple row in the standalone edition represents the entire GPU."
       ],
       [
         "Why is net battery power negative when plugged in?",
@@ -151,7 +151,7 @@
       ],
       [
         "Processor activity and short-term history",
-        "The app samples per-core activity while Overview is open, stores about 20 seconds in memory, and clears it when you leave Overview. The standalone edition also reads supported GPU, chip power, and recent app energy data locally. Peak test results remain until the next run or until you quit."
+        "While BatterVibe is running and the Mac is awake, per-core activity is sampled locally and only the last 20 seconds are kept in memory. Sampling continues with the panel closed. Sleep pauses sampling and clears the history. The standalone edition also reads supported GPU, chip power, and recent app energy data locally. Peak test results remain until the next run or until you quit."
       ],
       [
         "Local preferences and permissions",
