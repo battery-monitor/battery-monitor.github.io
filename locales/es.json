@@ -1,4 +1,12 @@
 {
+  "riskNotice": {
+    "title": "Riesgos de uso y exención de responsabilidad",
+    "hdrTitle": "Brillo HDR",
+    "hdr": "Si olvidas desactivar esta función, una luminosidad alta prolongada consume más energía, genera más calor y puede acelerar el desgaste de la pantalla. Desactívala al terminar.",
+    "lidTitle": "Usar con la tapa cerrada (edición independiente)",
+    "lid": "El Mac sigue funcionando cuando cierras la tapa o sales de la app. Si olvidas desactivar esta función, el Mac podría sobrecalentarse y sufrir daños de hardware, sobre todo dentro de una bolsa. Desactívala antes de guardar el Mac.",
+    "disclaimer": "El uso de estas funciones es por tu cuenta y riesgo. BatterVibe no se responsabiliza de los daños derivados de su uso."
+  },
   "nav": [
     "Funciones",
     "Ayuda",

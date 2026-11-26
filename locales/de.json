@@ -1,4 +1,12 @@
 {
+  "riskNotice": {
+    "title": "Nutzungsrisiken und Haftungsausschluss",
+    "hdrTitle": "HDR-Helligkeit",
+    "hdr": "Wenn du vergisst, die Funktion auszuschalten, verbraucht dauerhaft hohe Helligkeit mehr Strom, erzeugt mehr Wärme und kann das Display schneller altern lassen. Schalte die Funktion nach der Verwendung aus.",
+    "lidTitle": "Mit geschlossenem Deckel (eigenständige Version)",
+    "lid": "Dein Mac läuft beim Schließen des Deckels und nach dem Beenden der App weiter. Wenn du vergisst, die Funktion auszuschalten, kann der Mac überhitzen und Hardwareschäden erleiden, besonders in einer Tasche. Schalte die Funktion aus, bevor du den Mac verstaust.",
+    "disclaimer": "Die Nutzung dieser Funktionen erfolgt auf eigenes Risiko. BatterVibe haftet nicht für Schäden, die durch ihre Nutzung entstehen."
+  },
   "nav": [
     "Funktionen",
     "Hilfe",

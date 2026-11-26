@@ -460,6 +460,18 @@ h1, h2, h3 {
 .privacy-band h2 { font-size: 20px; }
 .privacy-band p { margin-top: 5px; color: var(--muted); font-size: 14px; }
 
+.risk-notice { grid-column: 1; }
+.risk-notice.wrap { padding-block: clamp(32px, 5vw, 60px); }
+.risk-notice h2 { font-size: 26px; }
+.risk-notice .feature-list { max-width: 46rem; margin-top: 16px; }
+.risk-notice > p {
+  max-width: 46rem;
+  padding-top: 15px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .site-foot .wrap {
   justify-content:space-between;
   gap:20px;

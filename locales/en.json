@@ -1,4 +1,12 @@
 {
+  "riskNotice": {
+    "title": "Usage risks and disclaimer",
+    "hdrTitle": "HDR boost",
+    "hdr": "If you forget to turn it off, prolonged high brightness uses more power, generates more heat, and may accelerate display wear. Turn it off when finished.",
+    "lidTitle": "Run with Lid Closed (standalone edition)",
+    "lid": "Your Mac keeps running after you close the lid or quit the app. If you forget to turn this off, your Mac may overheat and suffer hardware damage, especially in a bag. Turn it off before putting your Mac away.",
+    "disclaimer": "Use these features at your own risk. BatterVibe is not responsible for damage resulting from their use."
+  },
   "nav": [
     "Overview",
     "Support",

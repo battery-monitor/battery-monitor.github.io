@@ -1,4 +1,12 @@
 {
+  "riskNotice": {
+    "title": "Risques d’utilisation et responsabilité",
+    "hdrTitle": "Luminosité HDR",
+    "hdr": "Si vous oubliez de désactiver cette fonction, une forte luminosité prolongée augmente la consommation et la chaleur et peut accélérer le vieillissement de l’écran. Désactivez-la après utilisation.",
+    "lidTitle": "Utiliser le capot fermé (version autonome)",
+    "lid": "Le Mac continue de fonctionner lorsque vous fermez le capot ou quittez l’app. Si vous oubliez de désactiver cette fonction, le Mac peut surchauffer et subir des dommages matériels, surtout dans un sac. Désactivez-la avant de ranger votre Mac.",
+    "disclaimer": "Vous utilisez ces fonctions à vos propres risques. BatterVibe décline toute responsabilité pour les dommages qui en résultent."
+  },
   "nav": [
     "Fonctions",
     "Aide",

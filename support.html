@@ -2,7 +2,7 @@
 <html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f8f2">
 <title>使用帮助 · BatterVibe</title><meta name="description" content="查看逐核热图、读懂净功率，了解充电、能耗控制和不同安装渠道的使用条件。"><link rel="canonical" href="https://battervibe.zpj.io/support.html"><link rel="alternate" hreflang="zh-Hans" href="https://battervibe.zpj.io/support.html"><link rel="alternate" hreflang="zh-Hant" href="https://battervibe.zpj.io/zh-Hant/support.html"><link rel="alternate" hreflang="en" href="https://battervibe.zpj.io/en/support.html"><link rel="alternate" hreflang="ja" href="https://battervibe.zpj.io/ja/support.html"><link rel="alternate" hreflang="ko" href="https://battervibe.zpj.io/ko/support.html"><link rel="alternate" hreflang="de" href="https://battervibe.zpj.io/de/support.html"><link rel="alternate" hreflang="fr" href="https://battervibe.zpj.io/fr/support.html"><link rel="alternate" hreflang="es" href="https://battervibe.zpj.io/es/support.html">
 <meta property="og:type" content="website"><meta property="og:title" content="使用帮助 · BatterVibe"><meta property="og:description" content="查看逐核热图、读懂净功率，了解充电、能耗控制和不同安装渠道的使用条件。"><meta property="og:url" content="https://battervibe.zpj.io/support.html"><meta property="og:image" content="https://battervibe.zpj.io/assets/app/0.10.6/zh-Hans/share.png"><meta property="og:image:width" content="864"><meta property="og:image:height" content="454"><meta property="og:image:alt" content="Apple 芯片独立版 · 逐核 CPU 与整体 GPU 热图"><meta property="og:site_name" content="BatterVibe">
-<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v=20261126"><script src="/site.js" defer></script></head><body><a class="skip" href="#main">跳至正文</a>
+<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v=20261126-risk"><script src="/site.js" defer></script></head><body><a class="skip" href="#main">跳至正文</a>
 <header class="site-head"><div class="wrap head-row">
 <a class="brand" href="/"><img src="/assets/app-icon.png" alt="" width="35" height="35">BatterVibe</a>
 <nav aria-label="主导航"><a href="/">功能介绍</a><a href="/support.html" aria-current="page">使用帮助</a><a href="/privacy.html">隐私政策</a></nav>
@@ -14,5 +14,9 @@
 <h3>独立版</h3><pre class="cli-code"><code>alias battervibe=&#x27;/Applications/battery-mon.app/Contents/MacOS/battery-mon cli&#x27;</code></pre><h3>Mac App Store 1.1</h3><pre class="cli-code"><code>alias battervibe=&#x27;/Applications/BatterVibe.app/Contents/MacOS/BatterVibe cli&#x27;</code></pre><h3>查询状态与切换显示</h3><pre class="cli-code"><code>battervibe status --json
 battervibe menu net
 battervibe --help</code></pre>
-<p>独立版还支持合盖、能耗模式和高耗能 App 命令。HDR 与充电上限遵循应用内的设备和权益要求。商店版的充电操作需先添加快捷指令，再到系统电池设置核对。</p><p>退出码 3 表示尚未确认结果，4 表示已发出请求。再次操作前，请先查询状态。</p></section></main>
+<p>独立版还支持合盖、能耗模式和高耗能 App 命令。HDR 与充电上限遵循应用内的设备和权益要求。商店版的充电操作需先添加快捷指令，再到系统电池设置核对。</p><p>退出码 3 表示尚未确认结果，4 表示已发出请求。再次操作前，请先查询状态。</p></section><section class="risk-notice" id="risk-notice" aria-labelledby="risk-heading">
+<h2 id="risk-heading">使用风险与免责声明</h2>
+<dl class="feature-list"><div><dt>HDR 增亮</dt><dd>若用完忘记关闭，长时间高亮会增加耗电和发热，也可能加快屏幕老化。用完请关闭。</dd></div>
+<div><dt>合盖运行（独立版）</dt><dd>合盖和退出应用后，Mac 仍会继续运行。若忘记关闭，尤其是把 Mac 放进背包等不通风的地方，可能因过热损坏硬件。收纳前请关闭。</dd></div></dl>
+<p>上述功能的使用风险由用户自行承担。BatterVibe 对因此造成的损坏不承担责任。</p></section></main>
 <footer class="site-foot"><div class="wrap"><span>BatterVibe · © 2026 Zhiping Jiang</span><div class="foot-links"><a href="/support.html">使用帮助</a><a href="/privacy.html">隐私政策</a></div></div></footer></body></html>

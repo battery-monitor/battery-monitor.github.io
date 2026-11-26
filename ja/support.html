@@ -2,7 +2,7 @@
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f8f2">
 <title>サポート · BatterVibe</title><meta name="description" content="コア別ヒートマップや正味電力の読み方、充電と電力の調整、各配布版の対応機能を確認できます。"><link rel="canonical" href="https://battervibe.zpj.io/ja/support.html"><link rel="alternate" hreflang="zh-Hans" href="https://battervibe.zpj.io/support.html"><link rel="alternate" hreflang="zh-Hant" href="https://battervibe.zpj.io/zh-Hant/support.html"><link rel="alternate" hreflang="en" href="https://battervibe.zpj.io/en/support.html"><link rel="alternate" hreflang="ja" href="https://battervibe.zpj.io/ja/support.html"><link rel="alternate" hreflang="ko" href="https://battervibe.zpj.io/ko/support.html"><link rel="alternate" hreflang="de" href="https://battervibe.zpj.io/de/support.html"><link rel="alternate" hreflang="fr" href="https://battervibe.zpj.io/fr/support.html"><link rel="alternate" hreflang="es" href="https://battervibe.zpj.io/es/support.html">
 <meta property="og:type" content="website"><meta property="og:title" content="サポート · BatterVibe"><meta property="og:description" content="コア別ヒートマップや正味電力の読み方、充電と電力の調整、各配布版の対応機能を確認できます。"><meta property="og:url" content="https://battervibe.zpj.io/ja/support.html"><meta property="og:image" content="https://battervibe.zpj.io/assets/app/0.10.6/ja/share.png"><meta property="og:image:width" content="864"><meta property="og:image:height" content="454"><meta property="og:image:alt" content="Apple シリコン向け独立版 · CPU と GPU の使用率"><meta property="og:site_name" content="BatterVibe">
-<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v=20261126"><script src="/site.js" defer></script></head><body><a class="skip" href="#main">本文へ移動</a>
+<link rel="icon" href="/assets/app-icon.png"><link rel="stylesheet" href="/site.css?v=20261126-risk"><script src="/site.js" defer></script></head><body><a class="skip" href="#main">本文へ移動</a>
 <header class="site-head"><div class="wrap head-row">
 <a class="brand" href="/ja/"><img src="/assets/app-icon.png" alt="" width="35" height="35">BatterVibe</a>
 <nav aria-label="メインナビゲーション"><a href="/ja/">機能</a><a href="/ja/support.html" aria-current="page">サポート</a><a href="/ja/privacy.html">プライバシー</a></nav>
@@ -14,5 +14,9 @@
 <h3>スタンドアロン版</h3><pre class="cli-code"><code>alias battervibe=&#x27;/Applications/battery-mon.app/Contents/MacOS/battery-mon cli&#x27;</code></pre><h3>Mac App Store 1.1</h3><pre class="cli-code"><code>alias battervibe=&#x27;/Applications/BatterVibe.app/Contents/MacOS/BatterVibe cli&#x27;</code></pre><h3>状態の確認と表示の変更</h3><pre class="cli-code"><code>battervibe status --json
 battervibe menu net
 battervibe --help</code></pre>
-<p>スタンドアロン版は蓋を閉じた実行、電力モード、高消費電力アプリのコマンドにも対応します。HDR と充電上限にはアプリと同じ機種・利用条件が適用されます。ストア版の充電上限はショートカットを追加し、バッテリー設定で確認します。</p><p>終了コード 3 は結果未確認、4 は要求送信済みを表します。再実行する前に現在の状態を確認してください。</p></section></main>
+<p>スタンドアロン版は蓋を閉じた実行、電力モード、高消費電力アプリのコマンドにも対応します。HDR と充電上限にはアプリと同じ機種・利用条件が適用されます。ストア版の充電上限はショートカットを追加し、バッテリー設定で確認します。</p><p>終了コード 3 は結果未確認、4 は要求送信済みを表します。再実行する前に現在の状態を確認してください。</p></section><section class="risk-notice" id="risk-notice" aria-labelledby="risk-heading">
+<h2 id="risk-heading">使用上のリスクと免責事項</h2>
+<dl class="feature-list"><div><dt>HDR 増光</dt><dd>使い終わってもオフにし忘れると、高輝度の状態が長く続き、消費電力や発熱が増え、画面の劣化が早まるおそれがあります。使用後はオフにしてください。</dd></div>
+<div><dt>蓋を閉じて実行（独立版）</dt><dd>蓋を閉じたりアプリを終了したりしても、Mac は動作を続けます。この機能を切り忘れると、特に Mac をバッグなど風通しの悪い場所に入れた場合、過熱してハードウェアが損傷するおそれがあります。収納する前にオフにしてください。</dd></div></dl>
+<p>上記の機能は自己責任でご利用ください。BatterVibe は、これらの機能の使用によって生じた損傷について責任を負いません。</p></section></main>
 <footer class="site-foot"><div class="wrap"><span>BatterVibe · © 2026 Zhiping Jiang</span><div class="foot-links"><a href="/ja/support.html">サポート</a><a href="/ja/privacy.html">プライバシー</a></div></div></footer></body></html>

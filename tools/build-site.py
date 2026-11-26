@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://battervibe.zpj.io"
 STORE_URL = "https://apps.apple.com/cn/app/battervibe/id6833069090?mt=12"
 DIRECT_VERSION = "0.10.6"
-SITE_REVISION = "20261126"
+SITE_REVISION = "20261126-risk"
 CAPTURE_PATH = f"/assets/app/{DIRECT_VERSION}"
 CAPTURE_SIZES = {"overview": (682, 1299), "details": (682, 1095),
                  "controls": (680, 581), "peak": (1028, 708), "activity": (632, 526)}
@@ -55,6 +55,15 @@ def header(language, page, t):
 <ul aria-label="{escape(t['language'])}">{choices}</ul></details></div></header>'''
 
 
+def risk_notice(t, extra_class=""):
+    risk = t['riskNotice']
+    return f'''<section class="risk-notice{extra_class}" id="risk-notice" aria-labelledby="risk-heading">
+<h2 id="risk-heading">{escape(risk['title'])}</h2>
+<dl class="feature-list"><div><dt>{escape(risk['hdrTitle'])}</dt><dd>{escape(risk['hdr'])}</dd></div>
+<div><dt>{escape(risk['lidTitle'])}</dt><dd>{escape(risk['lid'])}</dd></div></dl>
+<p>{escape(risk['disclaimer'])}</p></section>'''
+
+
 def home(language, t):
     h = t['home']
     chip, battery, controls, peak, release = (h[key] for key in ('chip', 'battery', 'controls', 'peak', 'release'))
@@ -92,7 +101,8 @@ def home(language, t):
 <div class="release-list"><div><h3>{escape(release['direct'])}</h3><p>{escape(release['directBody'])}</p></div>
 <div><h3>{escape(release['store'])}</h3><p>{escape(release['storeBody'])}</p><a class="text-link" href="{STORE_URL}">{escape(h['cta'])} <span aria-hidden="true">↗</span></a></div>
 <div><h3>{escape(release['update'])}</h3><p>{escape(release['updateBody'])}</p><a class="text-link" href="{url(language, 'support.html')}">{escape(release['support'])} <span aria-hidden="true">→</span></a></div></div></section>
-<section class="privacy-band"><div class="wrap"><div><h2>{escape(h['privacyTitle'])}</h2><p>{escape(h['privacyIntro'])}</p></div><a class="text-link" href="{url(language, 'privacy.html')}">{escape(h['privacyLink'])} <span aria-hidden="true">→</span></a></div></section></main>'''
+<section class="privacy-band"><div class="wrap"><div><h2>{escape(h['privacyTitle'])}</h2><p>{escape(h['privacyIntro'])}</p></div><a class="text-link" href="{url(language, 'privacy.html')}">{escape(h['privacyLink'])} <span aria-hidden="true">→</span></a></div></section>
+{risk_notice(t, ' wrap')}</main>'''
 
 
 def document(language, page, t):
@@ -106,7 +116,7 @@ def document(language, page, t):
 {installs}<h3>{escape(cli['exampleTitle'])}</h3><pre class="cli-code"><code>{escape(CLI_HELP)}</code></pre>
 <p>{escape(cli['limits'])}</p><p>{escape(cli['results'])}</p></section>'''
         content = '<div class="faq">' + ''.join(f'<details{" open" if i == 0 else ""}><summary>{escape(question)}</summary><p>{escape(answer)}</p></details>'
-                    for i, (question, answer) in enumerate(d['faqs'])) + '</div>' + guide
+                    for i, (question, answer) in enumerate(d['faqs'])) + '</div>' + guide + risk_notice(t)
     else:
         content = '<div class="prose">' + ''.join(f'<h2>{escape(title)}</h2><p>{escape(body)}</p>' for title, body in d['sections']) + '</div>'
     return f'''<main id="main" class="wrap doc"><header>{updated}<h1>{escape(d['title'])}</h1><p class="lead">{escape(d['lead'])}</p></header>
